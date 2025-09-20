@@ -23,7 +23,7 @@ class Constants:
 # -----------------------
 # defaut for cpu run, change if run with gpu
 # -----------------------
-    EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
+    EMBED_MODEL_NAME = "intfloat/multilingual-e5-small" #"all-MiniLM-L6-v2"
     EMBED_BATCH_SIZE = 64
     CHUNK_MAX_CHARS = 1000
     CHUNK_OVERLAP = 200
