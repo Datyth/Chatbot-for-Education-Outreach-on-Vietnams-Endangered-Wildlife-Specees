@@ -1,9 +1,10 @@
+#ingestion.py
 import os
 import io
 import shutil
 import requests
 import numpy as np
-import pymupdf  # PyMuPDF library for PDF reading
+import pymupdf  
 from PIL import Image
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, unquote, quote

@@ -4,15 +4,15 @@
     "Danh mục sách đỏ động vật Việt Nam"
   ],
   "params": {
-    "CHUNK_MAX_CHARS": 1000,
+    "CHUNK_MAX_CHARS": 300,
     "CHUNK_OVERLAP": 200,
-    "EMBED_MODEL_NAME": "all-MiniLM-L6-v2",
+    "EMBED_MODEL_NAME": "intfloat/multilingual-e5-small",
     "OCR_DPI": 100,
     "DOWNSCALE_MAX_WIDTH": 1200,
     "OCR_WORKERS": 4,
     "USE_TESSERACT_AUTO": true,
-    "CHUNKING_STRATEGY": "sentences",
-    "MAX_ANIMALS": 250
+    "CHUNKING_STRATEGY": "wiki_sections",
+    "MAX_ANIMALS": 5
   },
-  "timestamp": 1758290010.6998458
+  "timestamp": 1759310519.2338738
 }

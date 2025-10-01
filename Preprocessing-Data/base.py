@@ -1,3 +1,6 @@
+#base.py
+
+
 #"MAX_ANIMALS": 10 adjust the number for max row wiki retrieve
 
 
@@ -15,8 +18,8 @@ from indexing import Indexer
 import os
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 import nltk
-nltk.download("punkt")
-nltk.download("punkt_tab")  # nếu đã có punkt vẫn báo thiếu
+nltk.download("punkt",quiet=True)
+nltk.download("punkt_tab",quiet=True)  # nếu đã có punkt vẫn báo thiếu
 
 class Base:
 
@@ -214,8 +217,8 @@ if __name__ == "__main__":
         "DOWNSCALE_MAX_WIDTH": Constants.DOWNSCALE_MAX_WIDTH,
         "OCR_WORKERS": Constants.OCR_WORKERS,
         "USE_TESSERACT_AUTO": Constants.USE_TESSERACT_AUTO,
-        "CHUNKING_STRATEGY": "sentences",  # or "sentences" | "wiki_sections" | "paragraph"
-        "MAX_ANIMALS": 250, 
+        "CHUNKING_STRATEGY": "wiki_sections",  # or "sentences" | "wiki_sections" | "paragraph"
+        "MAX_ANIMALS": 5, 
     }
 
     chunks, embeddings, index = Base.prepare_from_pdf_paths(

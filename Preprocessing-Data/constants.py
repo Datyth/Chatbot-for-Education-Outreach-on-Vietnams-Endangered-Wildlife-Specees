@@ -1,3 +1,4 @@
+#constants.py
 import os
 import re
 
@@ -25,13 +26,13 @@ class Constants:
 # -----------------------
     EMBED_MODEL_NAME = "intfloat/multilingual-e5-small" #"all-MiniLM-L6-v2"
     EMBED_BATCH_SIZE = 64
-    CHUNK_MAX_CHARS = 1000
+    CHUNK_MAX_CHARS = 300
     CHUNK_OVERLAP = 200
     EMBED_DTYPE = "float32"
 
 # Output file names
     FAISS_INDEX_FILE = "index.faiss"
-    CHUNKS_JSONL = "chunks.jsonl"
+    CHUNKS_JSONL = "chunks-test-wc.jsonl"
     EMBEDDINGS_NPY = "embeddings.npy"
     PAGES_JSONL = "pages.jsonl"
     MANIFEST_JSON = "manifest.json"

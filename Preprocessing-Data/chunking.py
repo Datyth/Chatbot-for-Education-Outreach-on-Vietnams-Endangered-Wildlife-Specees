@@ -1,11 +1,56 @@
-import re
-from nltk.tokenize import sent_tokenize
+#chunking.py
 
+import re
+import re
 from constants import Constants
 from utils import Utils
 
+_VI_BOUNDARY = re.compile(
+    r'(?<!\d)([.!?…]|[。！？])+(?=(?:["”\')\]]*\s+)[A-ZÀ-Ỵ0-9])'
+)
+
+def _hard_wrap(text: str, max_chars: int):
+    text = text.strip()
+    if len(text) <= max_chars:
+        return [text] if text else []
+    return [text[i:i+max_chars] for i in range(0, len(text), max_chars)]
+
+def _split_sentences_safe(text: str, max_chars: int):
+    """VI-friendly, NLTK-free sentence split with a hard-wrap fallback.
+    Guarantees progress and zero recursion."""
+    t = text.strip()
+    if not t:
+        return []
+
+    # Primary split by regex
+    pieces = []
+    start = 0
+    for m in _VI_BOUNDARY.finditer(t):
+        end = m.end()
+        seg = t[start:end].strip()
+        if seg:
+            pieces.append(seg)
+        start = end
+    tail = t[start:].strip()
+    if tail:
+        pieces.append(tail)
+
+    # If regex produced nothing (single long run), hard-wrap
+    if len(pieces) <= 1:
+        return _hard_wrap(t, max_chars)
+
+    # Last safeguard: break any overlong segment
+    out = []
+    for seg in pieces:
+        if len(seg) > max_chars:
+            out.extend(_hard_wrap(seg, max_chars))
+        else:
+            out.append(seg)
+    return out
+
 class Chunker:
 
+    
 # -----------------------
 # Split text into paragraphs by blank lines. Collapses 3+ consecutive newlines into 2
 # -----------------------
@@ -23,8 +68,11 @@ class Chunker:
 # -----------------------
     @staticmethod
     def _split_wiki_sections(text: str) -> list:
-        if not text or not Constants.WIKI_HEADER_RE.search(text):
-            return [("Intro", text.strip())] if text and text.strip() else []
+        if not text:
+            return []
+        text = text.replace("\u00A0", " ").replace("\u200B", "")
+        if not Constants.WIKI_HEADER_RE.search(text):
+            return [("Intro", text.strip())] if text.strip() else []
         sections = []
         matches = list(Constants.WIKI_HEADER_RE.finditer(text))
         first = matches[0]
@@ -34,11 +82,12 @@ class Chunker:
         for i, match in enumerate(matches):
             title = match.group(2).strip()
             start = match.end()
-            end = matches[i+1].start() if i+1 < len(matches) else len(text)
+            end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
             body = text[start:end].strip()
             if body:
                 sections.append((title, body))
         return sections
+
 
 
 # -----------------------
@@ -70,14 +119,30 @@ class Chunker:
 # -----------------------
     @staticmethod
     def _pack_units_to_chunks(units: list, max_chars: int, overlap_chars: int,
-                               chunks: list, chunk_id: int, pinfo: dict, extra_meta: dict = None) -> int:
+                            chunks: list, chunk_id: int, pinfo: dict, extra_meta: dict = None) -> int:
         cur_text = ""
         for unit in units:
-            if len(unit) > max_chars:
-                sentences = sent_tokenize(unit)
-                chunk_id = Chunker._pack_units_to_chunks(sentences, max_chars, overlap_chars, 
-                                                        chunks, chunk_id, pinfo, extra_meta)
+            unit = unit.strip()
+            if not unit:
                 continue
+            if len(unit) > max_chars:
+                sentences = _split_sentences_safe(unit, max_chars)
+                for s in sentences:
+                    if not s.strip():
+                        continue
+                    # need to flush current chunk before adding s
+                    if cur_text and len(cur_text) + 1 + len(s) > max_chars:
+                        chunk_id = Chunker._emit_chunk(chunks, cur_text, chunk_id, pinfo, extra_meta)
+                        if overlap_chars > 0:
+                            tail = cur_text[-overlap_chars:]
+                            cur_text = f"{tail} {s}".strip()
+                        else:
+                            cur_text = s
+                    else:
+                        cur_text = f"{cur_text} {s}".strip() if cur_text else s
+                continue  # move to next unit
+
+            # normal packing for units <= max
             if not cur_text:
                 cur_text = unit
             elif len(cur_text) + 1 + len(unit) <= max_chars:
@@ -89,9 +154,11 @@ class Chunker:
                     cur_text = f"{tail} {unit}".strip()
                 else:
                     cur_text = unit
+
         if cur_text:
             chunk_id = Chunker._emit_chunk(chunks, cur_text, chunk_id, pinfo, extra_meta)
         return chunk_id
+
 
 
 # -----------------------
@@ -109,7 +176,7 @@ class Chunker:
             if not text or len(text) < 30:
                 # Skip very short pages
                 continue
-            sentences = sent_tokenize(text)
+            sentences = _split_sentences_safe(text, max_chars)
             cur_text = ""
             for s in sentences:
                 if len(cur_text) + len(s) <= max_chars:

@@ -1,3 +1,4 @@
+#embedding.py
 import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
