@@ -1,0 +1,18 @@
+{
+  "pdfs": [],
+  "wiki_titles": [
+    "Danh mục sách đỏ động vật Việt Nam"
+  ],
+  "params": {
+    "CHUNK_MAX_CHARS": 300,
+    "CHUNK_OVERLAP": 200,
+    "EMBED_MODEL_NAME": "intfloat/multilingual-e5-small",
+    "OCR_DPI": 100,
+    "DOWNSCALE_MAX_WIDTH": 1200,
+    "OCR_WORKERS": 4,
+    "USE_TESSERACT_AUTO": true,
+    "CHUNKING_STRATEGY": "wiki_sections",
+    "MAX_ANIMALS": 5
+  },
+  "timestamp": 1759310519.2338738
+}
