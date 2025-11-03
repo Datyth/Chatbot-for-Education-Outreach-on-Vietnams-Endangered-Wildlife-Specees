@@ -218,15 +218,15 @@ if __name__ == "__main__":
         "OCR_WORKERS": Constants.OCR_WORKERS,
         "USE_TESSERACT_AUTO": Constants.USE_TESSERACT_AUTO,
         "CHUNKING_STRATEGY": "wiki_sections",  # or "sentences" | "wiki_sections" | "paragraph"
-        "MAX_ANIMALS": 5, 
+        "MAX_ANIMALS": 250, 
     }
 
     chunks, embeddings, index = Base.prepare_from_pdf_paths(
         pdf_paths,
         wiki_titles=wiki_titles,
         wiki_lang="vi",
-        out_dir="preproccessed_data",
+        out_dir="Chatbot-for-Education-Outreach-on-Vietnams-Endangered-Wildlife-Specees\data\data_files",
         force=True,
         params=params,
     )
-    print(" Chunks saved in preproccessed_data")
+    print(" Chunks saved in data_files")

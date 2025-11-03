@@ -27,7 +27,7 @@ class Constants:
     EMBED_MODEL_NAME = "intfloat/multilingual-e5-small" #"all-MiniLM-L6-v2"
     EMBED_BATCH_SIZE = 64
     CHUNK_MAX_CHARS = 300
-    CHUNK_OVERLAP = 200
+    CHUNK_OVERLAP = 50
     EMBED_DTYPE = "float32"
 
 # Output file names
