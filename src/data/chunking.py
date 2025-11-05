@@ -2,8 +2,8 @@
 
 import re
 import re
-from constants import Constants
-from utils import Utils
+from .constants import Constants
+from .utils import Utils
 
 _VI_BOUNDARY = re.compile(
     r'(?<!\d)([.!?…]|[。！？])+(?=(?:["”\')\]]*\s+)[A-ZÀ-Ỵ0-9])'
@@ -107,7 +107,9 @@ class Chunker:
             "text": cur_text,
             "image_url": pinfo.get("image_url"),
             "url": pinfo.get("url"),
-            "hash": fingerprint
+            "hash": fingerprint,
+            "iucn_text": pinfo.get("iucn_text"),
+            "iucn_code": pinfo.get("iucn_code"),
         }
         if extra_meta:
             chunk_meta.update(extra_meta)

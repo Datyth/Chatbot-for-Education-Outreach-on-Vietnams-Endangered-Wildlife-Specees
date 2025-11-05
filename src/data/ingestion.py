@@ -7,13 +7,15 @@ import numpy as np
 import pymupdf  
 from PIL import Image
 from bs4 import BeautifulSoup
+import re 
+
 from urllib.parse import urlparse, unquote, quote
 from functools import partial
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
 
-from constants import Constants
-from utils import Utils
+from .constants import Constants
+from .utils import Utils
 
 class Ingestion:
     # Static variable for EasyOCR reader (one per worker process)
@@ -129,13 +131,30 @@ class Ingestion:
                 except Exception:
                     continue
             image_url = Ingestion._select_wikipedia_image(seed_page)
+            url = getattr(seed_page, "url", None)
+
+            # 1) Try HTML-based extraction (infobox with Conservation status row)
+            html = Ingestion._fetch_page_html(url)
+            iucn_text, iucn_code = Ingestion._extract_iucn_from_html(html)
+
+            # 2) If that fails and we're on Vietnamese wiki, try wikitext-based extraction
+            if iucn_text is None and iucn_code is None and lang == "vi":
+                raw = Ingestion._fetch_page_wikitext(url)
+                iucn_text, iucn_code = Ingestion._extract_iucn_from_wikitext(raw)
+
+            page_text = Utils.clean_ocr_text(seed_page.content)
+            if iucn_text:
+                page_text = f"IUCN conservation status: {iucn_text}\n\n{page_text}"
+
             pages.append({
                 "page": 1,
-                "text": Utils.clean_ocr_text(seed_page.content),
+                "text": page_text,
                 "source": "wiki",
                 "url": seed_page.url,
                 "title": seed_page.title,
-                "image_url": image_url
+                "image_url": image_url,
+                "iucn_text": iucn_text,
+                "iucn_code": iucn_code,
             })
             # Optionally fetch direct linked pages from this seed page
             if not include_links:
@@ -160,13 +179,27 @@ class Ingestion:
                     except Exception:
                         continue
                 image_url = Ingestion._select_wikipedia_image(lp)
+                
+                url = getattr(lp, "url", None)
+                html = Ingestion._fetch_page_html(url)
+                iucn_text, iucn_code = Ingestion._extract_iucn_from_html(html)
+                if iucn_text is None and iucn_code is None and lang == "vi":
+                    raw = Ingestion._fetch_page_wikitext(url)
+                    iucn_text, iucn_code = Ingestion._extract_iucn_from_wikitext(raw)
+
+                page_text = Utils.clean_ocr_text(lp.content)
+                if iucn_text:
+                    page_text = f"IUCN conservation status: {iucn_text}\n\n{page_text}"
+
                 pages.append({
                     "page": 1,
-                    "text": Utils.clean_ocr_text(lp.content),
+                    "text": page_text,
                     "source": "wiki",
                     "url": lp.url,
                     "title": lp.title,
-                    "image_url": image_url
+                    "image_url": image_url,
+                    "iucn_text": iucn_text,
+                    "iucn_code": iucn_code,
                 })
                 total_linked_fetched += 1
             if linked_cap is not None and total_linked_fetched >= linked_cap:
@@ -301,3 +334,114 @@ class Ingestion:
                 png_bytes = Ingestion.render_page_to_png_bytes(page, dpi=dpi)
                 ocr_jobs.append((base_title, i, png_bytes))
         return pages_with_text, ocr_jobs
+
+
+
+    #-------------------------
+    #Extract IUCN conservation status from a Wikipedia page HTML.
+    #------------------------
+    @staticmethod
+    def _extract_iucn_from_html(html: str):
+        """Extract IUCN conservation status from a Wikipedia page HTML.
+
+        Returns (iucn_text, iucn_code) or (None, None).
+        """
+        if not html:
+            return None, None
+
+        soup = BeautifulSoup(html, "html.parser")
+
+        # Find any infobox table
+        infobox = soup.find("table", class_=lambda c: c and "infobox" in c)
+        if not infobox:
+            return None, None
+
+        for row in infobox.find_all("tr"):
+            header = row.find("th")
+            if not header:
+                continue
+            label = header.get_text(strip=True)
+
+            if (
+                "Conservation status" in label
+                or "Tình trạng bảo tồn" in label
+                or "Tình trạng bảo tồn" in label
+                or "IUCN" in label
+            ):
+                cell = row.find("td")
+                if not cell:
+                    break
+                full_text = " ".join(cell.stripped_strings)
+                code = None
+                img = cell.find("img")
+                if img and img.get("alt"):
+                    code = img["alt"].strip()
+                if not code:
+                    m = re.search(r"\b(LC|NT|VU|EN|CR|EW|EX|DD|NE)\b", full_text)
+                    if m:
+                        code = m.group(1)
+
+                return full_text or None, code
+
+        return None, None
+
+    @staticmethod
+    def _fetch_page_html(url: str) -> str | None:
+        """Download the full HTML for a Wikipedia page URL."""
+        if not url:
+            return None
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (RAG-bot/1.0)"}
+            resp = requests.get(url, headers=headers, timeout=30)
+            resp.raise_for_status()
+            return resp.text
+        except Exception:
+            return None
+
+    @staticmethod
+    def _fetch_page_wikitext(url: str) -> str | None:
+        """Download raw wikitext for a Wikipedia page using ?action=raw."""
+        if not url:
+            return None
+        try:
+            parsed = urlparse(url)
+            # keep path, force ?action=raw
+            raw_url = parsed._replace(query="action=raw").geturl()
+            headers = {"User-Agent": "Mozilla/5.0 (RAG-bot/1.0)"}
+            resp = requests.get(raw_url, headers=headers, timeout=30)
+            resp.raise_for_status()
+            return resp.text
+        except Exception:
+            return None
+
+    @staticmethod
+    def _extract_iucn_from_wikitext(wikitext: str):
+        """
+        Extract IUCN status from {{Bảng phân loại ...}} template in Vietnamese wikitext.
+
+        Returns (iucn_text, iucn_code) or (None, None).
+        """
+        if not wikitext:
+            return None, None
+
+        # Find the Bảng phân loại template block
+        # This is intentionally permissive; we just need the part that contains "| status = ..."
+        m = re.search(r"{{\s*B[aả]ng phân loại(?P<body>.*?)}}", wikitext, flags=re.IGNORECASE | re.DOTALL)
+        if not m:
+            return None, None
+
+        body = m.group("body")
+
+        # Look for a line like: | status = LC  or  | status = LC <!-- comment -->
+        m_status = re.search(r"^\s*\|\s*status\s*=\s*([^\n\r]+)", body, flags=re.MULTILINE | re.IGNORECASE)
+        if not m_status:
+            return None, None
+
+        status_val = m_status.group(1).strip()
+
+        # Extract code like LC / VU / EN / CR / ...
+        m_code = re.search(r"\b(LC|NT|VU|EN|CR|EW|EX|DD|NE)\b", status_val.upper())
+        code = m_code.group(1) if m_code else None
+
+        return status_val, code
+

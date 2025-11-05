@@ -3,8 +3,8 @@ import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
-from constants import Constants
-from utils import Utils
+from .constants import Constants
+from .utils import Utils
 
 class Embedder:
     #-------------------------

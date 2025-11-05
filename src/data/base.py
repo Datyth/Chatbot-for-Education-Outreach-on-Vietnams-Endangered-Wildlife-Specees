@@ -8,18 +8,25 @@ import os
 import shutil
 import numpy as np
 import faiss
-from constants import Constants
-from utils import Utils
-from ingestion import Ingestion
-from chunking import Chunker
-from deduplication import Deduplicator
-from embedding import Embedder
-from indexing import Indexer
+from pathlib import Path
+
+
+from .constants import Constants
+from .utils import Utils
+from .ingestion import Ingestion
+from .chunking import Chunker
+from .deduplication import Deduplicator
+from .embedding import Embedder
+from .indexing import Indexer
+
+
 import os
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 import nltk
 nltk.download("punkt",quiet=True)
 nltk.download("punkt_tab",quiet=True)  # nếu đã có punkt vẫn báo thiếu
+ROOT_DIR = Path(__file__).resolve().parents[2]  # project root
+out_dir = ROOT_DIR / "data" / "data_files"
 
 class Base:
 
@@ -225,7 +232,7 @@ if __name__ == "__main__":
         pdf_paths,
         wiki_titles=wiki_titles,
         wiki_lang="vi",
-        out_dir="Chatbot-for-Education-Outreach-on-Vietnams-Endangered-Wildlife-Specees\data\data_files",
+        out_dir=str(out_dir),
         force=True,
         params=params,
     )
