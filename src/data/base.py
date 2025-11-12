@@ -62,7 +62,7 @@ class Base:
             "DOWNSCALE_MAX_WIDTH": params.get("DOWNSCALE_MAX_WIDTH", Constants.DOWNSCALE_MAX_WIDTH),
             "OCR_WORKERS": params.get("OCR_WORKERS", Constants.OCR_WORKERS),
             "USE_TESSERACT_AUTO": params.get("USE_TESSERACT_AUTO", Constants.USE_TESSERACT_AUTO),
-            "CHUNKING_STRATEGY": params.get("CHUNKING_STRATEGY", "sentences"), #or "paragraph" or "sentences" or "wiki_sections"
+            "CHUNKING_STRATEGY": params.get("CHUNKING_STRATEGY", "paragraph"), #or "paragraph" or "sentences" or "wiki_sections"
             "MAX_ANIMALS": params.get("MAX_ANIMALS", 10)
         }
         new_manifest = Utils.make_manifest(pdf_paths, wiki_titles, manifest_params)
@@ -224,7 +224,7 @@ if __name__ == "__main__":
         "DOWNSCALE_MAX_WIDTH": Constants.DOWNSCALE_MAX_WIDTH,
         "OCR_WORKERS": Constants.OCR_WORKERS,
         "USE_TESSERACT_AUTO": Constants.USE_TESSERACT_AUTO,
-        "CHUNKING_STRATEGY": "wiki_sections",  # or "sentences" | "wiki_sections" | "paragraph"
+        "CHUNKING_STRATEGY": "paragraph",  # or "sentences (DONE)" | "wiki_sections (DONE)" | "paragraph"
         "MAX_ANIMALS": 250, 
     }
 

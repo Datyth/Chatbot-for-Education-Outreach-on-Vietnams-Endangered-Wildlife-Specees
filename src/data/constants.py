@@ -24,18 +24,18 @@ class Constants:
 # -----------------------
 # defaut for cpu run, change if run with gpu
 # -----------------------
-    EMBED_MODEL_NAME = "intfloat/multilingual-e5-small" #"all-MiniLM-L6-v2"
+    EMBED_MODEL_NAME = "intfloat/multilingual-e5-large-instruct" #"all-MiniLM-L6-v2"
     EMBED_BATCH_SIZE = 64
     CHUNK_MAX_CHARS = 300
     CHUNK_OVERLAP = 30
     EMBED_DTYPE = "float32"
 
 # Output file names
-    FAISS_INDEX_FILE = "index.faiss"
-    CHUNKS_JSONL = "chunks.jsonl"
-    EMBEDDINGS_NPY = "embeddings.npy"
-    PAGES_JSONL = "pages.jsonl"
-    MANIFEST_JSON = "manifest.json"
+    FAISS_INDEX_FILE = "index-paragraph.faiss"
+    CHUNKS_JSONL = "chunks-paragraph.jsonl"
+    EMBEDDINGS_NPY = "embeddings-paragraph.npy"
+    PAGES_JSONL = "pages-paragraph.jsonl"
+    MANIFEST_JSON = "manifest-paragraph.json"
 
 # OCR settings
     USE_TESSERACT_AUTO = True       # Use Tesseract if available, default EasyOCR
