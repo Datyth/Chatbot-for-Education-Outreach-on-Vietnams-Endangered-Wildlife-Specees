@@ -1,0 +1,99 @@
+<header class="topbar">
+  <nav class="nav">
+    <div class="brand">{{brand}}</div>
+    <div class="navlinks">
+      {{#each navLinks}}
+      <a class="navlink{{#if active}} active{{/if}}" href="{{href}}">{{label}}</a>
+      {{/each}}
+    </div>
+  </nav>
+</header>
+
+<main class="page-wrap">
+  {{#if animal}}
+  <article class="animal-detail">
+    <a class="breadcrumb" href="/animals">&larr; Back to species list</a>
+
+    <header class="animal-detail__header">
+      <h1 class="animal-detail__title">{{animal.commonName}}</h1>
+      <p class="animal-detail__subtitle"><em>{{animal.scientificName}}</em></p>
+      <span class="animal-card__chip">IUCN: {{animal.iucnStatus}}</span>
+    </header>
+
+    {{#if animal.heroImage}}
+    <div class="animal-detail__media">
+      <img src="{{animal.heroImage}}" alt="{{animal.commonName}}" />
+    </div>
+    {{/if}}
+
+    <section class="animal-facts">
+      <h2 class="section-title">Quick facts</h2>
+      <dl class="animal-facts__grid">
+        {{#if animal.habitat}}
+        <div class="animal-facts__item">
+          <dt>Habitat</dt>
+          <dd>{{animal.habitat}}</dd>
+        </div>
+        {{/if}}
+        {{#if animal.distribution}}
+        <div class="animal-facts__item">
+          <dt>Distribution</dt>
+          <dd>{{animal.distribution}}</dd>
+        </div>
+        {{/if}}
+        {{#if animal.diet}}
+        <div class="animal-facts__item">
+          <dt>Diet</dt>
+          <dd>{{animal.diet}}</dd>
+        </div>
+        {{/if}}
+        {{#if animal.size}}
+        <div class="animal-facts__item">
+          <dt>Size</dt>
+          <dd>{{animal.size}}</dd>
+        </div>
+        {{/if}}
+      </dl>
+    </section>
+
+    {{#if animal.descriptionParagraphs}}
+    <section class="animal-detail__body">
+      {{#each animal.descriptionParagraphs}}
+      <p>{{this}}</p>
+      {{/each}}
+    </section>
+    {{/if}}
+  </article>
+
+  {{#if hasRelated}}
+  <section class="animal-related">
+    <h2 class="section-title">Explore other species</h2>
+    <div class="animal-grid">
+      {{#each relatedAnimals}}
+      <article class="animal-card">
+        <a class="animal-card__link" href="/animals/{{slug}}">
+          <div class="animal-card__media">
+            <img src="{{thumbnail}}" alt="{{commonName}}" loading="lazy" />
+          </div>
+          <div class="animal-card__body">
+            <h3 class="animal-card__title">{{commonName}}</h3>
+            <p class="animal-card__subtitle"><em>{{scientificName}}</em></p>
+            <span class="animal-card__chip">IUCN: {{iucnStatus}}</span>
+            {{#if summary}}
+            <p class="animal-card__summary">{{summary}}</p>
+            {{/if}}
+          </div>
+        </a>
+      </article>
+      {{/each}}
+    </div>
+  </section>
+  {{/if}}
+  {{else}}
+  <p class="empty-state">Species record not found.</p>
+  {{/if}}
+</main>
+
+<footer class="footer">
+  <small>{{{footerNote}}}</small>
+</footer>

@@ -1,0 +1,791 @@
+{
+  "dataset_name": "Sách đỏ động vật Việt Nam - RAG Evaluation Dataset",
+  "source": "https://vi.wikipedia.org/wiki/Danh_m%E1%BB%A5c_s%C3%A1ch_%C4%91%E1%BB%8F_%C4%91%E1%BB%99ng_v%E1%BA%ADt_Vi%E1%BB%87t_Nam",
+  "total_questions": 196,
+  "qa_pairs": [
+    {
+      "question": "Tên khoa học của Gà lôi lam đuôi trắng là gì?",
+      "answer": "Tên khoa học của Gà lôi lam đuôi trắng là Lophura hatinhensis, được mô tả bởi Vo Quy và Do Ngoc Quang vào năm 1975. Đây là một loài chim đặc hữu của Việt Nam, chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam và không tìm thấy ở nơi khác trên thế giới. Loài này được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam."
+    },
+    {
+      "question": "Sao la có tên khoa học là gì?",
+      "answer": "Sao la có tên khoa học là Pseudoryx nghetinhensis. Loài này được phát hiện và mô tả bởi nhóm các nhà khoa học bao gồm Vu Van Dung, Peter Arlander, John Mackinnon, Do Tuoc, Nguyen Ngoc Chinh, và Pham Mong Giao vào năm 1993. Sao la là một trong những loài động vật lần đầu tiên được phát hiện trên thế giới tại Việt Nam, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam."
+    },
+    {
+      "question": "Những loài chim đặc hữu nào của Việt Nam được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Theo Sách đỏ Việt Nam, có nhiều loài chim đặc hữu chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam. Một số loài tiêu biểu bao gồm: Gà lôi lam đuôi trắng (Lophura hatinhensis), Gà lôi lam mào trắng (Lophura edwardsi), Gà tiền mặt đỏ (Polyplectron germaini), Trĩ sao (Rheinardia ocellata), và Gà so cổ hung (Arborophila davidi). Tất cả các loài này đều không tìm thấy ở bất kỳ nơi nào khác trên thế giới ngoài Việt Nam."
+    },
+    {
+      "question": "Voọc mũi hếch Bắc Bộ có phải là loài đặc hữu của Việt Nam không?",
+      "answer": "Có, Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) là một loài động vật đặc hữu của Việt Nam, chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam và không tìm thấy ở nơi khác trên thế giới. Loài này được mô tả bởi Dollman vào năm 1912 và hiện được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam."
+    },
+    {
+      "question": "Tình trạng bảo tồn của Hổ Đông Dương trong Sách đỏ Việt Nam là gì?",
+      "answer": "Hổ Đông Dương (Panthera tigris corbetti) được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Loài hổ này được mô tả bởi Mazák vào năm 1968 và là một trong những loài động vật quý hiếm cần được bảo vệ nghiêm ngặt tại Việt Nam do số lượng cá thể trong tự nhiên đã giảm sút nghiêm trọng."
+    },
+    {
+      "question": "Các loài tê giác nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Trong Sách đỏ Việt Nam có ghi nhận hai loài tê giác: Tê giác Việt Nam (Rhinoceros sondaicus) được mô tả bởi Desmarest năm 1822 và Tê giác Sumatra (Dicerorhinus sumatrensis) được mô tả bởi Fischer năm 1819. Cả hai loài đều được xếp vào nhóm E (nguy cấp), thể hiện tình trạng đe dọa cao đối với sự tồn tại của chúng trong tự nhiên."
+    },
+    {
+      "question": "Tên khoa học của Gà tiền mặt đỏ là gì và ai là người mô tả loài này?",
+      "answer": "Gà tiền mặt đỏ có tên khoa học là Polyplectron germaini, được mô tả bởi Elliot vào năm 1866. Đây là một loài chim đặc hữu của Việt Nam, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Loài này chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam và không có ở nơi nào khác trên thế giới."
+    },
+    {
+      "question": "Mang Trường Sơn và Mang lớn có đặc điểm gì đặc biệt?",
+      "answer": "Mang Trường Sơn (Muntiacus truongsonensis) và Mang lớn (Megamuntiacus vuquangensis) là hai loài động vật có vú đặc biệt của Việt Nam. Mang lớn được mô tả vào năm 1994 bởi nhóm các nhà khoa học bao gồm Do Tuoc, Vu Van Dung, Shanthini Dawson, P. Arctander và John Mackinnon, được xếp vào nhóm V (dễ bị tổn thương). Đặc biệt, Mang Trường Sơn là loài lần đầu phát hiện trên thế giới tại Việt Nam, hiện tại chưa thấy hoặc ít thấy ở các nước khác."
+    },
+    {
+      "question": "Có bao nhiêu loài gấu được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Trong Sách đỏ Việt Nam có hai loài gấu được liệt kê: Gấu chó (Ursus malayanus) được mô tả bởi Raffles năm 1821 và Gấu ngựa (Ursus thibetanus) được mô tả bởi G. Cuvier năm 1823. Cả hai loài đều được xếp vào nhóm E (nguy cấp), cho thấy chúng đang đối mặt với nguy cơ tuyệt chủng cao trong tự nhiên."
+    },
+    {
+      "question": "Những loài động vật ăn thịt họ Mèo nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài động vật ăn thịt thuộc họ Mèo, bao gồm: Hổ Đông Dương (Panthera tigris corbetti) - nhóm E, Báo hoa mai Đông Dương (Panthera pardus delacouri) - nhóm E, Báo gấm (Pardofelis nebulosa) - nhóm V, Báo lửa (Catopuma temminckii) - nhóm E, Mèo gấm (Pardofelis marmorata) - nhóm V, Mèo ri (Felis chaus) - nhóm E, và Mèo cá (Prionailurus viverrinus) - nhóm R. Tất cả các loài này đều đang bị đe dọa ở các mức độ khác nhau."
+    },
+    {
+      "question": "Các loài voọc thuộc chi Trachypithecus được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Các loài voọc thuộc chi Trachypithecus trong Sách đỏ Việt Nam bao gồm: Voọc đầu trắng (Trachypithecus francoisi poliocephalus) - nhóm E, Voọc đen má trắng (Trachypithecus francoisi francoisi) - nhóm V, Voọc Hà Tĩnh (Trachypithecus francoisi hatinhensis) - nhóm E, Voọc mông trắng (Trachypithecus francoisi delacouri) - nhóm E, và Voọc xám Đông Dương (Trachypithecus phayrei crepusculus) - nhóm V. Đây là các loài linh trưởng quý hiếm cần được bảo vệ đặc biệt."
+    },
+    {
+      "question": "Voọc ngũ sắc có tên khoa học và tình trạng bảo tồn như thế nào?",
+      "answer": "Voọc ngũ sắc có tên khoa học là Pygathrix nemaeus nigripes. Đây là một loài voọc đặc hữu của Việt Nam, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Loài này chỉ tìm thấy trên lãnh thổ Việt Nam và không có ở nơi khác trên thế giới, là một trong những loài linh trưởng quý hiếm cần được bảo vệ."
+    },
+    {
+      "question": "Những loài bò rừng nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Trong Sách đỏ Việt Nam có ba loài bò rừng được liệt kê: Bò rừng (Bos javanicus) được xếp vào nhóm V (dễ bị tổn thương), Bò tót Đông Dương (Bos gaurus readei) được xếp vào nhóm E (nguy cấp), và Bò xám (Bos sauveli) cũng được xếp vào nhóm E (nguy cấp). Ngoài ra còn có Trâu nước hoang dã (Bubalus bubalis) được xếp vào nhóm E, thể hiện tình trạng bảo tồn nghiêm trọng của các loài động vật móng guốc lớn tại Việt Nam."
+    },
+    {
+      "question": "Có bao nhiêu loài cá sấu trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài cá sấu: Cá sấu hoa cà (Crocodylus porosus) được mô tả bởi Schneider năm 1801 và Cá sấu Xiêm (Crocodylus siamensis) cũng được mô tả bởi Schneider năm 1801. Cả hai loài đều được xếp vào nhóm E (nguy cấp), cho thấy chúng đang đối mặt với nguy cơ tuyệt chủng cao trong môi trường tự nhiên tại Việt Nam."
+    },
+    {
+      "question": "Tên khoa học và tình trạng bảo tồn của Rùa da là gì?",
+      "answer": "Rùa da có tên khoa học là Dermochelys coriacea, được mô tả bởi Linnaeus vào năm 1766. Loài rùa biển này được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Rùa da là loài rùa biển lớn nhất thế giới và đang đối mặt với nhiều mối đe dọa nghiêm trọng đối với sự tồn tại của chúng."
+    },
+    {
+      "question": "Các loài cò được liệt kê trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài cò với các mức độ đe dọa khác nhau, bao gồm: Hạc cổ đen (Xenorhynchus asiaticus) - nhóm E, Giang sen hay còn gọi là Cò lạo Ấn Độ (Mycteria leucocephala) - nhóm R, Cò lạo xám (Mycteria cinerea) - nhóm V, Cò nhạn (Anastomus oscitans) - nhóm R, Cò quăm cánh xanh (Pseudibis davisoni) - nhóm V, Cò quăm lớn (Psendibis gigantea) - nhóm E, và Cò thìa mặt đen (Platalea mino) - nhóm R. Đây là nhóm các loài chim nước quan trọng trong hệ sinh thái đất ngập nước Việt Nam."
+    },
+    {
+      "question": "Những loài chim thuộc họ Niệc nào có trong Sách đỏ Việt Nam?",
+      "answer": "Các loài chim thuộc họ Niệc trong Sách đỏ Việt Nam bao gồm: Hồng hoàng (Buceros bicornis) - nhóm T, Niệc cổ hung (Aceros nipalensis) - nhóm E, Niệc đầu trắng (Berenicornis comatus) - nhóm E, Niệc mỏ vằn (Rhyticeros undulatus ticehursti) - nhóm T, và Niệc nâu (Ptilolaemus tickelli indochinensis) - nhóm T. Các loài này đều có vai trò quan trọng trong việc phát tán hạt giống và duy trì đa dạng sinh học rừng nhiệt đới."
+    },
+    {
+      "question": "Các loài cầy được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài cầy bao gồm: Cầy gấm (Prionodon pardicolor) - nhóm R, Cầy giông sọc (Viverra megaspila) - nhóm E, Cầy giông Tây Nguyên (Viverra tainguyensis) - nhóm V, Cầy mực (Arictis binturong) - nhóm V, Cầy rái cá (Cynogale lowei) - nhóm E, Cầy tai trắng (Arctogalidia trivirgata) - nhóm R, và Cầy vằn bắc (Hemigulus owstoni) - nhóm V. Đặc biệt, Cầy giông Tây Nguyên được mô tả bởi các nhà khoa học Sokotov, Rozhnov và Pham Trong Anh năm 1997."
+    },
+    {
+      "question": "Có bao nhiêu loài rái cá trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận bốn loài rái cá: Rái cá lông mũi (Lutra sumatrana) - nhóm V, Rái cá lông mượt (Lutrogale perspicillata) - nhóm V, Rái cá thường (Lutra lutra) - nhóm V, và Rái cá vuốt bé (Aonyx cinerea) - nhóm V. Tất cả các loài này đều được xếp vào nhóm V (dễ bị tổn thương), cho thấy chúng đang phải đối mặt với các mối đe dọa từ môi trường sống và hoạt động của con người."
+    },
+    {
+      "question": "Những loài vượn nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Trong Sách đỏ Việt Nam có ba loài vượn được liệt kê, tất cả đều thuộc chi Hylobates: Vượn đen bạc má (Hylobates concolor leucogenis) được xếp vào nhóm E (nguy cấp), Vượn đen tuyền (Hylobates concolor concolor) cũng được xếp vào nhóm E (nguy cấp), và Vượn tay trắng (Hylobates lar) được xếp vào nhóm E (nguy cấp). Tất cả các loài vượn này đều đang đối mặt với nguy cơ tuyệt chủng cao trong tự nhiên."
+    },
+    {
+      "question": "Các loài hươu nai được ghi nhận trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài hươu nai bao gồm: Hươu sao Việt Nam (Cervus nippon pseudaxis) - nhóm V, Hươu vàng (Cervus porcinus) - nhóm E, Hươu xạ Cao Bằng (Moschus berezovxki) - nhóm E, Nai cà tông Xiêm (Panolia eldii siamensis) - nhóm E, Hoẵng Nam bộ (Muntiacus muntjak annamensis) - nhóm V, Cheo cheo Nam Dương (Tragulus kanchil) - nhóm V, và Cheo cheo Napu (Tragulus napu) - nhóm E. Đây là nhóm động vật móng guốc quan trọng trong hệ sinh thái rừng Việt Nam."
+    },
+    {
+      "question": "Những loài rùa biển nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài rùa biển quan trọng, bao gồm: Rùa da (Dermochelys coriacea) - nhóm E, Đồi mồi (Eretmochelys imbricata) - nhóm E, Đồi mồi dứa (Chelonia mydas) - nhóm E, và Vích (Caretta olivacea) - nhóm E. Tất cả các loài rùa biển này đều được xếp vào nhóm E (nguy cấp), cho thấy tình trạng bảo tồn nghiêm trọng của chúng trong vùng biển Việt Nam."
+    },
+    {
+      "question": "Các loài rắn độc được liệt kê trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài rắn độc quan trọng, bao gồm: Rắn hổ mang chúa (Ophiophagus hannah) - nhóm E, Rắn hổ mang Ấn Độ (Naja naja) - nhóm T, Rắn cạp nong (Bungarus fasciatus) - nhóm T, Rắn lục mũi hếch (Deinaglistrodon acutus) - nhóm R, Rắn lục núi (Trimeresurus monticola) - nhóm R, và Rắn lục sừng (Trimeresurus cornutus) - nhóm R. Đặc biệt, Rắn hổ mang chúa là loài rắn độc lớn nhất thế giới và được xếp vào nhóm nguy cấp."
+    },
+    {
+      "question": "Có bao nhiêu loài trăn trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận ba loài trăn: Trăn cộc (Python curtus) được xếp vào nhóm E (nguy cấp), Trăn đất (Python molurus) được xếp vào nhóm V (dễ bị tổn thương), và Trăn gấm (Python reticulatus) được xếp vào nhóm V (dễ bị tổn thương). Các loài trăn này đều là những loài bò sát lớn và có vai trò quan trọng trong việc kiểm soát quần thể động vật gặm nhấm trong tự nhiên."
+    },
+    {
+      "question": "Các loài rùa nước ngọt được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài rùa nước ngọt quý hiếm, bao gồm: Rùa đất lớn (Geoemyda grandis) - nhóm V, Rùa đầu to (Platysternum megacephalum) - nhóm R, Rùa hộp ba vạch (Cuora trifasciata) - nhóm E, Rùa hộp lưng đen (Cuora amboinensis) - nhóm V, Rùa hộp trán vàng (Cistoclemmys galbinifrons) - nhóm V, Rùa núi vàng (Indotestudo elongata) - nhóm V, Rùa núi viền (Manoruia impressa) - nhóm V, Rùa răng (Hieremys annandalei) - nhóm V, và Giải (Pelochelys bibroni) - nhóm V."
+    },
+    {
+      "question": "Những loài ếch và cóc nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài ếch và cóc, bao gồm: Ếch gai (Rana spinosa) - nhóm T, Ếch giun (Ichthyophis glutinosus) - nhóm V, Ếch vạch (Rana microlineata) - nhóm T, Ếch xanh (Rana andersoni) - nhóm T, Cóc gai mắt (Megophrys longipes) - nhóm T, Cóc mày gai núi (Megophrys palpebralespinosa) - nhóm R, Cóc mày phê (Megophrys feae) - nhóm R, Cóc rừng (Bufo galeatus) - nhóm R, Cóc tía (Bombina maxima) - nhóm V, và Hoặn lớn (Rhacophorus nigropalmatus feae) - nhóm T. Đặc biệt, Cá cóc Tam Đảo (Paramesotriton deloustali) được xếp vào nhóm E (nguy cấp)."
+    },
+    {
+      "question": "Các loài cá nước ngọt quý hiếm trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài cá nước ngọt quý hiếm như: Cá hô (Catlocarpiosiamensis) - nhóm T, Cá tra dầu (Pangasianodon gigas) - nhóm R, Cá trà sóc (Probarbus jullieni) - nhóm T, Cá mơn (Scleropages formusus) - nhóm E, Cá còm (Notopterus chitala) - nhóm T, Cá chiên (Bagarius bagarius) - nhóm V, Cá chép gốc (Procypris merus) - nhóm E, Cá lóc bông (Ophiccephalus micropeltes) - nhóm T, và Cá ét mọi (Morulius chrysophekadion) - nhóm T. Các loài này đều có giá trị kinh tế và sinh thái cao."
+    },
+    {
+      "question": "Cá mơn có đặc điểm gì và tình trạng bảo tồn như thế nào?",
+      "answer": "Cá mơn có tên khoa học là Scleropages formusus, được mô tả bởi Muller và Schlegel năm 1844. Đây là một loài cá nước ngọt quý hiếm, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Cá mơn có giá trị kinh tế cao và thường được nuôi làm cá cảnh. Loài này đang đối mặt với nguy cơ tuyệt chủng trong tự nhiên do khai thác quá mức và mất môi trường sống."
+    },
+    {
+      "question": "Những loài cá mập nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài cá mập, bao gồm: Cá mập trắng lớn (Carcharodon carcharias) - nhóm T, Cá nhám voi (Rhincodon typus) - nhóm R, Cá nhám đuôi dài (Alopias pelagicus) - nhóm R, Cá nhám lông nhung (Cephaloscyllium umbratile) - nhóm R, Cá nhám nâu (Etmopterus lucifer) - nhóm R, Cá nhám nhu mì (Stegostoma facsciatum) - nhóm R, và các loài cá đao răng như Cá đao răng ngựa (Pristis cuspidatus) - nhóm R và Cá đao răng nhỏ (Pristis microdon) - nhóm R."
+    },
+    {
+      "question": "Tên khoa học và tình trạng bảo tồn của Cá nàng tiên là gì?",
+      "answer": "Cá nàng tiên có tên khoa học là Dugong dugon, được mô tả bởi Mullr vào năm 1776. Đây là loài động vật có vú biển thuộc bộ Sirenia (bộ cá cúi), được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Cá nàng tiên là loài động vật ăn cỏ biển duy nhất còn tồn tại trong vùng biển Đông Nam Á và đang đối mặt với nhiều mối đe dọa từ hoạt động đánh bắt và ô nhiễm môi trường biển."
+    },
+    {
+      "question": "Các loài cá ngựa được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài cá ngựa, bao gồm: Cá ngựa (Torbrevifilis) - nhóm V, Cá ngựa chấm (Hipocampus trimaculatus) - nhóm V, Cá ngựa gai (Hippocampus histrix) - nhóm V, Cá ngựa Kenlô (Hippocampus kelloggi) - nhóm V, Cá ngựa đen (Hippocamus kuda) - nhóm V, Cá ngựa Nhật (Hipocampus japonicus) - nhóm R, và Cá ngựa xám (Tortambroides) - nhóm V. Các loài cá ngựa này đều có giá trị cao trong y học cổ truyền và đang bị đe dọa do khai thác quá mức."
+    },
+    {
+      "question": "Những loài hải sâm nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ bốn loài hải sâm quý hiếm: Hải sâm lựu (Thelenota ananas) được xếp vào nhóm E (nguy cấp), Hải sâm mít (Actinopyga echinites) được xếp vào nhóm V (dễ bị tổn thương), Hải sâm mít hoa (Actinopyga mauritiana) được xếp vào nhóm V (dễ bị tổn thương), và Hải sâm vú (Microthele nobilis) được xếp vào nhóm E (nguy cấp). Các loài hải sâm này có giá trị kinh tế cao và đang bị khai thác quá mức trong các vùng biển Việt Nam."
+    },
+    {
+      "question": "Các loài bào ngư trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài bào ngư quý hiếm: Bào ngư hình bầu dục (Haliotis ovina) được mô tả bởi Gmelin năm 1791 và Bào ngư vành tai (Haliotis asinina) được mô tả bởi Linnaeus năm 1758. Cả hai loài đều được xếp vào nhóm V (dễ bị tổn thương). Bào ngư là loài nhuyễn thể biển có giá trị kinh tế cao, thường được sử dụng làm thực phẩm cao cấp và trong y học."
+    },
+    {
+      "question": "Những loài ốc biển quý hiếm nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài ốc biển quý hiếm, bao gồm: Ốc anh vũ (Nautilus pompilus) - nhóm E, Ốc đụn cái (Tectus niloticus) - nhóm E, Ốc đụn đực (Trochus pyramis) - nhóm E, Ốc kim khôi (Cassis cornata) - nhóm V, Ốc kim khôi đỏ (Cypraecassis rufa) - nhóm E, Ốc xà cừ (Turbo marmoratus) - nhóm E, và Ốc tù và (Charonia tritonis) - nhóm V. Đặc biệt, Ốc anh vũ là loài ốc nguyên thủy có vỏ xoắn ốc đẹp mắt và giá trị khoa học cao."
+    },
+    {
+      "question": "Các loài ốc sứ được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài ốc sứ thuộc chi Cypraea, bao gồm: Ốc bản đồ (Cypraea mappa) - nhóm T, Ốc heo (Cypraea testudinaria) - nhóm T, Ốc sứ Cura (Cypraca scurra) - nhóm R, Ốc sứ Hiti (Cypraea histrio) - nhóm R, Ốc sứ Lắc tê (Procalpur lacteus) - nhóm R, Ốc sứ mắt trĩ (Cypraea argus) - nhóm R, Ốc sứ Padi (Cypraea spadicea) - nhóm R, Ốc sứ trắng nhỏ (Ovula costellata) - nhóm R, Ốc sứ Trung Hoa (Cyraca chinensis) - nhóm T, Ốc sứ Tuđu (Cypraea turdus) - nhóm R, và Ốc sứ Veru (Calpurnus verrucosus) - nhóm T."
+    },
+    {
+      "question": "Những loài trai nước ngọt nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài trai nước ngọt quý hiếm, bao gồm: Trai cánh dày (Cristaria herculea) - nhóm V, Trai cánh mỏng (Cristaria bialata) - nhóm V, Trai cóc bầu dục (Lamprotula liedtkei) - nhóm R, Trai cóc dày (Gibbosula crassa) - nhóm R, Trai cóc hình lá (Lamprotula blaisei) - nhóm R, Trai cóc hình tai (Lamprotula leai) - nhóm V, Trai cóc Mẫu Sơn (Contradents semmelincki fultoni) - nhóm R, Trai cóc nhẵn (Cuneopis demangei) - nhóm K, Trai cóc tròn (Lamprotula nodulosa) - nhóm R, Trai cóc vuông (Protunio messageri) - nhóm R, Trai điệp (Sinohyriopsis cumingii) - nhóm V, Trai Suilla (Pilsbryoconcha suilla) - nhóm K, và Trai vỏ nâu (Chamberlainia hainesiana) - nhóm V."
+    },
+    {
+      "question": "Các loài trai ngọc được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài trai ngọc quý giá: Trai ngọc môi đen (Pinctada margaritifera) được xếp vào nhóm T (nguy cấp, bị đe dọa) và Trai ngọc môi vàng (Pinctada maxima) cũng được xếp vào nhóm T. Hai loài trai này có giá trị kinh tế rất cao do khả năng tạo ra ngọc trai tự nhiên, và đang bị đe dọa do khai thác quá mức trong các vùng biển Việt Nam."
+    },
+    {
+      "question": "Những loài trai tai nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài trai tai lớn: Trai tai gấu (Hippopus hippopus) được xếp vào nhóm R (hiếm) và Trai tai tượng khổng lồ (Tridacna gigas) cũng được xếp vào nhóm R. Đặc biệt, Trai tai tượng khổng lồ là loài nhuyễn thể hai mảnh vỏ lớn nhất thế giới, có thể đạt kích thước rất lớn và có giá trị sinh thái cao trong các rạn san hô."
+    },
+    {
+      "question": "Các loài tôm hùm được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ bốn loài tôm hùm quý hiếm, tất cả đều thuộc chi Panulirus: Tôm hùm bông (Panulirus ornatus) - nhóm V, Tôm hùm đá (Panulirus homarus) - nhóm V, Tôm hùm đỏ (Panulirus longipes) - nhóm V, và Tôm hùm sen (Panulirus versicolor) - nhóm V. Tất cả các loài tôm hùm này đều được xếp vào nhóm V (dễ bị tổn thương) do khai thác quá mức để làm thực phẩm cao cấp."
+    },
+    {
+      "question": "Những loài cua núi nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài cua núi đặc hữu, bao gồm: Cua núi An nam (Tiwaripotamon annamense) - nhóm R, Cua núi Cúc Phương (Potamiscus cuphuongensis) - nhóm R, Cua núi Kim Bôi (Ranguna kimboiensis) - nhóm R, Cua núi mai nhẵn (Hainanpotamon glabrum) - nhóm R, Cua núi mai ráp (Potamiscus tannanti) - nhóm R, và Cua núi Phúc Sơn (Ranguna fruhstorferi) - nhóm R. Các loài cua núi này là động vật đặc hữu của Việt Nam, sống trong các suối rừng núi."
+    },
+    {
+      "question": "Các loài san hô được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài san hô quý hiếm, bao gồm: San hô đỏ Êlati (Corallium elatius) - nhóm V, San hô đỏ Kô-noi (Corallium konojci) - nhóm T, San hô đỏ Nhật Bản (Corallium japonicus) - nhóm V, và San hô trúc (Isis hipputis) - nhóm R. Các loài san hô đỏ có giá trị kinh tế cao, thường được sử dụng làm đồ trang sức và trong y học cổ truyền, đang bị đe dọa do khai thác quá mức."
+    },
+    {
+      "question": "Loài cầu gai nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận loài Cầu gai đá (Heterocentrotus mammillatus) được mô tả bởi Linnaeus năm 1758, được xếp vào nhóm V (dễ bị tổn thương). Đây là loài nhím biển có gai lớn và dài, sống trong các rạn san hô và có vai trò quan trọng trong hệ sinh thái biển. Loài này đang bị đe dọa do thu gom làm quà lưu niệm và ảnh hưởng của hoạt động du lịch."
+    },
+    {
+      "question": "Tên khoa học và tình trạng bảo tồn của Sam đuôi tam giác là gì?",
+      "answer": "Sam đuôi tam giác có tên khoa học là Tachypleus tridentatus, được mô tả bởi Leach, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Sam đuôi tam giác là loài động vật biển cổ xưa, được coi là hóa thạch sống với lịch sử tiến hóa hàng trăm triệu năm. Máu của chúng có giá trị y học cao nhưng đang bị đe dọa do khai thác quá mức."
+    },
+    {
+      "question": "Những loài bướm quý hiếm nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài bướm quý hiếm, bao gồm: Bướm đuôi dài xanh lá chuối (Argemo maenas) - nhóm R, Bướm khế (Attacus atlas) - nhóm R, Bướm phượng cánh đuôi nheo (Leptocircu curius) - nhóm T, Bướm phượng cánh kiếm (Pathysa antiphates) - nhóm E, và Bướm phượng cánh sau vàng (Troides helena hephaestus) - nhóm E. Đặc biệt, Bướm khế là một trong những loài bướm lớn nhất thế giới với sải cánh có thể lên tới 25-30 cm."
+    },
+    {
+      "question": "Những loài chim gõ kiến và đuôi cụt nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận loài Gõ kiến xanh đầu đỏ (Picus rabieri) được xếp vào nhóm T. Về các loài đuôi cụt, có: Đuôi cụt bụng đỏ (Pitta nympha) - nhóm R, Đuôi cụt bụng vằn (Pitta ellioti) - nhóm T, Đuôi cụt đầu đỏ (Pitta cyanea willoughbyi) - nhóm R, và Đuôi cụt nâu (Pitta phayrei obscura) - nhóm R. Các loài chim này có vai trò quan trọng trong việc kiểm soát côn trùng và duy trì sức khỏe của rừng."
+    },
+    {
+      "question": "Các loài chim sả được liệt kê trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam liệt kê ba loài chim sả: Bồng chanh rừng (Alcedo hercules) được xếp vào nhóm T (nguy cấp, bị đe dọa), Sả hung (Halcyon coromando coromando) được xếp vào nhóm R (hiếm), và Sả mỏ rộng (Pelargopsis capensis burmanica) được xếp vào nhóm T. Các loài chim sả này có lông vũ sặc sỡ và thường sống gần các vùng nước, săn bắt cá và động vật thủy sinh nhỏ."
+    },
+    {
+      "question": "Những loài cú và dù dì nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài cú và dù dì, bao gồm: Cú lợn rừng (Phodilus badius saturatus) - nhóm T, Dù dì phương đông (Ketupa zeylonensis orientalis) - nhóm T, Hù lào (Strix leptogrammica laotiana) - nhóm R, và Hù lưng nâu (Strix leptogrammica ticehursti) - nhóm R. Các loài chim cú này là những loài săn mồi ban đêm, có vai trò quan trọng trong việc kiểm soát quần thể chuột và động vật gặm nhấm nhỏ."
+    },
+    {
+      "question": "Các loài bồ câu được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ hai loài bồ câu: Bồ câu nâu (Columba punicea) được mô tả bởi Blyth năm 1842 và được xếp vào nhóm T (nguy cấp, bị đe dọa), và Bồ câu Nicoba (Caloenas nicobarica nicobarica) được mô tả bởi Linnaeus năm 1758 và cũng được xếp vào nhóm T. Các loài bồ câu này có vai trò quan trọng trong việc phát tán hạt giống trong rừng nhiệt đới."
+    },
+    {
+      "question": "Những loài chim khướu đặc hữu nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài chim khướu đặc hữu, bao gồm: Khướu đầu đen (Garrulax milleti) - nhóm R, Khướu đầu đen má xám (Garrulax yersini) - nhóm R, Khướu đầu xám (Garrulax vassali) - nhóm T, Khướu đuôi đỏ (Garrulax formosus greenwayi) - nhóm R, Khướu mỏ dài (Jabouillea danjoui) - nhóm T, Khướu mỏ dẹt lưng đen (Paradoxornis davidianus tonkinensis) - nhóm T, Khướu mỏ dẹt to (Paradoxornis ruficeps magnirostris) - nhóm T, Khướu ngực đốm (Garrulax merulinus) - nhóm R, Khướu vẩy (Garrulax squamatus) - nhóm R, và Khướu xám (Garrulax maesi maesi) - nhóm T."
+    },
+    {
+      "question": "Những loài côn trùng khác ngoài bướm được liệt kê trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài côn trùng quý hiếm ngoài bướm, bao gồm: Bọ lá (Phyllium succiforlium) - nhóm E, Bọ ngựa châu Âu (Mantis religiosa) - nhóm V, Cà cuống (Lethocerus indicus) - nhóm R, và Cánh kiến đỏ (Kerria lacca) - nhóm V. Đặc biệt, Cà cuống được coi là loài côn trùng có giá trị kinh tế cao trong ẩm thực, còn Cánh kiến đỏ được sử dụng để sản xuất vecni thiên nhiên."
+    },
+    {
+      "question": "Các loài thằn lằn lớn được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài thằn lằn lớn, bao gồm: Kỳ đà hoa (Varanus salvator) - nhóm V, Kỳ đà vân (Varanus bengalensis nebulosus) - nhóm V, Rồng đất (Physignathus cocincinus) - nhóm V, Tắc kè (Gekko gecko) - nhóm T, Oanh (Acanthosaura lepidogaster) - nhóm T, và Nhông cát Gutta (Leiolepis guttata) - nhóm T. Các loài thằn lằn này có vai trò quan trọng trong hệ sinh thái, kiểm soát quần thể côn trùng và động vật nhỏ."
+    },
+    {
+      "question": "Những loài rắn biển nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ ba loài rắn biển: Đẹn đuôi gai (Aipysurus eydouxii) được xếp vào nhóm V (dễ bị tổn thương), Đẹn mỏ (Enhydrina schistosa) được xếp vào nhóm V, và Đẹn vảy bụng không đều (Thalassophina viperina) cũng được xếp vào nhóm V. Các loài rắn biển này đều có nọc độc mạnh và sống trong môi trường biển, đóng vai trò quan trọng trong chuỗi thức ăn của hệ sinh thái biển."
+    },
+    {
+      "question": "Các loài rắn không độc được liệt kê trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài rắn không độc, bao gồm: Rắn hổ trâu (Ptyas mucosus) - nhóm V, Rắn lai (Gonysoma oxycephalum) - nhóm T, Rắn ráo (Ptyas korros) - nhóm T, Rắn rào răng chó (Boiga cynodon) - nhóm T, Rắn sọc đốm đỏ (Elaphe porphyracea) - nhóm T, Rắn sọc khoanh (Elaphe moellendorffii) - nhóm T, Rắn sọc xanh (Elaphe prasina) - nhóm T, Rắn xe điếu nâu (Achalinus rufescens) - nhóm R, và Rắn xe điếu xám (Achalinus spinalis) - nhóm R."
+    },
+    {
+      "question": "Loài rắn đặc biệt Rắn lục đầu bạc có gì đặc trưng?",
+      "answer": "Rắn lục đầu bạc có tên khoa học là Azemiops feae, được mô tả bởi Boulenger năm 1888, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài rắn độc đặc biệt thuộc họ Rắn lục (Viperidae) nhưng có nhiều đặc điểm nguyên thủy, được coi là một trong những loài rắn độc cổ xưa nhất còn tồn tại. Loài này có đầu màu bạc đặc trưng và sống ở các khu rừng núi cao."
+    },
+    {
+      "question": "Những loài dơi nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài dơi quý hiếm, bao gồm: Dơi cánh lông (Harpiocephalus harpia) - nhóm R, Dơi chó tai ngắn (Cynopterus brachyotis) - nhóm R, Dơi io (Ia io) - nhóm R, Dơi lá quạt (Rhinolophus paradoxolophus) - nhóm R, Dơi lá Sa đen (Rhinolophus borneensis) - nhóm R, Dơi mũi Nêquam (Hipposideros nequam) - nhóm R, Dơi tai Siligô (Myotis siligorensis) - nhóm R, Dơi thùy Frit (Coelops frithii) - nhóm R, và Dơi thùy tai to (Paracoelops megalotis) - nhóm R. Các loài dơi này có vai trò quan trọng trong kiểm soát côn trùng và thụ phấn cho thực vật."
+    },
+    {
+      "question": "Các loài sóc được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài sóc, bao gồm các loài sóc bay và sóc cây: Sóc bay đen trắng (Hylopetes alboniger) - nhóm R, Sóc bay lông tai (Belomys pearsonii) - nhóm R, Sóc bay nhỏ (Hylopetes phayrei) - nhóm R, Sóc bay sao (Petaurista elegans) - nhóm E, Sóc bay trâu (Petaurista petaurita) - nhóm R, Sóc đen Côn Đảo (Ratufa bicolor condorensis) - nhóm R, và Sóc đỏ (Callosciurus finlaysoni) - nhóm R. Đặc biệt, Sóc bay sao được xếp vào nhóm nguy cấp do mất môi trường sống."
+    },
+    {
+      "question": "Những loài động vật có vú nhỏ khác nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê một số loài động vật có vú nhỏ quý hiếm, bao gồm: Chuột mù (Typhlomys cinereus) được mô tả bởi Milne-Edward năm 1877 - nhóm R, Chuột nhắt cây (Vandeleuria oleracea) - nhóm R, Tê tê (Manis pentadactyla) - nhóm V, Thỏ rừng Trung Hoa (Lepus sinensis) - nhóm E, Chồn bay (Cynocephalus variegatus) - nhóm R, và Cu li lớn (Nycticebus coucang) - nhóm V cùng Cu li nhỏ (Nycticebus pygmaeus) - nhóm V. Đặc biệt, Tê tê đang bị đe dọa nghiêm trọng do săn bắt trái phép."
+    },
+    {
+      "question": "Các loài vịt và ngan được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài vịt và ngan, bao gồm: Vịt đầu đen (Aythya baeri) - nhóm R, Vịt mỏ ngọn (Mergus squamatus) - nhóm E, Ngan cánh trắng (Carina scutulata) - nhóm V, và Le khoang cổ (Nettapus coromandelianus coromandelianus) - nhóm T. Các loài chim nước này đều là những loài di cư hoặc lưu trú quan trọng trong các vùng đất ngập nước của Việt Nam, đóng vai trò quan trọng trong hệ sinh thái đất ngập nước."
+    },
+    {
+      "question": "Những loài chim biển nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài chim biển, bao gồm: Chim điên bụng trắng (Sula leucogaster poltus) - nhóm T, Cốc biển bụng trắng (Fregata andrewsi) - nhóm V, Cốc đế (Phalacrocorax carbo sinensis) - nhóm R, Bồ nông chân xám (Pelecanus philippensis) - nhóm R, Nhàn đầu xám (Anous stolidus pileatus) - nhóm T, Nhàn mào (Sterna bergii cristata) - nhóm E, và Mòng bể mỏ đen (Larus saundersi) - nhóm R. Các loài chim biển này có vai trò quan trọng trong hệ sinh thái biển đảo."
+    },
+    {
+      "question": "Các loài chim yến được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài chim yến: Chim yến hàng (Collocalia fuciphaga germaini) được xếp vào nhóm T (nguy cấp, bị đe dọa) và Chim yến núi (Collocalia brevirostris innominata) được xếp vào nhóm R (hiếm). Các loài chim yến này tạo ra tổ yến có giá trị kinh tế cao, được sử dụng làm thực phẩm bổ dưỡng, nhưng đang bị đe dọa do khai thác quá mức và mất môi trường sống tự nhiên."
+    },
+    {
+      "question": "Những loài chim mỏ rộng nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận ba loài chim mỏ rộng: Mỏ rộng đen (Carydon sumatranus) được xếp vào nhôm R (hiếm), Mỏ rộng xanh (Psarisomus dalhousiae dalhousiae) được xếp vào nhóm T (nguy cấp, bị đe dọa), và Mỏ rộng xồm (Calyptomena viridis continentis) được xếp vào nhóm R. Các loài chim mỏ rộng này có lông vũ sặc sỡ và sống trong các tầng rừng nhiệt đới ẩm."
+    },
+    {
+      "question": "Những loài chim đặc biệt và hiếm có nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê một số loài chim đặc biệt và hiếm có, bao gồm: Chân bơi (Heliopais personatus) - nhóm R, một loài chim nước hiếm; Phướn đất (Carpococcyx renauldi) - nhóm T, loài chim cúc cu sống trên mặt đất; Quạ khoang (Corvus torquatus) - nhóm E; Khách đuôi cờ (Temnurus temnurus) - nhóm T; Choắt chân màng lớn (Limnodromus semipalmatus) - nhóm R; Ô tác (Eupodotis bengalensis blandini) - nhóm V; và Mi Langbian (Crocias langbianis) - nhóm E, loài chim đặc hữu được phát hiện tại cao nguyên Langbian."
+    },
+    {
+      "question": "Các loài chim trèo cây được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài chim trèo cây thuộc chi Sitta: Trèo cây lưng đen (Sitta formosa) được xếp vào nhóm T (nguy cấp, bị đe dọa) và Trèo cây mỏ vàng (Sitta solangiae) được xếp vào nhóm T. Cả hai loài này đều là những loài chim nhỏ sống trên cây, có khả năng leo trèo khéo léo trên thân cây để tìm kiếm côn trùng và hạt cây làm thức ăn."
+    },
+    {
+      "question": "Loài chim Sẻ thông họng vàng có đặc điểm gì?",
+      "answer": "Sẻ thông họng vàng có tên khoa học là Carduelis monguilloti, được mô tả bởi Delacour năm 1927, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là một loài chim họ Sẻ (Fringillidae) nhỏ, có màu sắc đặc trưng với vùng họng màu vàng, thường sống ở các khu rừng núi cao và rừng thông, là loài chim đặc hữu của khu vực Đông Dương."
+    },
+    {
+      "question": "Các loài gà lôi được liệt kê trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài gà lôi quý hiếm, bao gồm: Gà lôi hông tía (Lophura diardi) - nhóm T, Gà lôi lam đuôi trắng (Lophura hatinhensis) - nhóm E (đặc hữu), Gà lôi lam mào đen (Lophura imperialis) - nhóm E (đặc hữu), Gà lôi lam mào trắng (Lophura edwardsi) - nhóm E (đặc hữu), Gà lôi tía (Tragopan temminkinensis) - nhóm R, và Gà lôi trắng (Lophura nycthemera) - nhóm T. Đặc biệt, ba loài gà lôi lam đều là loài đặc hữu của Việt Nam và đang ở tình trạng nguy cấp cao."
+    },
+    {
+      "question": "Trong Sách đỏ Việt Nam, các mức độ đe dọa được ký hiệu như thế nào?",
+      "answer": "Trong Sách đỏ Việt Nam, các loài động vật được phân loại theo các mức độ đe dọa khác nhau với các ký hiệu: E (nguy cấp - Endangered), V (dễ bị tổn thương - Vulnerable), R (hiếm - Rare), T (nguy cấp, bị đe dọa - Threatened), và K (chưa đủ thông tin - Data Deficient). Các loài được xếp vào nhóm E là những loài có nguy cơ tuyệt chủng cao nhất, cần được bảo vệ nghiêm ngặt nhất."
+    },
+    {
+      "question": "Có bao nhiêu loài động vật đặc hữu của Việt Nam được đề cập trong Sách đỏ?",
+      "answer": "Sách đỏ Việt Nam đề cập đến nhiều loài động vật đặc hữu chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam. Một số loài tiêu biểu bao gồm: các loài gà như Gà lôi lam đuôi trắng (Lophura hatinhensis), Gà lôi lam mào trắng (Lophura edwardsi), Gà tiền mặt đỏ (Polyplectron germaini), Trĩ sao (Rheinardia ocellata), Gà so cổ hung (Arborophila davidi); các loài linh trưởng như Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus), Voọc ngũ sắc (Pygathrix nemaeus nigripes); và các loài động vật có móng guốc như Sao la (Pseudoryx nghetinhensis), Mang Trường Sơn (Muntiacus truongsonensis). Đây là những loài có giá trị bảo tồn đặc biệt cao."
+    },
+    {
+      "question": "Những loài động vật nào được phát hiện lần đầu tiên tại Việt Nam?",
+      "answer": "Một số loài động vật được phát hiện lần đầu tiên trên thế giới tại Việt Nam bao gồm: Sao la (Pseudoryx nghetinhensis) được phát hiện năm 1993 bởi nhóm các nhà khoa học quốc tế và Việt Nam, Mang Trường Sơn (Muntiacus truongsonensis), Mang lớn (Megamuntiacus vuquangensis) phát hiện năm 1994, và Bò rừng xoăn. Hiện tại, các loài này chưa thấy hoặc ít thấy ở các nước khác, thể hiện tính đa dạng sinh học đặc biệt của Việt Nam, đặc biệt là khu vực Trường Sơn."
+    },
+    {
+      "question": "Cầy giông Tây Nguyên có gì đặc biệt so với các loài cầy khác?",
+      "answer": "Cầy giông Tây Nguyên (Viverra tainguyensis) có tên khoa học được mô tả bởi các nhà khoa học Sokotov, Rozhnov và Pham Trong Anh năm 1997, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đặc biệt, đây là loài được phát hiện và mô tả tương đối gần đây, cho thấy vẫn còn nhiều loài động vật chưa được biết đến tại Việt Nam. Loài này được tìm thấy ở khu vực Tây Nguyên và có đặc điểm hình thái riêng biệt so với các loài cầy giông khác."
+    },
+    {
+      "question": "Những loài động vật ăn cỏ lớn nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài động vật ăn cỏ lớn, bao gồm: Voi Việt Nam (Elephas maximus) - nhóm V, Tê giác Việt Nam (Rhinoceros sondaicus) - nhóm E, Tê giác Sumatra (Dicerorhinus sumatrensis) - nhóm E, Heo vòi (Tapirus indicus) - nhóm E, các loài bò rừng như Bò rừng (Bos javanicus) - nhóm V, Bò tót Đông Dương (Bos gaurus readei) - nhóm E, Bò xám (Bos sauveli) - nhóm E, Trâu nước hoang dã (Bubalus bubalis) - nhóm E, Sơn dương (Capricornis sumatraensis) - nhóm V, và Sao la (Pseudoryx nghetinhensis) - nhôm E. Tất cả các loài này đều đang đối mặt với nguy cơ tuyệt chủng cao."
+    },
+    {
+      "question": "Các loài chó hoang và họ nhà Chó được liệt kê trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam liệt kê ba loài thuộc họ Chó (Canidae): Sói lửa (Cuon alpinus) được mô tả bởi Pallas năm 1811 và được xếp vào nhóm E (nguy cấp), Chó rừng Xiêm (Canis aureus) cũng được xếp vào nhóm E, và Cáo (Vulpes vulpes) được xếp vào nhóm E. Trong đó, Sói lửa hay còn gọi là Chó sói đỏ là loài săn mồi theo bầy đàn, có vai trò quan trọng trong việc kiểm soát quần thể động vật ăn cỏ trong rừng."
+    },
+    {
+      "question": "Loài Triết bụng trắng có đặc điểm và tình trạng bảo tồn như thế nào?",
+      "answer": "Triết bụng trắng có tên khoa học là Mustela nivalis, được mô tả bởi Linnaeus năm 1766, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài động vật ăn thịt nhỏ thuộc họ Chồn (Mustelidae), có kích thước nhỏ nhưng là thợ săn khéo léo, chuyên săn chuột và các động vật gặm nhấm nhỏ. Loài này đang bị đe dọa do mất môi trường sống và săn bắt."
+    },
+    {
+      "question": "Có bao nhiêu loài khỉ thuộc chi Macaca trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận ba loài khỉ thuộc chi Macaca: Khỉ đuôi lợn (Macaca nemestrina) được mô tả bởi Linnaeus năm 1766 - nhóm V, Khỉ mặt đỏ hay còn gọi là Khỉ cộc (Macaca arctoides) được mô tả bởi Geoffroy năm 1831 - nhóm V, và Khỉ mốc miền Đông (Macaca assamensis) được mô tả bởi M'Clelland năm 1839 - nhóm V. Tất cả các loài khỉ Macaca này đều được xếp vào nhóm V (dễ bị tổn thương), cho thấy chúng đang phải đối mặt với các mối đe dọa từ môi trường."
+    },
+    {
+      "question": "Những loài cu li nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ hai loài cu li, cả hai đều thuộc chi Nycticebus: Cu li lớn (Nycticebus coucang) được mô tả bởi Boddaert năm 1785 và được xếp vào nhóm V (dễ bị tổn thương), và Cu li nhỏ (Nycticebus pygmaeus) được mô tả bởi Bonhote năm 1907 cũng được xếp vào nhóm V. Các loài cu li này là những loài linh trưởng nguyên khỉ, hoạt động về đêm, di chuyển chậm và đang bị đe dọa nghiêm trọng do buôn bán trái phép làm thú cưng."
+    },
+    {
+      "question": "Tất cả các loài voọc thuộc chi Pygathrix có trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài voọc thuộc chi Pygathrix: Voọc ngũ sắc (Pygathrix nemaeus nigripes) được xếp vào nhóm V (dễ bị tổn thương) và Voọc vá (Pygathrix nemaeus) được mô tả bởi Linnaeus năm 1771 và được xếp vào nhóm E (nguy cấp). Các loài voọc này có đặc điểm nổi bật là màu lông rất đa dạng và sặc sỡ, với nhiều màu khác nhau trên cơ thể như đỏ, vàng, trắng, đen, xám, là những loài linh trưởng đặc hữu và quý hiếm của Việt Nam."
+    },
+    {
+      "question": "Các loài cheo cheo trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài cheo cheo: Cheo cheo Nam Dương (Tragulus kanchil) được mô tả bởi Osbeck năm 1765 và được xếp vào nhóm V (dễ bị tổn thương), và Cheo cheo Napu (Tragulus napu) được mô tả bởi Cuvier năm 1822 và được xếp vào nhóm E (nguy cấp). Các loài cheo cheo này là những động vật móng guốc nhỏ nhất, thuộc họ Hươu chuột (Tragulidae), có kích thước nhỏ gọn và sống ẩn mình trong rừng rậm."
+    },
+    {
+      "question": "Những loài chim cò lớn và già đẫy nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài chim cò lớn và già đẫy thuộc họ Ciconiidae, bao gồm: Hạc cổ đen (Xenorhynchus asiaticus) - nhóm E, Hạc cổ trắng (Ciconia episcopus) - nhóm R, Già đẫy Java (Leptoptilos javanicus) - nhóm R, và Già đẫy lớn (Leptoptilos dubius) - nhóm E. Các loài chim này có kích thước lớn, sải cánh rộng và là những loài chim nước quan trọng trong hệ sinh thái đất ngập nước, đóng vai trò quan trọng trong chuỗi thức ăn."
+    },
+    {
+      "question": "Loài Vạc hoa có tên khoa học và tình trạng bảo tồn như thế nào?",
+      "answer": "Vạc hoa có tên khoa học là Gorsachius magnificus, được mô tả bởi Ogilvie Grant năm 1899, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là một loài chim cò nhỏ, thuộc họ Diệc (Ardeidae), có màu sắc đẹp mắt với các đốm hoa trên lông. Vạc hoa là loài chim sống ẩn dật, hoạt động chủ yếu vào đêm và rạng sáng, thường xuất hiện gần các khu vực có suối, ao trong rừng núi."
+    },
+    {
+      "question": "Loài Cu xanh Seimun có đặc điểm gì đặc biệt?",
+      "answer": "Cu xanh Seimun có tên khoa học là Treron seinundi modestus, được mô tả bởi Delacour năm 1926, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là một loài chim bồ câu có màu xanh đặc trưng, thuộc chi Treron (Cu xanh). Các loài cu xanh thường sống trên tán rừng, ăn quả và có vai trò quan trọng trong việc phát tán hạt giống của nhiều loài cây trong rừng nhiệt đới."
+    },
+    {
+      "question": "Các loài cá họ Cá chép được liệt kê trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài cá thuộc họ Cá chép (Cyprinidae), bao gồm: Cá anh vũ (Semilabeo notabilis) - nhóm V, Cá cháy (Hilsa reevesii) - nhóm V, Cá chày đất (Spinibarbus caldwelli) - nhóm V, Cá chép gốc (Procypris merus) - nhóm E, Cá duồng bay (Cirrhinus microlepis) - nhóm T, Cá duồng xanh (Cosmocheilusharmandi) - nhóm T, Cá ét mọi (Morulius chrysophekadion) - nhóm T, Cá hoả (Labeo tonkinensis) - nhóm V, Cá lợ lớn (Cyrinus muntitaentiata) - nhóm E, Cá măng giả (Luciocyprinus langsoni) - nhóm V, Cá pạo (Labeo graffeuilli) - nhóm V, Cá rầm xanh (Altigena lemassoni) - nhóm V, và Cá sỉnh gai (Onychostoma laticeps) - nhóm V."
+    },
+    {
+      "question": "Những loài cá da trơn nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài cá da trơn (họ cá nheo và họ cá tra), bao gồm: Cá chiên (Bagarius bagarius) - nhóm V, một loài cá da trơn lớn; Cá lăng chấm (Hemibagrus elongatus) - nhóm V; Cá ngạnh (Cranoglanis sinensis) - nhóm V; và Cá tra dầu (Pangasianodon gigas) - nhóm R, một trong những loài cá nước ngọt lớn nhất thế giới. Các loài cá này đều có giá trị kinh tế cao và đang bị đe dọa do đánh bắt quá mức và mất môi trường sống."
+    },
+    {
+      "question": "Các loài cá chình được ghi nhận trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài cá chình: Cá chình hoa (Anguilla marmorata) được mô tả bởi Quoy và Gaimrd năm 1824 và được xếp vào nhóm R (hiếm), và Cá chình Nhật Bản (Anguilla japonica) được mô tả bởi Temminck và Schlegel năm 1846 và được xếp vào nhóm E (nguy cấp). Các loài cá chình này có chu kỳ sống phức tạp, di cư giữa nước ngọt và biển, và đang bị đe dọa do đập, hồ chứa cản trở đường di cư và khai thác quá mức."
+    },
+    {
+      "question": "Những loài cá mòi nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê nhiều loài cá mòi và cá cơm, bao gồm: Cá mòi chấm (Clupanodon punctatus) - nhóm V, Cá mòi cờ (Clupanodon thrissa) - nhóm V, Cá mòi đường (Albula vulpes) - nhóm R, Cá mòi không răng (Anodontostoma chacunda) - nhóm E, và Cá mòi mõm tròn (Nematalosa nasus) - nhóm E. Ngoài ra còn có Cá cháo biển (Elops saurus) - nhóm R và Cá cháo lớn (Megalops cyprinoides) - nhóm R. Các loài cá này có vai trò quan trọng trong chuỗi thức ăn biển."
+    },
+    {
+      "question": "Những loài cá có hình dạng đặc biệt nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài cá có hình dạng đặc biệt, bao gồm: Cá Mặt Trăng (Mola mola) - nhóm R, loài cá xương lớn nhất thế giới; Cá Mặt Trăng đuôi nhọn (Masturus lanceolatus) - nhóm T; các loài cá chìa vôi như Cá chìa vôi không vây (Solenognathus hardwickii) - nhóm T, Cá chìa vôi mõm nhọn (Syngnathus acus) - nhóm V, Cá chìa vôi mõm răng cưa (Trachyrhamphus serratus) - nhóm V; Cá kim (Schindlerria praematura) - nhóm R, một trong những loài cá nhỏ nhất thế giới; Cá dao cạo (Solenostomus paradoxus) - nhóm R; và Cá toàn đầu (Chimaera phantasma) - nhôm E, một loài cá sụn cổ xưa."
+    },
+    {
+      "question": "Loài Cá hường sông có tên khoa học và tình trạng bảo tồn như thế nào?",
+      "answer": "Cá hường sông có tên khoa học là Datnioies quadrifasciatus, được mô tả bởi Sevastianov năm 1809, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cá nước ngọt có giá trị cao, thuộc họ cá hường (Lobotidae), thường sống trong các sông lớn và cửa sông. Cá hường sông có thân hình đẹp với các vạch ngang đen đặc trưng, được nhiều người ưa chuộng làm cá cảnh."
+    },
+    {
+      "question": "Loài Cóc tía có đặc điểm gì và được bảo vệ ở mức độ nào?",
+      "answer": "Cóc tía có tên khoa học là Bombina maxima, được mô tả bởi Boulenger năm 1905, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là loài cóc thuộc họ Bombinatoridae, có đặc điểm là phần bụng thường có màu sáng sặc sỡ (thường là đỏ hoặc cam) để cảnh báo kẻ săn mồi. Loài này sống trong các vùng núi cao, gần suối và các thủy vực nhỏ."
+    },
+    {
+      "question": "Các loài ốc nước ngọt được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài ốc nước ngọt, bao gồm: Ốc vặn hình côn (Stenomelania reevei) - nhóm V, Ốc vặn hình tháp (Antimelania swinhoei) - nhóm V, Ốc vặn vệt nâu (Sulcospira proteus) - nhóm R, và Ốc xoắn vách (Epitonium scalare) - nhóm R. Các loài ốc nước ngọt này có vai trò quan trọng trong hệ sinh thái sông suối, là thức ăn của nhiều loài động vật khác và là chỉ thị sinh học cho chất lượng nước."
+    },
+    {
+      "question": "Những loài giun đất nào được liệt kê trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam liệt kê hai loài giun đất quý hiếm thuộc chi Pheretima: Giun lạ (Pheretima anomala) được mô tả bởi Michaelsel năm 1907 và được xếp vào nhóm T (nguy cấp, bị đe dọa), và Giun xanh (Pheretima perelae) được mô tả bởi Thai năm 1982 và được xếp vào nhóm T. Ngoài ra còn có Trùng trục có khía (Lanceolaria fruhstorferi) - nhóm R. Các loài giun đất này có vai trò quan trọng trong việc cải tạo đất và duy trì độ phì nhiêu của đất rừng."
+    },
+    {
+      "question": "Loài Cá măng sữa có đặc điểm và tình trạng bảo tồn như thế nào?",
+      "answer": "Cá măng sữa có tên khoa học là Chanos chanos, được mô tả bởi Forskal năm 1775, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài cá duy nhất còn sống sót trong họ Chanidae, có thể sống trong cả nước ngọt, nước lợ và nước biển. Cá măng sữa có giá trị kinh tế cao, thường được nuôi trong các ao và đầm phá, thịt trắng, mềm và thơm ngon."
+    },
+    {
+      "question": "Loài Cá măng rổ có khả năng gì đặc biệt?",
+      "answer": "Cá măng rổ có tên khoa học là Toxotes chatareus, được mô tả bởi Hamilton, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài cá nổi tiếng với khả năng bắn nước để hạ gục côn trùng trên cành cây. Cá măng rổ có thể phun tia nước mạnh từ miệng lên cao tới 1-2 mét để làm rơi con mồi xuống nước. Loài cá này sống trong vùng nước lợ, cửa sông và rừng ngập mặn."
+    },
+    {
+      "question": "Những loài cá dây và cá Cờ Mặt Trăng nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận ba loài cá có hình dạng đặc biệt này: Cá Cờ Mặt Trăng (Velifer hypselopterus) được mô tả bởi Bleeker năm 1879 - nhóm R, Cá dây lưng gù (Zen cypho) được mô tả bởi Fowler năm 1934 - nhóm R, và Cá dây Nhật Bản (Zeus japonicus) được mô tả bởi Cuvier và Valenciennes năm 1835 - nhóm R. Các loài cá này có hình dạng thân dẹp bên và vây lưng rất cao, tạo nên vẻ ngoài đặc biệt."
+    },
+    {
+      "question": "Các loài cá đuối và cá đuối điện nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ hai loài cá có quan hệ với cá đuối: Cá đuối điện Bắc bộ (Narcine tonkinensis) được mô tả bởi Nguyên năm 1970 - nhóm R, loài cá có khả năng phát ra điện để tự vệ và săn mồi; và Cá giống mõm tròn (Rhina ancylostoma) được mô tả bởi Bloch và Schneider năm 1801 - nhóm T, loài cá sụn có hình dạng trung gian giữa cá mập và cá đuối. Cả hai loài đều là những loài cá sụn quý hiếm."
+    },
+    {
+      "question": "Loài Cá lưỡi dong có đặc điểm gì đặc biệt?",
+      "answer": "Cá lưỡi dong có tên khoa học là Antennarius malas, được mô tả bởi Bleeker năm 1857, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cá thuộc họ Cá câu (Antennariidae), có khả năng ngụy trang tuyệt vời, thân hình giống như các tảng đá hoặc rong biển. Cá lưỡi dong có một tia vây lưng biến đổi thành 'cần câu' có mồi giả ở đầu để dụ dỗ con mồi đến gần."
+    },
+    {
+      "question": "Loài Cá chào mào gai có tên khoa học và tình trạng bảo tồn như thế nào?",
+      "answer": "Cá chào mào gai có tên khoa học là Satyrichchthys rieffeli, được mô tả bởi Kaup năm 1859, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cá đáy có hình dạng kỳ lạ, thuộc họ Cá chào mào (Pegasidae), có thân hình bọc trong lớp giáp xương cứng và các vây ngực rộng giống như cánh. Loài cá này sống ở đáy biển và di chuyển bằng cách bò trên đáy."
+    },
+    {
+      "question": "Loài Cá may có đặc điểm và vai trò gì trong hệ sinh thái?",
+      "answer": "Cá may có tên khoa học là Gyrinocheilus aymonieri, được mô tả bởi Tirant năm 1883, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cá nước ngọt đặc biệt thuộc họ Gyrinocheilidae, có miệng dạng hút chân không để bám vào đá và cạo rong tảo. Cá may có vai trò quan trọng trong việc làm sạch rong tảo trên đá trong các dòng suối, góp phần duy trì cân bằng sinh thái thủy vực."
+    },
+    {
+      "question": "Loài Cá bám đá liền có tên khoa học và đặc điểm gì?",
+      "answer": "Cá bám đá liền có tên khoa học là Sinogastromyzon tonkinensis, được mô tả bởi Pellegrin và Chevey năm 1935, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cá nước ngọt có thân hình dẹp, sống ở các suối núi có dòng chảy mạnh. Cá bám đá liền có khả năng bám chặt vào đá nhờ vây ngực và vây bụng biến đổi, giúp chúng không bị dòng nước cuốn trôi khi kiếm ăn rong tảo trên bề mặt đá."
+    },
+    {
+      "question": "Những loài cá bò nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài cá bò: Cá bò râu (Anacanthus barbatus) được mô tả bởi Gray năm 1836 - nhóm R, và Cá bò xanh hoa đỏ (Oxymonacanthus longirostris) được mô tả bởi Bloch và Schneider năm 1801 - nhóm R. Các loài cá bò này thuộc họ Monacanthidae, có thân hình dẹp bên, mõm nhọn và thường sống gần các rạn san hô. Chúng có vai trò trong việc kiểm soát sinh vật phù sa và tảo trên rạn san hô."
+    },
+    {
+      "question": "Loài Cá bống bớp có tên khoa học và tình trạng bảo tồn như thế nào?",
+      "answer": "Cá bống bớp có tên khoa học là Bostrichthys sinenesis, được mô tả bởi Lacepede năm 1802, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài cá đáy thuộc họ Cá bống (Eleotridae), sống trong các vùng nước ngọt và nước lợ. Cá bống bớp có thân hình thuôn dài, đầu to và có khả năng thích nghi với môi trường sống đa dạng từ sông ngòi đến cửa sông."
+    },
+    {
+      "question": "So sánh tình trạng bảo tồn giữa các loài gấu trong Sách đỏ Việt Nam?",
+      "answer": "Cả hai loài gấu trong Sách đỏ Việt Nam đều được xếp vào nhóm E (nguy cấp), cho thấy mức độ đe dọa nghiêm trọng tương đương. Gấu chó (Ursus malayanus) và Gấu ngựa (Ursus thibetanus) đều đang đối mặt với nguy cơ tuyệt chủng cao do săn bắt trái phép để lấy mật và các bộ phận cơ thể sử dụng trong y học cổ truyền, cùng với việc mất môi trường sống rừng tự nhiên. Cả hai loài đều cần được bảo vệ nghiêm ngặt và có các chương trình cứu hộ, nuôi dưỡng chuyên biệt."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam sống chủ yếu trong môi trường rừng núi cao?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam sống trong môi trường rừng núi cao, bao gồm: Hươu xạ Cao Bằng (Moschus berezovxki) - nhóm E, Sơn dương (Capricornis sumatraensis) - nhóm V, Gà lôi tía (Tragopan temminkinensis) - nhóm R, các loài voọc như Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) - nhóm E, Cóc tía (Bombina maxima) - nhóm V, Rắn lục đầu bạc (Azemiops feae) - nhóm R, và nhiều loài chim như các loài khướu đặc hữu. Môi trường rừng núi cao với khí hậu mát mẻ và độ ẩm cao tạo nên sinh cảnh đặc trưng cho các loài này."
+    },
+    {
+      "question": "Những loài động vật rạn san hô nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài động vật sống trong hệ sinh thái rạn san hô, bao gồm: các loài san hô như San hô đỏ Êlati (Corallium elatius) - nhóm V, San hô đỏ Kô-noi (Corallium konojci) - nhóm T, San hô đỏ Nhật Bản (Corallium japonicus) - nhóm V, San hô trúc (Isis hipputis) - nhóm R; các loài trai tai như Trai tai gấu (Hippopus hippopus) và Trai tai tượng khổng lồ (Tridacna gigas); Cầu gai đá (Heterocentrotus mammillatus); và nhiều loài cá bò sống gần rạn san hô. Hệ sinh thái rạn san hô là một trong những hệ sinh thái đa dạng nhất và đang bị đe dọa nghiêm trọng."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam phụ thuộc vào hệ sinh thái đất ngập nước?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam phụ thuộc vào hệ sinh thái đất ngập nước, bao gồm các loài chim nước như: Sếu cổ trụi (Grus antigone sharpii) - nhóm V, các loài cò như Hạc cổ đen (Xenorhynchus asiaticus) - nhóm E, Cò quăm lớn (Psendibis gigantea) - nhóm E, Già đẫy lớn (Leptoptilos dubius) - nhóm E; các loài vịt như Vịt đầu đen (Aythya baeri) - nhóm R, Vịt mỏ ngọn (Mergus squamatus) - nhóm E; và Bồ nông chân xám (Pelecanus philippensis) - nhóm R. Các loài này sử dụng đất ngập nước để kiếm ăn, sinh sản và nghỉ ngơi trong quá trình di cư."
+    },
+    {
+      "question": "Tất cả các phân loài của Voọc mặt đen trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận các phân loài khác nhau của voọc thuộc nhóm Voọc mặt đen (Trachypithecus francoisi), bao gồm: Voọc đầu trắng (Trachypithecus francoisi poliocephalus) - nhóm E, Voọc đen má trắng (Trachypithecus francoisi francoisi) - nhóm V, Voọc Hà Tĩnh (Trachypithecus francoisi hatinhensis) - nhóm E, và Voọc mông trắng (Trachypithecus francoisi delacouri) - nhóm E. Các phân loài này đều có đặc điểm chung là lông màu đen với các điểm màu trắng ở các vị trí khác nhau trên cơ thể, là những loài linh trưởng đặc hữu và cực kỳ quý hiếm của Việt Nam."
+    },
+    {
+      "question": "Các phân loài vượn thuộc loài Hylobates concolor có trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỗ Việt Nam ghi nhận hai phân loài vượn thuộc loài Hylobates concolor: Vượn đen bạc má (Hylobates concolor leucogenis) được mô tả bởi Ogilby năm 1840 và Vượn đen tuyền (Hylobates concolor concolor) được mô tả bởi Harlan năm 1826. Cả hai phân loài đều được xếp vào nhóm E (nguy cấp). Các loài vượn này có tiếng hót đặc trưng vang vọng trong rừng, sống theo nhóm gia đình và có vai trò quan trọng trong việc phát tán hạt giống của nhiều loài cây rừng."
+    },
+    {
+      "question": "Loài Tê tê có vai trò gì trong hệ sinh thái và tại sao được bảo vệ?",
+      "answer": "Tê tê (Manis pentadactyla) được mô tả bởi Linnaeus năm 1758, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Tê tê có vai trò quan trọng trong việc kiểm soát quần thể kiến và mối trong rừng, có thể ăn hàng triệu con kiến và mối mỗi năm. Loài này được bảo vệ do bị săn bắt trái phép nghiêm trọng để lấy vảy sử dụng trong y học cổ truyền và thịt làm thực phẩm, khiến chúng trở thành một trong những động vật bị buôn bán bất hợp pháp nhiều nhất thế giới."
+    },
+    {
+      "question": "Những loài chim ăn thịt ban đêm nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài chim săn mồi hoạt động ban đêm, bao gồm: Cú lợn rừng (Phodilus badius saturatus) - nhóm T, Dù dì phương đông (Ketupa zeylonensis orientalis) - nhóm T, Hù lào (Strix leptogrammica laotiana) - nhóm R, và Hù lưng nâu (Strix leptogrammica ticehursti) - nhóm R. Các loài chim cú này có thính giác và thị giác cực kỳ nhạy bén, cho phép chúng săn mồi hiệu quả trong bóng tối, đóng vai trò quan trọng trong việc kiểm soát quần thể chuột và động vật gặm nhấm nhỏ trong rừng."
+    },
+    {
+      "question": "Sao la được phát hiện khi nào và bởi ai?",
+      "answer": "Sao la (Pseudoryx nghetinhensis) được phát hiện vào năm 1993 bởi một nhóm các nhà khoa học quốc tế và Việt Nam gồm Vu Van Dung, Peter Arlander, John Mackinnon, Do Tuoc, Nguyen Ngoc Chinh, và Pham Mong Giao. Đây là một trong những phát hiện động vật có vú lớn quan trọng nhất thế kỷ 20, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Sao la được tìm thấy ở vùng núi Trường Sơn, là loài đặc hữu của Việt Nam và Lào, với số lượng cá thể trong tự nhiên cực kỳ ít ỏi."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có tên gọi liên quan đến màu sắc?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có tên gọi liên quan đến màu sắc, bao gồm: Voọc ngũ sắc (Pygathrix nemaeus nigripes) với lông nhiều màu, Voọc đen má trắng (Trachypithecus francoisi francoisi), Voọc đầu trắng (Trachypithecus francoisi poliocephalus), Voọc mông trắng (Trachypithecus francoisi delacouri), Vượn đen bạc má (Hylobates concolor leucogenis), Vượn đen tuyền (Hylobates concolor concolor), Vượn tay trắng (Hylobates lar), Sóc bay đen trắng (Hylopetes alboniger), Sóc đen Côn Đảo (Ratufa bicolor condorensis), Sóc đỏ (Callosciurus finlaysoni), Hạc cổ đen (Xenorhynchus asiaticus), Hạc cổ trắng (Ciconia episcopus), Cầy tai trắng (Arctogalidia trivirgata), và nhiều loài khác."
+    },
+    {
+      "question": "Các loài trĩ và gà rừng đặc hữu của Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận một số loài trĩ và gà rừng đặc hữu, bao gồm: Trĩ sao (Rheinartia ocellata ocellata) - nhóm T, một loài chim có đuôi dài và đẹp mắt với các đốm hình mắt; Gà tiền mặt đỏ (Polyplectron germaini) - nhóm T, loài gà rừng có lông đẹp với các đốm hình mắt trên cánh; Gà so cổ hung (Arborophila davidi) - nhóm E; và Trĩ đỏ khoang cổ (Phasianus colchicus) - nhóm R. Các loài này chỉ tìm thấy tại Việt Nam hoặc khu vực Đông Dương, có giá trị bảo tồn cực kỳ cao."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có khả năng bay nhưng không phải là chim?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài động vật có khả năng bay không phải là chim, bao gồm: các loài dơi như Dơi cánh lông (Harpiocephalus harpia), Dơi chó tai ngắn (Cynopterus brachyotis), Dơi io (Ia io), và nhiều loài dơi khác; các loài sóc bay như Sóc bay đen trắng (Hylopetes alboniger), Sóc bay lông tai (Belomys pearsonii), Sóc bay nhỏ (Hylopetes phayrei), Sóc bay sao (Petaurista elegans), Sóc bay trâu (Petaurista petaurita); và Chồn bay (Cynocephalus variegatus). Các loài này có màng da giữa các chi giúp chúng có thể lướt từ cây này sang cây khác."
+    },
+    {
+      "question": "Loài Công lục Java có đặc điểm gì và được bảo vệ ở mức độ nào?",
+      "answer": "Công lục Java có tên khoa học là Pavo muticus imperator, được mô tả bởi Delacour năm 1949, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là một trong những loài chim đẹp nhất Đông Nam Á, có bộ lông màu xanh lục kim loại óng ánh và đuôi dài tuyệt đẹp. Công lục Java sống trong rừng nhiệt đới, ăn hạt, quả và côn trùng. Loài này đang bị đe dọa nghiêm trọng do mất môi trường sống và săn bắt để lấy lông làm đồ trang trí."
+    },
+    {
+      "question": "Những loài rùa nào trong Sách đỏ Việt Nam thuộc nhóm nguy cấp cao nhất (nhóm E)?",
+      "answer": "Các loài rùa thuộc nhóm E (nguy cấp) trong Sách đỏ Việt Nam bao gồm: Rùa da (Dermochelys coriacea), Đồi mồi (Eretmochelys imbricata), Đồi mồi dứa (Chelonia mydas), Vích (Caretta olivacea), Rùa hộp ba vạch (Cuora trifasciata), Ốc đụn cái (Tectus niloticus), Ốc đụn đực (Trochus pyramis), và Ốc xà cừ (Turbo marmoratus). Các loài rùa biển đang bị đe dọa nghiêm trọng do khai thác trứng, săn bắt lấy mai và thịt, cũng như ô nhiễm môi trường biển và mất bãi đẻ trứng."
+    },
+    {
+      "question": "Các loài vẹm và trai biển được bảo vệ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỗ Việt Nam bảo vệ một số loài vẹm và trai biển, bao gồm: Vẹm vỏ xanh (Perna viridis) - nhóm T, một loài trai hai mảnh vỏ phổ biến trong nuôi trồng thủy sản nhưng đang bị đe dọa trong tự nhiên; Trai ngọc môi đen (Pinctada margaritifera) - nhóm T, loài trai tạo ngọc quý giá; Trai ngọc môi vàng (Pinctada maxima) - nhóm T; và các loài trai tai khổng lồ như Trai tai gấu (Hippopus hippopus) và Trai tai tượng khổng lồ (Tridacna gigas) đều thuộc nhóm R. Các loài này có giá trị kinh tế cao nhưng đang bị khai thác quá mức."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có tên gọi liên quan đến địa danh?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có tên gọi liên quan đến địa danh, bao gồm: Mang Trường Sơn (Muntiacus truongsonensis) được tìm thấy ở dãy Trường Sơn, Voọc Hà Tĩnh (Trachypithecus francoisi hatinhensis) được tìm thấy ở Hà Tĩnh, Cầy giông Tây Nguyên (Viverra tainguyensis) từ khu vực Tây Nguyên, Hươu xạ Cao Bằng (Moschus berezovxki) từ vùng Cao Bằng, Sóc đen Côn Đảo (Ratufa bicolor condorensis) từ quần đảo Côn Đảo, các loài cua núi như Cua núi Cúc Phương (Potamiscus cuphuongensis), Cua núi Kim Bôi (Ranguna kimboiensis), Cua núi Phúc Sơn (Ranguna fruhstorferi), và Cá cóc Tam Đảo (Paramesotriton deloustali)."
+    },
+    {
+      "question": "Loài Heo vòi có phân bố và tình trạng bảo tồn như thế nào tại Việt Nam?",
+      "answer": "Heo vòi (Tapirus indicus) được mô tả bởi Desmarest năm 1819, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài động vật có móng guốc lớn duy nhất còn sống ở châu Á thuộc họ Heo vòi (Tapiridae), có mõm dài giống vòi để hái lá và cành cây. Heo vòi có màu lông đặc trưng đen trắng tương phản, sống trong rừng nhiệt đới ẩm gần nguồn nước. Loài này từng phân bố rộng khắp Đông Nam Á nhưng hiện nay chỉ còn một số cá thể rất ít ỏi, chủ yếu ở Malaysia và có thể đã tuyệt chủng tại Việt Nam."
+    },
+    {
+      "question": "Những loài khỉ đuôi dài nào có trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận loài Khỉ đuôi lợn (Macaca nemestrina) thuộc chi Macaca, được xếp vào nhóm V (dễ bị tổn thương). Tuy tên gọi là đuôi lợn nhưng loài này vẫn có đuôi, chỉ là ngắn hơn so với các loài khỉ khác. Ngoài ra, các loài voọc như Voọc ngũ sắc, Voọc vá, và các loài voọc thuộc chi Trachypithecus đều có đuôi dài đặc trưng, giúp chúng giữ thăng bằng khi di chuyển trên cây. Khỉ đuôi lợn sống theo bầy đàn lớn, có khả năng di chuyển cả trên mặt đất và trên cây."
+    },
+    {
+      "question": "Các loài cá có giá trị kinh tế cao trong Sách đỏ Việt Nam là gì?",
+      "answer": "Nhiều loài cá có giá trị kinh tế cao được liệt kê trong Sách đỏ Việt Nam, bao gồm: Cá hô (Catlocarpiosiamensis) - nhóm T, loài cá nước ngọt lớn; Cá tra dầu (Pangasianodon gigas) - nhóm R; Cá trà sóc (Probarbus jullieni) - nhóm T; Cá mơn (Scleropages formusus) - nhóm E, loài cá cảnh có giá trị cao; Cá chình hoa (Anguilla marmorata) và Cá chình Nhật Bản (Anguilla japonica) - nhóm E; Cá hường sông (Datnioies quadrifasciatus) - nhóm R; và các loài tôm hùm như Tôm hùm bông, Tôm hùm đá, Tôm hùm đỏ, Tôm hùm sen đều thuộc nhóm V. Việc khai thác quá mức các loài này đã đẩy chúng vào tình trạng nguy cấp."
+    },
+    {
+      "question": "Loài Báo hoa mai Đông Dương khác gì so với các loài báo khác?",
+      "answer": "Báo hoa mai Đông Dương (Panthera pardus delacouri) được mô tả bởi Pocock năm 1930, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là một phân loài báo hoa mai đặc trưng của khu vực Đông Dương, có kích thước trung bình so với các phân loài báo hoa mai khác trên thế giới. Báo hoa mai Đông Dương có bộ lông màu vàng cam với các đốm hoa đen hình hoa mai đặc trưng, là loài thú săn mồi đơn độc, có khả năng leo trèo và bơi lội tốt. Loài này đang cực kỳ quý hiếm tại Việt Nam do săn bắt và mất môi trường sống."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có tên khoa học được mô tả bởi Linnaeus?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có tên khoa học được mô tả bởi Carl Linnaeus (1707-1778), cha đẻ của hệ thống phân loại hiện đại, bao gồm: Khỉ đuôi lợn (Macaca nemestrina, 1766), Triết bụng trắng (Mustela nivalis, 1766), Voi Việt Nam (Elephas maximus, 1758), Rùa da (Dermochelys coriacea, 1766), Đồi mồi (Eretmochelys imbricata, 1766), Tê tê (Manis pentadactyla, 1758), Vượn tay trắng (Hylobates lar, 1771), Voọc vá (Pygathrix nemaeus, 1771), Gà lôi trắng (Lophura nycthemera, 1758), Tắc kè (Gekko gecko, 1758), Rắn hổ mang Ấn Độ (Naja naja, 1758), Cáo (Vulpes vulpes, 1758), Chó rừng Xiêm (Canis aureus, 1758), và nhiều loài khác."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam được mô tả vào thế kỷ 20?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam được mô tả vào thế kỷ 20, bao gồm: Gà lôi lam đuôi trắng (Lophura hatinhensis) được mô tả năm 1975 bởi Vo Quy và Do Ngoc Quang; Sao la (Pseudoryx nghetinhensis) được phát hiện năm 1993; Mang lớn (Megamuntiacus vuquangensis) được mô tả năm 1994; Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) năm 1912; Gà lôi lam mào đen (Lophura imperialis) năm 1924; Cầy giông Tây Nguyên (Viverra tainguyensis) năm 1997; và nhiều loài khác. Những phát hiện này cho thấy Việt Nam vẫn còn nhiều loài động vật chưa được biết đến."
+    },
+    {
+      "question": "Loài Chồn bay có đặc điểm gì và thuộc nhóm động vật nào?",
+      "answer": "Chồn bay (Cynocephalus variegatus) được mô tả bởi Audebert năm 1799, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Mặc dù có tên gọi là chồn bay, loài này không phải là chồn mà thuộc bộ Dermoptera (bộ Da bay), là họ hàng gần với linh trưởng. Chồn bay có màng da rộng trải dài từ cổ đến đuôi, bao gồm cả giữa các ngón chân, cho phép chúng lướt từ cây này sang cây khác với khoảng cách lên tới 100 mét. Chúng hoạt động chủ yếu vào ban đêm, ăn lá cây, chồi non và quả."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có màng bay?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài động vật có màng bay, bao gồm: Chồn bay (Cynocephalus variegatus) - nhóm R, có màng bay lớn nhất trong tất cả các loài động vật có vú bay; các loài sóc bay như Sóc bay đen trắng (Hylopetes alboniger), Sóc bay lông tai (Belomys pearsonii), Sóc bay nhỏ (Hylopetes phayrei), Sóc bay sao (Petaurista elegans) - nhóm E, và Sóc bay trâu (Petaurista petaurita) đều có màng da giữa các chi trước và chi sau giúp chúng lướt giữa các cây. Khả năng bay lượn này giúp các loài này di chuyển hiệu quả trong tán rừng và tránh kẻ săn mồi trên mặt đất."
+    },
+    {
+      "question": "Các loài ốc cạn và ốc biển quý hiếm có những đặc điểm gì?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài ốc quý hiếm, đặc biệt là ốc biển. Ốc anh vũ (Nautilus pompilus) - nhóm E là loài ốc nguyên thủy còn sống, có vỏ xoắn ốc đẹp với nhiều ngăn chứa khí giúp điều chỉnh độ nổi. Các loài ốc sứ thuộc chi Cypraea có vỏ sứ bóng đẹp với nhiều màu sắc và hoa văn đa dạng. Ốc xà cừ (Turbo marmoratus) - nhóm E là loài ốc biển lớn, có vỏ dày và đẹp. Ốc tù và (Charonia tritonis) - nhóm V là loài ốc lớn, có vai trò quan trọng trong việc kiểm soát quần thể sao biển gai ăn san hô."
+    },
+    {
+      "question": "Những loài chim có tiếng hót đặc biệt nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài chim có tiếng hót đặc biệt, bao gồm: các loài vượn như Vượn đen bạc má, Vượn đen tuyền, Vượn tay trắng đều có tiếng hót vang vọng đặc trưng vào buổi sáng; các loài chim khướu như Khướu đầu đen (Garrulax milleti), Khướu xám (Garrulax maesi), Khướu vẩy (Garrulax squamatus) có tiếng kêu ồn ào và đa dạng khi sống theo đàn; và Chim yến hàng (Collocalia fuciphaga germaini) sử dụng âm thanh siêu âm để định vị trong hang tối. Các loài chim này sử dụng tiếng kêu để liên lạc, đánh dấu lãnh thổ và thu hút bạn tình."
+    },
+    {
+      "question": "Loài Báo lửa có đặc điểm và phân bố như thế nào?",
+      "answer": "Báo lửa (Catopuma temminckii) được mô tả bởi Vigors và Horsfield năm 1827, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài mèo rừng cỡ trung bình, có bộ lông màu vàng đỏ hoặc nâu đỏ (giống màu lửa) với các vạch sọc trên mặt. Báo lửa sống trong rừng nhiệt đới và cận nhiệt đới, là loài săn mồi đơn độc, hoạt động chủ yếu vào đêm và rạng sáng. Loài này rất hiếm gặp và ít được nghiên cứu, phân bố từ Himalaya đến Đông Nam Á, bao gồm cả Việt Nam."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có khả năng phát điện?",
+      "answer": "Sách đỏ Việt Nam ghi nhận một loài cá có khả năng phát điện: Cá đuối điện Bắc bộ (Narcine tonkinensis) được mô tả bởi Nguyên năm 1970, được xếp vào nhóm R (hiếm). Loài cá này thuộc họ Cá đuối điện (Narcinidae), có các cơ quan phát điện đặc biệt được tạo thành từ các tế bào cơ biến đổi, có thể tạo ra dòng điện với điện áp vừa phải để tự vệ khỏi kẻ thù và làm tê liệt con mồi. Cá đuối điện Bắc bộ sống ở đáy biển vùng nước nông ven bờ và cửa sông."
+    },
+    {
+      "question": "Các loài mèo rừng nhỏ trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài mèo rừng nhỏ, bao gồm: Mèo cá (Prionailurus viverrinus) - nhóm R, loài mèo chuyên bắt cá và sống gần nước; Mèo gấm (Pardofelis marmorata) - nhóm V, có bộ lông đẹp với các đốm hoa; Mèo ri (Felis chaus) - nhóm E, loài mèo rừng có tai nhọn và chân dài; Báo lửa (Catopuma temminckii) - nhóm E, có kích thước lớn hơn các loài mèo nhỏ khác. Tất cả các loài mèo rừng này đều đang bị đe dọa do mất môi trường sống và săn bắt trái phép."
+    },
+    {
+      "question": "Loài Sói lửa có tập tính xã hội như thế nào?",
+      "answer": "Sói lửa (Cuon alpinus) được mô tả bởi Pallas năm 1811, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài chó hoang duy nhất ở Việt Nam săn mồi theo bầy đàn lớn, có thể có tới 12-20 con trong một đàn. Sói lửa có tập tính xã hội phức tạp với cấp bậc rõ ràng, săn mồi theo chiến thuật nhóm rất hiệu quả, có thể hạ gục cả những con mồi lớn hơn nhiều lần. Chúng giao tiếp với nhau bằng nhiều âm thanh khác nhau và có sự phối hợp chặt chẽ khi săn mồi. Loài này đang cực kỳ hiếm tại Việt Nam."
+    },
+    {
+      "question": "Những loài chim di cư nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài chim di cư quan trọng, bao gồm: Sếu cổ trụi (Grus antigone sharpii) - nhóm V, loài chim lớn di cư qua Việt Nam; Vịt đầu đen (Aythya baeri) - nhóm R, loài vịt lặn di cư; Vịt mỏ ngọn (Mergus squamatus) - nhóm E, loài vịt hiếm; Đuôi cụt bụng đỏ (Pitta nympha) - nhóm R, loài chim di cư đường ngắn; Choắt chân màng lớn (Limnodromus semipalmatus) - nhóm R; và Mòng bể mỏ đen (Larus saundersi) - nhóm R. Các loài chim di cư này sử dụng Việt Nam là nơi dừng chân, trú ngụ mùa đông hoặc sinh sản."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam sống trong hang động?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam sống trong hang động, đặc biệt là các loài dơi như: Dơi cánh lông (Harpiocephalus harpia), Dơi chó tai ngắn (Cynopterus brachyotis), Dơi io (Ia io), Dơi lá quạt (Rhinolophus paradoxolophus), Dơi lá Sa đen (Rhinolophus borneensis), Dơi mũi Nêquam (Hipposideros nequam), Dơi tai Siligô (Myotis siligorensis), Dơi thùy Frit (Coelops frithii), và Dơi thùy tai to (Paracoelops megalotis). Ngoài ra, Chim yến hàng (Collocalia fuciphaga germaini) và Chim yến núi (Collocalia brevirostris innominata) cũng làm tổ trong hang động và sử dụng âm thanh siêu âm để định vị."
+    },
+    {
+      "question": "Loài Nai cà tông Xiêm có đặc điểm gì đặc biệt?",
+      "answer": "Nai cà tông Xiêm (Panolia eldii siamensis) được mô tả bởi M'Clelland năm 1842, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là một phân loài của Nai cà tông (Cervus eldi), có đặc điểm là bộ gạc đẹp hình cung cong về phía trước với nhiều nhánh. Con đực có bộ lông màu nâu đỏ, trong khi con cái có màu nâu nhạt hơn. Nai cà tông Xiêm sống trong các vùng đồng cỏ ngập nước và rừng thưa, là loài ưa nước và có móng guốc rộng giúp di chuyển trên đất mềm. Loài này đã tuyệt chủng trong tự nhiên tại Việt Nam."
+    },
+    {
+      "question": "Những loài bướm lớn nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ nhiều loài bướm lớn và đẹp, bao gồm: Bướm khế (Attacus atlas) - nhóm R, một trong những loài bướm lớn nhất thế giới với sải cánh có thể đạt 25-30 cm, có hoa văn đẹp giống lá khô; Bướm phượng cánh sau vàng (Troides helena hephaestus) - nhóm E, loài bướm lớn với cánh sau màu vàng rực rỡ; Bướm đuôi dài xanh lá chuối (Argemo maenas) - nhóm R; Bướm phượng cánh kiếm (Pathysa antiphates) - nhóm E; và Bướm phượng cánh đuôi nheo (Leptocircu curius) - nhóm T. Các loài bướm này có vai trò quan trọng trong việc thụ phấn cho thực vật."
+    },
+    {
+      "question": "Các loài rái cá có vai trò gì trong hệ sinh thái?",
+      "answer": "Bốn loài rái cá trong Sách đỏ Việt Nam đều đóng vai trò quan trọng trong hệ sinh thái nước ngọt: Rái cá lông mũi (Lutra sumatrana) - nhóm V, Rái cá lông mượt (Lutrogale perspicillata) - nhóm V, Rái cá thường (Lutra lutra) - nhóm V, và Rái cá vuốt bé (Aonyx cinerea) - nhóm V. Các loài rái cá là động vật ăn thịt đứng đầu chuỗi thức ăn trong hệ sinh thái nước ngọt, kiểm soát quần thể cá và động vật thủy sinh khác. Chúng là chỉ thị sinh học quan trọng cho chất lượng nước và tính đa dạng sinh học. Sự hiện diện của rái cá cho thấy hệ sinh thái nước còn tương đối nguyên vẹn."
+    },
+    {
+      "question": "Loài Ác là có đặc điểm và phân bố như thế nào?",
+      "answer": "Ác là (Pica pica sericera) được mô tả bởi Gould năm 1845, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là một phân loài của Chim ác là châu Âu, thuộc họ Quạ (Corvidae), có bộ lông đen trắng tương phản đặc trưng với đuôi dài. Ác là là loài chim thông minh, có khả năng học hỏi và giải quyết vấn đề, sống gần khu dân cư và rừng thưa. Chúng ăn tạp, bao gồm côn trùng, hạt, quả và đôi khi ăn trứng chim khác. Loài này phân bố rộng khắp châu Á."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có tên khoa học bắt đầu bằng chữ P?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có tên khoa học bắt đầu bằng chữ P, bao gồm: Sao la (Pseudoryx nghetinhensis), Báo gấm (Pardofelis nebulosa), Báo hoa mai Đông Dương (Panthera pardus delacouri), Hổ Đông Dương (Panthera tigris corbetti), Báo lửa (Catopuma temminckii sửa từ Pardofelis), Mèo gấm (Pardofelis marmorata), Mèo cá (Prionailurus viverrinus), Công lục Java (Pavo muticus imperator), Gà tiền mặt đỏ (Polyplectron germaini), Bồ nông chân xám (Pelecanus philippensis), Rùa đầu to (Platysternum megacephalum), Rồng đất (Physignathus cocincinus), Trăn đất (Python molurus), Trăn gấm (Python reticulatus), Trăn cộc (Python curtus), Rắn ráo (Ptyas korros), Rắn hổ trâu (Ptyas mucosus), Voọc ngũ sắc và Voọc vá (Pygathrix nemaeus), Nai cà tông Xiêm (Panolia eldii siamensis), và nhiều loài khác."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam được đặt tên theo nhà khoa học?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam được đặt tên theo các nhà khoa học, bao gồm: Gà lôi lam mào trắng (Lophura edwardsi) có thể được đặt theo tên Edwards; Gà tiền mặt đỏ (Polyplectron germaini) được đặt theo tên Germain; Công lục Java (Pavo muticus imperator) mô tả bởi Delacour; Voọc mông trắng (Trachypithecus francoisi delacouri) được đặt theo Jean Delacour, nhà điểu học học nổi tiếng; Trĩ sao (Rheinartia ocellata) mô tả bởi Elliot; Gà so cổ hung (Arborophila davidi) được đặt theo cha Armand David; và nhiều loài được mô tả bởi các nhà khoa học như Delacour, Jabouille, Robinson, Kloss đã có những đóng góp to lớn cho việc nghiên cứu động vật Đông Dương."
+    },
+    {
+      "question": "Loài Cầy rái cá có đặc điểm gì khác biệt so với các loài cầy khác?",
+      "answer": "Cầy rái cá (Cynogale lowei) được mô tả bởi Pocock năm 1933, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài cầy có đặc điểm thích nghi với môi trường nước đặc biệt, với các ngón chân có màng bơi nhẹ và lông dày chống thấm nước. Cầy rái cá có thân hình thon dài, đuôi dài giúp lái khi bơi, và thức ăn chủ yếu là cá, ếch nhái và động vật thủy sinh khác. Khác với các loài cầy khác sống chủ yếu trên cạn, cầy rái cá dành phần lớn thời gian gần nguồn nước và là loài bơi lội giỏi."
+    },
+    {
+      "question": "Những loài chim săn mồi ban ngày nào được ghi nhận trong Sách đỏ Việt Nam?",
+      "answer": "Mặc dù Sách đỏ Việt Nam liệt kê chủ yếu các loài chim săn mồi ban đêm (cú, dù dì), tài liệu cung cấp cũng đề cập đến một số loài chim ăn thịt khác. Tuy nhiên, các loài diều hâu, chim ưng và đại bàng săn mồi ban ngày không được liệt kê chi tiết trong danh sách được cung cấp. Các loài chim có tập tính ăn thịt khác bao gồm: Cốc biển bụng trắng (Fregata andrewsi) săn cá trên biển, và Cốc đế (Phalacrocorax carbo sinensis) lặn bắt cá. Danh sách tập trung nhiều vào các loài chim rừng và chim nước hơn là các loài chim săn mồi điển hình."
+    },
+    {
+      "question": "Các loài ếch và nhái có màu sắc cảnh báo nào trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận loài Cóc tía (Bombina maxima) - nhóm V, có đặc điểm là phần bụng thường có màu sáng sặc sỡ (đỏ hoặc cam) để cảnh báo kẻ săn mồi về độc tính của chúng. Ngoài ra, Ếch xanh (Rana andersoni) - nhóm T và các loài ếch khác như Ếch gai (Rana spinosa) - nhóm T, Ếch vạch (Rana microlineata) - nhóm T cũng có màu sắc đặc trưng. Các loài cóc mày như Cóc mày gai núi (Megophrys palpebralespinosa), Cóc mày phê (Megophrys feae), và Cóc gai mắt (Megophrys longipes) có hình dạng và màu sắc giống lá khô để ngụy trang."
+    },
+    {
+      "question": "Loài Quạ khoang có đặc điểm gì đặc biệt?",
+      "answer": "Quạ khoang (Corvus torquatus) được mô tả bởi Lesson năm 1831, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài chim thuộc họ Quạ (Corvidae), có đặc điểm là có vòng cổ trắng đặc trưng quanh cổ (torquatus có nghĩa là có vòng cổ). Quạ khoang là loài chim thông minh, có trí tuệ cao giống các loài quạ khác, có khả năng sử dụng công cụ và giải quyết vấn đề. Loài này sống trong rừng và vùng ven rừng, có tiếng kêu to và đa dạng."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có khả năng phát ra ánh sáng?",
+      "answer": "Mặc dù không được đề cập chi tiết trong danh sách, Sách đỏ Việt Nam bao gồm các loài sinh vật biển có thể có khả năng phát quang sinh học như một số loài cá sống ở vùng nước sâu. Tuy nhiên, trong số các loài được liệt kê rõ ràng, không có loài nào được ghi nhận cụ thể với khả năng phát sáng. Các loài côn trùng như đom đóm thường có khả năng phát sáng nhưng không được liệt kê trong Sách đỏ. Khả năng phát quang sinh học thường gặp ở động vật biển sâu và một số loài côn trùng, ít gặp ở động vật có vú, chim, và bò sát."
+    },
+    {
+      "question": "Loài Vạc hoa có tập tính sinh sống như thế nào?",
+      "answer": "Vạc hoa (Gorsachius magnificus) được mô tả bởi Ogilvie Grant năm 1899, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài chim cò nhỏ thuộc họ Diệc (Ardeidae), có tập tính sống đơn độc và rất kín đáo. Vạc hoa hoạt động chủ yếu vào ban đêm và lúc rạng sáng, ẩn náu trong bụi rậm dày gần suối và ao trong rừng núi vào ban ngày. Loài này săn mồi các động vật nhỏ như cá, ếch nhái, côn trùng và động vật không xương sống khác. Do tập tính sống ẩn dật, Vạc hoa rất khó quan sát và nghiên cứu trong tự nhiên."
+    },
+    {
+      "question": "Các loài cá có hình dạng giống rắn nào trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam ghi nhận hai loài cá chình có hình dạng giống rắn: Cá chình hoa (Anguilla marmorata) - nhóm R và Cá chình Nhật Bản (Anguilla japonica) - nhóm E. Các loài cá chình này có thân hình dài, trơn láng và di chuyển uốn lượn giống rắn. Chúng có chu kỳ sống phức tạp, sinh sản ở biển nhưng trưởng thành trong nước ngọt. Ngoài ra, Ếch giun (Ichthyophis glutinosus) - nhóm V mặc dù là lưỡng cư nhưng cũng có hình dạng dài giống giun và rắn, không có chân, sống chủ yếu dưới đất."
+    },
+    {
+      "question": "Loài Khách đuôi cờ có đặc điểm gì đặc trưng?",
+      "answer": "Khách đuôi cờ (Temnurus temnurus) được mô tả bởi Temminck năm 1825, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài chim thuộc họ Quạ (Corvidae), có đặc điểm đặc trưng là đuôi rất dài hình chữ V giống như lá cờ. Bộ lông của chim có màu đen ánh xanh kim loại óng ánh. Khách đuôi cờ sống theo đàn nhỏ trong rừng nhiệt đới thường xanh, di chuyển nhanh nhẹn giữa các tầng rừng, có tiếng kêu đa dạng và là loài ăn tạp, ăn cả côn trùng, quả và hạt."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có vai trò quan trọng trong y học?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có vai trò trong y học cổ truyền, dẫn đến việc chúng bị săn bắt quá mức: Tê tê (Manis pentadactyla) bị săn bắt để lấy vảy; Gấu chó và Gấu ngựa bị săn bắt để lấy mật gấu; các loài rắn như Rắn hổ mang chúa được sử dụng trong y học; Hổ Đông Dương và Báo bị săn bắt để lấy xương và các bộ phận cơ thể; các loài cá ngựa được sử dụng rộng rãi trong y học cổ truyền; Cánh kiến đỏ (Kerria lacca) sản xuất vecni và được dùng trong y học; Sam đuôi tam giác có máu có giá trị y học; và nhiều loài hải sâm được sử dụng làm thuốc bổ."
+    },
+    {
+      "question": "Loài Ô tác có tên khoa học và tình trạng bảo tồn như thế nào?",
+      "answer": "Ô tác có tên khoa học là Eupodotis bengalensis blandini, được mô tả bởi Delacour năm 1928, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là một phân loài của Chim ô tác Bengal, thuộc họ Otididae (họ Ô tác), là những loài chim lớn sống trên mặt đất. Ô tác thường sống trong đồng cỏ thưa và vùng canh tác, có khả năng chạy nhanh và cất cánh mạnh mẽ khi bị đe dọa. Loài này đang bị đe dọa do mất môi trường sống đồng cỏ tự nhiên."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam sống trong rừng ngập mặn?",
+      "answer": "Một số loài động vật trong Sách đỏ Việt Nam có liên quan đến hệ sinh thái rừng ngập mặn, bao gồm: Cá măng rổ (Toxotes chatareus) - nhóm T, sống trong vùng nước lợ và rừng ngập mặn; Cá sấu hoa cà (Crocodylus porosus) - nhóm E, có thể sống trong cả nước ngọt, nước lợ và biển, thường xuất hiện ở cửa sông và rừng ngập mặn; các loài rắn biển như Đẹn đuôi gai, Đẹn mỏ, Đẹn vảy bụng không đều có thể vào vùng cửa sông; và Cá bống bớp (Bostrichthys sinenesis) - nhóm T, sống trong nước ngọt và nước lợ. Rừng ngập mặn là môi trường chuyển tiếp quan trọng giữa đất liền và biển."
+    },
+    {
+      "question": "Loài Mi Langbian có gì đặc biệt về tên gọi và phân bố?",
+      "answer": "Mi Langbian (Crocias langbianis) được mô tả bởi Goldenstolpe năm 1939, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Tên gọi của loài này xuất phát từ cao nguyên Langbian (Lang Biang) ở Lâm Đồng, nơi loài chim này được phát hiện lần đầu tiên. Đây là loài chim đặc hữu của khu vực cao nguyên Đà Lạt và các vùng núi cao xung quanh. Mi Langbian là loài chim nhỏ, sống trong rừng núi cao, có tầm quan trọng đặc biệt trong bảo tồn do phân bố hẹp và số lượng ít."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có đuôi rất dài?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có đuôi rất dài, bao gồm: Trĩ sao (Rheinartia ocellata) có đuôi dài tới 2 mét với các đốm hình mắt đẹp; Khách đuôi cờ (Temnurus temnurus) có đuôi dài hình chữ V; Công lục Java (Pavo muticus) con đực có đuôi dài và lông mày đuôi rực rỡ; các loài voọc có đuôi dài giúp giữ thăng bằng khi leo trèo; Báo gấm (Pardofelis nebulosa) có đuôi dài gần bằng thân; và Ác là (Pica pica) có đuôi dài đặc trưng. Đuôi dài thường có vai trò trong cân bằng, giao tiếp hoặc thu hút bạn tình."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có tên gọi Việt Nam kết hợp với màu đỏ?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có tên gọi kết hợp với màu đỏ, bao gồm: Gà tiền mặt đỏ (Polyplectron germaini) - nhóm T, loài gà rừng có mặt màu đỏ; Khỉ mặt đỏ hay Khỉ cộc (Macaca arctoides) - nhóm V; Đuôi cụt đầu đỏ (Pitta cyanea willoughbyi) - nhóm R; Sóc đỏ (Callosciurus finlaysoni) - nhóm R; Ốc kim khôi đỏ (Cypraecassis rufa) - nhóm E; Cánh kiến đỏ (Kerria lacca) - nhóm V; Rắn sọc đốm đỏ (Elaphe porphyracea) - nhóm T; và các loài san hô đỏ như San hô đỏ Êlati, San hô đỏ Kô-noi, San hô đỏ Nhật Bản. Màu đỏ thường là dấu hiệu cảnh báo hoặc thu hút trong tự nhiên."
+    },
+    {
+      "question": "Loài Phướn đất có đặc điểm sinh thái như thế nào?",
+      "answer": "Phướn đất (Carpococcyx renauldi) được mô tả bởi Oustalet năm 1896, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài chim thuộc họ Cúc cu (Cuculidae), có đặc điểm khác biệt là sống chủ yếu trên mặt đất thay vì trên cây như hầu hết các loài cúc cu khác. Phướn đất có chân dài mạnh mẽ, thích hợp cho việc chạy nhanh trên mặt đất trong rừng rậm. Loài này săn mồi côn trùng, giun và động vật không xương sống nhỏ trên nền rừng, rất kín đáo và khó quan sát."
+    },
+    {
+      "question": "Những loài cua nước ngọt nào được bảo vệ trong Sách đỏ Việt Nam?",
+      "answer": "Sách đỏ Việt Nam bảo vệ sáu loài cua núi (cua nước ngọt), tất cả đều được xếp vào nhóm R (hiếm): Cua núi An nam (Tiwaripotamon annamense), Cua núi Cúc Phương (Potamiscus cuphuongensis), Cua núi Kim Bôi (Ranguna kimboiensis), Cua núi mai nhẵn (Hainanpotamon glabrum), Cua núi mai ráp (Potamiscus tannanti), và Cua núi Phúc Sơn (Ranguna fruhstorferi). Các loài cua núi này là động vật đặc hữu của Việt Nam, sống trong các suối rừng núi, có vai trò quan trọng trong hệ sinh thái nước ngọt và là chỉ thị sinh học cho môi trường nước sạch."
+    },
+    {
+      "question": "Loài Chân bơi có tên khoa học và đặc điểm gì?",
+      "answer": "Chân bơi có tên khoa học là Heliopais personatus, được mô tả bởi Gray năm 1849, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài chim nước thuộc họ Heliornithidae, có đặc điểm đặc biệt là có màng bơi ở các ngón chân giúp chúng bơi lội rất giỏi. Chân bơi có kích thước trung bình, thân hình thuôn dài, cổ dài và mỏ nhọn. Loài này sống gần các sông suối trong rừng nhiệt đới, hoạt động kín đáo và rất nhút nhát, chủ yếu ăn cá, ếch nhái và động vật thủy sinh nhỏ."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có tên liên quan đến quốc gia khác?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có tên gọi liên quan đến quốc gia hoặc vùng địa lý khác, bao gồm: Công lục Java (Pavo muticus imperator), Già đẫy Java (Leptoptilos javanicus) từ Java, Indonesia; Tê giác Sumatra (Dicerorhinus sumatrensis) từ Sumatra; Bò rừng Java (Bos javanicus); Cá chình Nhật Bản (Anguilla japonica), Cá dây Nhật Bản (Zeus japonicus), Cá ngựa Nhật (Hipocampus japonicus), San hô đỏ Nhật Bản (Corallium japonicus); Cá Atêlêôp Nhật Bản (Ateleopus japonicus); Cheo cheo Nam Dương (Tragulus kanchil); Bồ câu Nicoba (Caloenas nicobarica); Sơn dương Sumatra (Capricornis sumatraensis); Rắn hổ mang Ấn Độ (Naja naja); và Thỏ rừng Trung Hoa (Lepus sinensis)."
+    },
+    {
+      "question": "Loài Le khoang cổ có đặc điểm và tình trạng bảo tồn như thế nào?",
+      "answer": "Le khoang cổ có tên khoa học là Nettapus coromandelianus coromandelianus, được mô tả bởi Gmelin năm 1788, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài vịt nhỏ nhất thuộc họ Vịt (Anatidae), có đặc điểm là vòng cổ trắng nổi bật trên nền lông đen ở cổ. Le khoang cổ sống trong các ao hồ, đầm lầy có nhiều thực vật thủy sinh, ăn hạt, chồi non và động vật không xương sống nhỏ. Loài vịt nhỏ này có vai trò trong việc phát tán hạt giống thực vật thủy sinh."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam thuộc nhóm K (chưa đủ thông tin)?",
+      "answer": "Sách đỏ Việt Nam có hai loài được xếp vào nhóm K (chưa đủ thông tin - Data Deficient): Trai cóc nhẵn (Cuneopis demangei) và Trai Suilla (Pilsbryoconcha suilla). Cả hai đều là loài trai nước ngọt. Việc xếp vào nhóm K cho thấy chưa có đủ dữ liệu khoa học về phân bố, số lượng quần thể, và tình trạng bảo tồn của các loài này. Điều này nhấn mạnh nhu cầu nghiên cứu thêm để có thể đánh giá chính xác mức độ đe dọa và đưa ra các biện pháp bảo vệ phù hợp."
+    },
+    {
+      "question": "Các loài trèo cây và gõ kiến có vai trò gì trong rừng?",
+      "answer": "Các loài chim trèo cây và gõ kiến trong Sách đỏ Việt Nam đóng vai trò quan trọng trong hệ sinh thái rừng: Trèo cây lưng đen (Sitta formosa) - nhóm T, Trèo cây mỏ vàng (Sitta solangiae) - nhóm T, và Gõ kiến xanh đầu đỏ (Picus rabieri) - nhóm T đều là những loài chim chuyên ăn côn trùng sống trong vỏ cây và thân cây. Chúng có vai trò quan trọng trong việc kiểm soát quần thể côn trùng gây hại cho cây, đặc biệt là kiến, mối và bọ xít cây. Các loài gõ kiến còn đục lỗ trên thân cây tạo ra các hốc tổ mà nhiều loài động vật khác sử dụng."
+    },
+    {
+      "question": "Loài Trĩ đỏ khoang cổ có phân bố như thế nào?",
+      "answer": "Trĩ đỏ khoang cổ có tên khoa học là Phasianus colchicus, được mô tả bởi Linnaeus năm 1758, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài chim trĩ có nguồn gốc từ châu Á, được đưa vào nhiều nước trên thế giới. Tại Việt Nam, loài này phân bố hẹp và có số lượng ít. Trĩ đỏ khoang cổ con đực có bộ lông rực rỡ với màu đỏ, xanh, vàng và có vòng cổ trắng đặc trưng. Chúng sống trong đồng cỏ, bụi rậm thưa và rìa rừng, ăn hạt, côn trùng và thực vật."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có khả năng tái sinh bộ phận cơ thể?",
+      "answer": "Trong số các loài động vật được liệt kê trong Sách đỏ Việt Nam, các loài thằn lằn có khả năng tự cắt đuôi (autotomy) và tái sinh đuôi mới khi bị đe dọa. Các loài như Kỳ đà hoa (Varanus salvator), Kỳ đà vân (Varanus bengalensis nebulosus), Rồng đất (Physignathus cocincinus), Tắc kè (Gekko gecko), và Nhông cát Gutta (Leiolepis guttata) đều có khả năng này ở mức độ khác nhau. Khả năng tái sinh là một cơ chế phòng vệ hiệu quả, cho phép con vật thoát khỏi kẻ săn mồi bằng cách bỏ lại đuôi đang vẫy động để gây mất tập trung."
+    },
+    {
+      "question": "Loài Cầy mực có đặc điểm ngoại hình như thế nào?",
+      "answer": "Cầy mực (Arictis binturong) được mô tả bởi Raffles năm 1821, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là loài cầy lớn nhất trong họ Viverridae, có bộ lông dài màu đen ánh xám (giống màu mực), tai có chùm lông dài đặc trưng, và đuôi dài có thể cuốn nắm như đuôi khỉ giúp chúng leo trèo. Cầy mực có kích thước lớn, cơ thể nặng nề nhưng vẫn leo trèo giỏi, hoạt động chủ yếu vào đêm, ăn chủ yếu là quả chín nhưng cũng ăn động vật nhỏ. Loài này có mùi đặc trưng giống bỏng ngô."
+    },
+    {
+      "question": "Các loài chim yến có vai trò kinh tế như thế nào?",
+      "answer": "Hai loài chim yến trong Sách đỏ Việt Nam có vai trò kinh tế rất quan trọng: Chim yến hàng (Collocalia fuciphaga germaini) - nhóm T và Chim yến núi (Collocalia brevirostris innominata) - nhóm R. Các loài chim yến này tạo ra tổ yến từ nước bọt đặc, được thu hoạch làm thực phẩm bổ dưỡng có giá trị cao trong ẩm thực Trung Hoa và Đông Nam Á. Tổ yến chứa nhiều protein, khoáng chất và được cho là có nhiều công dụng cho sức khỏe. Tuy nhiên, khai thác quá mức tổ yến đã đẩy các loài này vào tình trạng nguy cấp, đe dọa số lượng quần thể trong tự nhiên."
+    },
+    {
+      "question": "Loài Hoặn lớn có đặc điểm sinh học gì?",
+      "answer": "Hoặn lớn có tên khoa học là Rhacophorus nigropalmatus feae, được mô tả bởi Boulenger năm 1893, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài ếch cây lớn thuộc họ Rhacophoridae, có đặc điểm đặc biệt là có màng bơi phát triển giữa các ngón chân và tay, cho phép chúng có thể lướt từ cây này sang cây khác trong khoảng cách ngắn. Hoặn lớn sống trên cây trong rừng nhiệt đới, đẻ trứng trong bọt xốp treo trên cành cây phía trên mặt nước, nòng nọc sau khi nở sẽ rơi xuống nước phát triển."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam sống theo bầy đàn?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam sống theo bầy đàn, bao gồm: Sói lửa (Cuon alpinus) săn mồi theo bầy 12-20 con; các loài voi như Voi Việt Nam (Elephas maximus) sống theo bầy mẫu hệ; các loài linh trưởng như Voọc ngũ sắc, Voọc vá, Voọc mũi hếch Bắc Bộ sống theo nhóm gia đình; Khỉ đuôi lợn (Macaca nemestrina), Khỉ mặt đỏ (Macaca arctoides), Khỉ mốc miền Đông (Macaca assamensis) sống theo bầy lớn; các loài chim như Khướu, Ác là, Khách đuôi cờ sống theo đàn; và các loài động vật móng guốc lớn như Bò rừng, Trâu nước thường sống theo bầy. Sống theo bầy đàn giúp tăng cơ hội sinh tồn."
+    },
+    {
+      "question": "Loài Giải có kích thước và đặc điểm như thế nào?",
+      "answer": "Giải có tên khoa học là Pelochelys bibroni, được mô tả bởi Owen năm 1853, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là một trong những loài rùa nước ngọt lớn nhất thế giới, có thể đạt trọng lượng hơn 200 kg và chiều dài mai lên tới 1 mét. Giải thuộc họ Rùa ba gai (Trionychidae), có mai mềm phủ da mịn không có đốm, cổ dài, mõm hơi nhọn. Loài rùa này sống trong các sông lớn và hồ chứa, là loài ăn thịt, săn cá và động vật thủy sinh khác, thường nằm chôn dưới bùn đáy và chỉ thò mõm lên để thở."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có móng vuốt đặc biệt?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có móng vuốt đặc biệt phát triển: Tê tê (Manis pentadactyla) có móng vuốt dài và mạnh để đào hang kiến mối; các loài gấu như Gấu chó (Ursus malayanus) và Gấu ngựa (Ursus thibetanus) có móng vuốt cong dài để leo cây và đào bới; các loài mèo lớn như Hổ Đông Dương (Panthera tigris corbetti), Báo hoa mai, Báo gấm có móng vuốt co rút sắc bén; Rái cá vuốt bé (Aonyx cinerea) có móng vuốt nhỏ và không hoàn toàn phát triển; và Sói lửa (Cuon alpinus) có móng vuốt không co rút giúp chạy nhanh và bám đất tốt."
+    },
+    {
+      "question": "Loài Ngan cánh trắng có đặc điểm và sinh cảnh như thế nào?",
+      "answer": "Ngan cánh trắng có tên khoa học là Carina scutulata, được mô tả bởi S. Muller năm 1839, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là loài vịt rừng cỡ trung bình, có đặc điểm nổi bật là có mảng cánh màu trắng rõ rệt khi bay. Ngan cánh trắng sống trong rừng nhiệt đới gần nguồn nước như suối, ao, hồ nhỏ trong rừng. Chúng làm tổ trong hốc cây cao, ăn hạt, quả, côn trùng và động vật không xương sống nhỏ. Loài này có khả năng bay lướt khéo léo giữa các tán rừng dày."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có vai trò là loài chỉ thị môi trường?",
+      "answer": "Nhiều loài trong Sách đỏ Việt Nam là loài chỉ thị môi trường quan trọng: các loài rái cá (Rái cá thường, Rái cá lông mượt, Rái cá lông mũi, Rái cá vuốt bé) chỉ thị cho môi trường nước sạch và hệ sinh thái lành mạnh; các loài lưỡng cư như ếch, cóc, hoặn nhạy cảm với ô nhiễm nước và môi trường; các loài trai và ốc nước ngọt lọc nước và chỉ thị chất lượng nước; các loài cua núi chỉ thị cho môi trường suối rừng sạch; và các loài chim săn mồi đứng đầu chuỗi thức ăn chỉ thị cho sức khỏe tổng thể của hệ sinh thái. Sự biến mất của các loài này cảnh báo về suy thoái môi trường."
+    },
+    {
+      "question": "Loài Bò xám có gì đặc biệt so với các loài bò rừng khác?",
+      "answer": "Bò xám (Bos sauveli) được mô tả bởi Urbain năm 1937, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài bò rừng cực kỳ quý hiếm, có lẽ đã tuyệt chủng trong tự nhiên, được coi là một trong những loài động vật có vú lớn hiếm nhất thế giới. Bò xám có bộ lông màu xám đen đặc trưng (khác với Bò tót có màu nâu đỏ và Bò rừng màu nâu), sừng cong về sau. Loài này từng sống trong rừng thưa và đồng cỏ ở Campuchia, Lào, Thái Lan và có thể cả Việt Nam, nhưng hiện nay không còn ghi nhận nào chắc chắn về sự tồn tại của chúng."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có răng nanh đặc biệt phát triển?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có răng nanh phát triển đặc biệt: Hổ Đông Dương (Panthera tigris corbetti) và các loài báo có răng nanh dài sắc bén để cắn chết con mồi; Voi Việt Nam (Elephas maximus) có ngà (răng cửa biến đổi) dài có thể tới 1-2 mét; Heo vòi (Tapirus indicus) có răng nanh nhỏ; Cheo cheo Nam Dương và Cheo cheo Napu con đực có răng nanh nhô ra ngoài; Khỉ đuôi lợn, Khỉ mặt đỏ, Khỉ mốc con đực có răng nanh lớn để đánh nhau và phòng vệ; và các loài rắn độc như Rắn hổ mang chúa có răng nanh rỗng để tiêm nọc độc."
+    },
+    {
+      "question": "Loài Nhàn mào có tên khoa học và đặc điểm gì?",
+      "answer": "Nhàn mào có tên khoa học là Sterna bergii cristata, được mô tả bởi Stephens năm 1826, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Đây là loài chim nhàn lớn thuộc họ Laridae, có đặc điểm đặc trưng là có mào lông đen trên đầu. Nhàn mào có lông trắng, mỏ dài màu vàng sáng, và là loài chim biển ưa thích sống trên các đảo san hô. Chúng săn cá bằng cách lao xuống nước từ độ cao, có khả năng bay lượn tốt và thường bay theo đàn. Loài này làm tổ trên các bãi cát và đảo nhỏ."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có khả năng thay đổi màu sắc?",
+      "answer": "Trong các loài động vật được liệt kê trong Sách đỏ Việt Nam, một số loài bò sát có khả năng thay đổi màu sắc ở mức độ nhất định: Tắc kè (Gekko gecko) có thể thay đổi màu sắc nhẹ để thích nghi với môi trường xung quanh, mặc dù không nổi bật như các loài tắc kè hoa chuyên nghiệp; một số loài ếch và cóc có thể thay đổi màu sắc nhẹ tùy theo nhiệt độ và môi trường; và các loài cá như cá chình có thể thay đổi màu sắc một phần. Tuy nhiên, không có loài nào trong danh sách được biết đến với khả năng đổi màu nhanh và rõ rệt như tắc kè hoa."
+    },
+    {
+      "question": "Loài Nhàn đầu xám có sinh cảnh sống như thế nào?",
+      "answer": "Nhàn đầu xám có tên khoa học là Anous stolidus pileatus, được mô tả bởi Scopoli năm 1786, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài chim biển thuộc họ Nhàn (Sternidae), có màu lông nâu đen với đỉnh đầu màu xám trắng đặc trưng. Nhàn đầu xám sống chủ yếu ở vùng biển nhiệt đới, thường thấy bay trên biển xa bờ, săn cá và mực nổi gần mặt nước. Chúng làm tổ trên các vách đá ven biển và đảo san hô, thường quay về cùng một địa điểm làm tổ hàng năm."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có lối sống đơn độc?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có lối sống đơn độc: tất cả các loài mèo lớn như Hổ Đông Dương, Báo hoa mai, Báo gấm, Báo lửa, Mèo gấm, Mèo cá, Mèo ri đều săn mồi và sống đơn độc, chỉ gặp nhau trong mùa sinh sản; Gấu chó và Gấu ngựa sống đơn độc; Tê giác Việt Nam và Tê giác Sumatra sống đơn độc; hầu hết các loài rắn sống đơn độc; các loài rùa lớn như Giải, Rùa da sống đơn độc; và nhiều loài chim như các loài cú, dù dì săn mồi đơn độc. Lối sống đơn độc thường gặp ở các loài săn mồi lớn cần lãnh thổ rộng."
+    },
+    {
+      "question": "Loài Choắt chân màng lớn có đặc điểm gì đặc biệt?",
+      "answer": "Choắt chân màng lớn có tên khoa học là Limnodromus semipalmatus, được mô tả bởi Blyth năm 1848, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài chim nước di cư thuộc họ Dẽ (Scolopacidae), có đặc điểm đặc trưng là có màng bơi ở giữa các ngón chân (semipalmatus có nghĩa là bán chân màng), giúp chúng di chuyển trên bùn lầy mềm mà không bị lún. Choắt chân màng lớn có mỏ dài để dò mồi trong bùn, kiếm ăn các loài giun, ốc và động vật không xương sống nhỏ ở vùng đất ngập nước."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có tai lớn đặc biệt?",
+      "answer": "Một số loài động vật trong Sách đỏ Việt Nam có tai lớn phát triển đặc biệt: Voi Việt Nam (Elephas maximus) có đôi tai rất lớn giúp tản nhiệt; các loài dơi như Dơi thùy tai to (Paracoelops megalotis) có tai lớn để định vị bằng sóng siêu âm; các loài chó hoang như Sói lửa, Cáo, Chó rừng Xiêm có tai lớn nhọn để nghe tốt; Mèo ri (Felis chaus) có tai nhọn với chùm lông ở đầu; Thỏ rừng Trung Hoa (Lepus sinensis) có tai dài đặc trưng; và Cầy tai trắng (Arctogalidia trivirgata) được đặt tên theo đặc điểm tai màu trắng nổi bật."
+    },
+    {
+      "question": "Loài Chuột mù có đặc điểm thích nghi với môi trường sống như thế nào?",
+      "answer": "Chuột mù có tên khoa học là Typhlomys cinereus, được mô tả bởi Milne-Edward năm 1877, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài gặm nhấm nhỏ có đặc điểm thích nghi đặc biệt với cuộc sống trong hang và khe đá: mắt rất nhỏ và thị lực yếu (typhlomys có nghĩa là chuột mù), bù lại có khứu giác và xúc giác phát triển mạnh mẽ; bộ lông dày màu xám để giữ ấm trong hang lạnh; và có móng vuốt để đào bới. Chuột mù hoạt động chủ yếu vào đêm, sống ở vùng núi cao trong rừng."
+    },
+    {
+      "question": "Các loài chim có mỏ đặc biệt trong Sách đỏ Việt Nam là gì?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài chim có mỏ đặc biệt: các loài Niệc và Hồng hoàng (Buceros bicornis) có mỏ lớn cong và sừng mỏ nổi bật; Vịt mỏ ngọn (Mergus squamatus) có mỏ hẹp, dài với răng cưa để bắt cá; Sả mỏ rộng (Pelargopsis capensis) có mỏ to, rộng và dài; Mòng bể mỏ đen (Larus saundersi) có mỏ ngắn màu đen; các loài chim khướu mỏ dẹt như Khướu mỏ dẹt lưng đen, Khướu mỏ dẹt to có mỏ dẹp đặc trưng; Khướu mỏ dài (Jabouillea danjoui) có mỏ dài cong; Cò thìa mặt đen (Platalea mino) có mỏ dẹp hình thìa; và Bồ nông có mỏ to với túi mỏ lớn để chứa cá."
+    },
+    {
+      "question": "Loài Chuột nhắt cây có sinh cảnh sống như thế nào?",
+      "answer": "Chuột nhắt cây có tên khoa học là Vandeleuria oleracea, được mô tả bởi Bennett năm 1832, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài chuột nhỏ thuộc họ Muridae, chuyên sống trên cây, có đuôi dài giúp giữ thăng bằng khi leo trèo. Chuột nhắt cây có khả năng di chuyển nhanh nhẹn giữa các cành cây, làm tổ hình cầu từ cỏ khô và lá trên cây. Chúng ăn hạt, quả, chồi non và côn trùng nhỏ. Loài này thường sống trong rừng, vườn cây ăn trái và vùng có nhiều cây bụi."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có thể sống lâu nhất?",
+      "answer": "Một số loài động vật trong Sách đỏ Việt Nam có tuổi thọ rất cao: Voi Việt Nam (Elephas maximus) có thể sống 60-70 năm; các loài rùa biển như Rùa da (Dermochelys coriacea), Đồi mồi có thể sống hơn 80-100 năm; Giải (Pelochelys bibroni) có thể sống trên 50 năm; các loài tê giác như Tê giác Việt Nam có thể sống 40-45 năm; Hổ Đông Dương, Báo hoa mai có thể sống 15-20 năm trong tự nhiên; Vượn và các loài linh trưởng lớn có thể sống 30-40 năm; và các loài chim lớn như Sếu, Hạc có thể sống 20-30 năm. Tuổi thọ cao giúp các loài này tích lũy kinh nghiệm nhưng cũng làm chậm tốc độ sinh sản."
+    },
+    {
+      "question": "Loài Cóc rừng có đặc điểm và phân bố như thế nào?",
+      "answer": "Cóc rừng có tên khoa học là Bufo galeatus, được mô tả bởi Gunther năm 1864, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cóc thuộc họ Bufonidae, có đặc điểm là da sần sùi với nhiều mụn nhú và tuyến độc ở sau đầu. Cóc rừng sống trong rừng nhiệt đới ẩm, thường ở gần suối và vũng nước nhỏ nơi chúng sinh sản. Loài này hoạt động chủ yếu vào đêm, ăn côn trùng, giun và động vật không xương sống nhỏ. Cóc rừng phân bố trong các khu rừng núi cao ở miền Bắc và Trung Việt Nam."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có chu kỳ sinh sản phức tạp?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có chu kỳ sinh sản phức tạp: các loài cá chình như Cá chình hoa (Anguilla marmorata) và Cá chình Nhật Bản (Anguilla japonica) sinh sản ở biển sâu, nòng nọc trôi dạt về ven bờ rồi di cư vào sông để trưởng thành, sau đó quay về biển để sinh sản rồi chết; các loài rùa biển như Rùa da, Đồi mồi phải bò lên bãi cát để đẻ trứng, sau 2-3 tháng rùa con nở và tự tìm đường ra biển; các loài cá hồi và cá tra phải di cư ngược dòng để sinh sản; và Sao la có chu kỳ sinh sản chậm với thai kỳ dài và chỉ sinh một con mỗi lứa."
+    },
+    {
+      "question": "Loài Trâu nước hoang dã có gì khác biệt với trâu nhà?",
+      "answer": "Trâu nước hoang dã (Bubalus bubalis) được mô tả bởi Linnaeus năm 1758, được xếp vào nhóm E (nguy cấp) trong Sách đỏ Việt Nam. Trâu nước hoang dã khác với trâu nhà ở nhiều điểm: kích thước lớn hơn, sừng dài và cong ra ngoài hơn (có thể dài tới 2 mét), tính hung dữ và độc lập hơn, lông thưa hơn và màu đen xám, sống theo bầy đàn lớn trong môi trường hoang dã. Trâu nước hoang dã thực sự ở Việt Nam có thể đã tuyệt chủng, còn lại chủ yếu là trâu nhà hoang hóa hoặc trâu lai giữa trâu nhà và trâu hoang."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam được mô tả trong thế kỷ 19?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam được mô tả trong thế kỷ 19, bao gồm: Hổ Đông Dương (1968 - thế kỷ 20 sửa lại), Quạ khoang (1831), Vẹm vỏ xanh, Tắc kè, Rùa da, Đồi mồi, Tê tê, Voi, nhiều loài cá như Cá chiên (1822), Cá còm (1822), Cá sấu hoa cà (1801), Cá sấu Xiêm (1801), Mèo ri, Sơn dương, Hươu sao Việt Nam (1841), và nhiều loài khác. Thế kỷ 19 là thời kỳ khám phá sinh học lớn ở Đông Nam Á với nhiều nhà tự nhiên học châu Âu đến nghiên cứu và mô tả động thực vật."
+    },
+    {
+      "question": "Loài Ếch giun có đặc điểm thích nghi gì với lối sống dưới đất?",
+      "answer": "Ếch giun (Ichthyophis glutinosus) được mô tả bởi Linnaeus năm 1754, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là loài lưỡng cư thuộc bộ Gymnophiona (ếch giun không chân), có nhiều đặc điểm thích nghi với lối sống đào bới dưới đất: thân hình dài, trơn nhẵn giống giun; không có chân; đầu nhọn cứng để đào đất; mắt rất nhỏ, gần như vô dụng vì sống trong tối; da ẩm tiết chất nhầy giúp di chuyển dễ dàng trong đất; và có các vòng nhăn trên thân giúp co giãn khi di chuyển. Ếch giun ăn động vật không xương sống nhỏ trong đất."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có lông vũ hoặc lông màu xanh?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có lông hoặc vũ màu xanh: Công lục Java (Pavo muticus) có lông màu xanh lục kim loại óng ánh đẹp mắt; các loài cu xanh như Cu xanh Seimun có lông xanh; Gõ kiến xanh đầu đỏ (Picus rabieri) có lông xanh; Mỏ rộng xanh (Psarisomus dalhousiae) có lông xanh; Cò quăm cánh xanh (Pseudibis davisoni); Khách đuôi cờ có lông đen ánh xanh kim loại; các loài chim sả có lông xanh lam rực rỡ; Bướm đuôi dài xanh lá chuối có cánh màu xanh; và Trăn gấm có vảy ánh xanh. Màu xanh trong tự nhiên thường do cấu trúc bề mặt phản chiếu ánh sáng đặc biệt."
+    },
+    {
+      "question": "Loài Cá Mặt Trăng có đặc điểm sinh học gì đặc biệt?",
+      "answer": "Cá Mặt Trăng (Mola mola) được mô tả bởi Linnaeus năm 1758, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cá xương lớn nhất thế giới về trọng lượng, có thể nặng tới 2300 kg. Cá Mặt Trăng có hình dạng rất kỳ lạ, gần như hình tròn, không có đuôi thật sự mà có một vây lướng (clavus) nối hai vây lưng và vây hậu môn. Cá có da dày và cứng, bơi chậm chạp bằng cách đập vây lưng và vây hậu môn. Chúng ăn chủ yếu là sứa, đôi khi nổi lên mặt nước để phơi nắng và cho chim biển ăn ký sinh trùng trên da."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam được đặt tên theo đặc điểm màu sắc mắt hoặc mặt?",
+      "answer": "Một số loài động vật trong Sách đỏ Việt Nam được đặt tên theo đặc điểm màu sắc vùng mắt hoặc mặt: Gà tiền mặt đỏ (Polyplectron germaini) có mặt màu đỏ; Khỉ mặt đỏ hay Khỉ cộc (Macaca arctoides); Cò thìa mặt đen (Platalea mino) có mặt màu đen; Voọc đen má trắng (Trachypithecus francoisi francoisi); Vượn đen bạc má (Hylobates concolor leucogenis); Khướu đầu đen má xám (Garrulax yersini); Cóc gai mắt (Megophrys longipes); Ốc sứ mắt trĩ (Cypraea argus) có các đốm giống mắt; và Chim điên bụng trắng. Các đặc điểm màu sắc vùng mặt thường có vai trò trong giao tiếp và nhận dạng giữa các cá thể."
+    },
+    {
+      "question": "Loài Hoẵng Nam bộ có phân bố và đặc điểm như thế nào?",
+      "answer": "Hoẵng Nam bộ có tên khoa học là Muntiacus muntjak annamensis, được mô tả bởi Kloss năm 1928, được xếp vào nhóm V (dễ bị tổn thương) trong Sách đỏ Việt Nam. Đây là một phân loài của Hoẵng thường (Muntjac), thuộc họ Hươu nai (Cervidae), phân bố chủ yếu ở miền Nam Việt Nam. Hoẵng Nam bộ là loài nai nhỏ, có sừng ngắn chỉ có ở con đực, với răng nanh nhô ra ngoài. Chúng sống đơn độc hoặc theo cặp trong rừng nhiệt đới, hoạt động chủ yếu vào đêm và rạng sáng, ăn lá cây, chồi non, quả và nấm. Hoẵng có tiếng kêu đặc trưng giống chó sủa."
+    },
+    {
+      "question": "Các loài chim nước lớn trong Sách đỏ Việt Nam có những loài nào?",
+      "answer": "Sách đỏ Việt Nam ghi nhận nhiều loài chim nước lớn: Sếu cổ trụi (Grus antigone sharpii) - nhóm V, loài chim đứng cao nhất Việt Nam; Hạc cổ đen (Xenorhynchus asiaticus) - nhóm E và Hạc cổ trắng (Ciconia episcopus) - nhóm R, các loài chim cò lớn; Già đẫy Java (Leptoptilos javanicus) - nhóm R và Già đẫy lớn (Leptoptilos dubius) - nhóm E, loài chim rất lớn có sải cánh rộng; Bồ nông chân xám (Pelecanus philippensis) - nhóm R, loài chim có túi mỏ lớn; và Cốc đế (Phalacrocorax carbo) - nhóm R. Các loài chim nước lớn này đều cần môi trường đất ngập nước rộng lớn để kiếm ăn và sinh sản."
+    },
+    {
+      "question": "Loài Ếch vạch có đặc điểm hình thái như thế nào?",
+      "answer": "Ếch vạch có tên khoa học là Rana microlineata, được mô tả bởi Bourret năm 1937, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài ếch thuộc họ Ranidae, có đặc điểm đặc trưng là có các vạch hoặc sọc mảnh trên lưng và chân, từ đó có tên gọi ếch vạch (microlineata có nghĩa là có vạch nhỏ). Loài ếch này sống gần suối và vũng nước trong rừng núi, có kích thước trung bình, da nhẵn và có màng bơi phát triển giữa các ngón chân sau. Ếch vạch hoạt động về đêm, ăn côn trùng và động vật không xương sống nhỏ."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam có khả năng lặn sâu?",
+      "answer": "Một số loài động vật trong Sách đỏ Việt Nam có khả năng lặn sâu dưới nước: Rùa da (Dermochelys coriacea) có thể lặn xuống độ sâu hơn 1000 mét để săn sứa; Cá nàng tiên (Dugong dugon) có thể lặn trong vài phút để ăn cỏ biển; Cốc đế (Phalacrocorax carbo) lặn để bắt cá; Vịt mỏ ngọn (Mergus squamatus) lặn giỏi để bắt cá; các loài rái cá có thể lặn vài phút để săn cá dưới nước; và nhiều loài cá biển sâu. Khả năng lặn sâu đòi hỏi các thích nghi sinh lý đặc biệt như khả năng chịu áp suất cao và giữ hơi thở lâu."
+    },
+    {
+      "question": "Loài Ếch xanh có màu sắc và sinh cảnh như thế nào?",
+      "answer": "Ếch xanh có tên khoa học là Rana andersoni, được mô tả bởi Boulenger năm 1882, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài ếch thuộc họ Ranidae, có bộ da màu xanh lục đẹp mắt, đôi khi có các đốm đen hoặc nâu. Ếch xanh sống gần các vùng nước ngọt như ao, hồ, đầm lầy và ruộng lúa trong hoặc gần rừng. Màu xanh của da giúp chúng ngụy trang tốt trong môi trường có nhiều thực vật thủy sinh. Loài này ăn côn trùng, nhện và các động vật nhỏ khác, hoạt động chủ yếu vào ban đêm và những ngày mưa."
+    },
+    {
+      "question": "Các loài động vật nào trong Sách đỏ Việt Nam có vai trò quan trọng trong phát tán hạt giống?",
+      "answer": "Nhiều loài động vật trong Sách đỏ Việt Nam có vai trò quan trọng trong phát tán hạt giống thực vật: các loài niệc và Hồng hoàng (Buceros bicornis) nuốt trái cây và phát tán hạt qua phân; Công lục Java ăn quả và phát tán hạt; các loài vượn và voọc ăn quả và phát tán hạt trong diện tích rộng do di chuyển xa; Gấu chó và Gấu ngựa ăn quả rừng; các loài khỉ như Khỉ đuôi lợn, Khỉ mặt đỏ; Cầy mực chủ yếu ăn quả; các loài sóc bay và sóc cây; và nhiều loài chim ăn quả như các loài cu xanh, bồ câu. Các loài này giúp duy trì và tái sinh rừng."
+    },
+    {
+      "question": "Loài Ếch gai có đặc điểm phòng vệ như thế nào?",
+      "answer": "Ếch gai có tên khoa học là Rana spinosa, được mô tả bởi David năm 1875, được xếp vào nhóm T (nguy cấp, bị đe dọa) trong Sách đỏ Việt Nam. Đây là loài ếch thuộc họ Ranidae, có đặc điểm đặc trưng là có các gai hoặc mấu nhô lên trên da, đặc biệt là ở vùng lưng và sườn, giúp bảo vệ khỏi kẻ săn mồi. Các gai này có thể có chứa chất độc nhẹ hoặc gây khó chịu khi kẻ thù cố nuốt. Ếch gai sống trong rừng núi, gần suối và vũng nước, có màu sắc hòa lẫn với môi trường xung quanh để ngụy trang. Loài này hoạt động về đêm và ẩn náu trong kẽ đá, dưới lá mục vào ban ngày."
+    },
+    {
+      "question": "Những loài động vật nào trong Sách đỏ Việt Nam sống ở độ cao trên 2000m?",
+      "answer": "Một số loài động vật trong Sách đỏ Việt Nam sống ở độ cao trên 2000m trên mực nước biển: Hươu xạ Cao Bằng (Moschus berezovxki) sống ở rừng núi cao; Sơn dương (Capricornis sumatraensis) thích các vách đá núi cao; Gà lôi tía (Tragopan temminkinensis) sống trong rừng núi cao; Cóc tía (Bombina maxima) sống ở vùng núi cao; nhiều loài chim thuộc các vùng núi cao như một số loài khướu, Mi Langbian; Gấu ngựa (Ursus thibetanus) có thể sống ở độ cao lớn; và một số loài thằn lằn và rắn núi cao. Các loài này có các thích nghi đặc biệt với khí hậu lạnh và áp suất thấp."
+    },
+    {
+      "question": "Loài Cóc mày phê có đặc điểm gì đặc trưng?",
+      "answer": "Cóc mày phê có tên khoa học là Megophrys feae, được mô tả bởi Boulenger năm 1887, được xếp vào nhóm R (hiếm) trong Sách đỏ Việt Nam. Đây là loài cóc thuộc họ Megophryidae, có đặc điểm đặc trưng là có các mấu hoặc sừng nhỏ nhô lên trên mí mắt (megophrys có nghĩa là mày lớn), tạo vẻ ngoài kỳ lạ. Cóc mày phê có hình dạng và màu sắc giống lá khô rụng, giúp ngụy trang hoàn hảo trên nền rừng. Loài này sống trong rừng núi ẩm, gần suối nhỏ, ẩn náu trong lá mục vào ban ngày và hoạt động về đêm để săn côn trùng và động vật không xương sống nhỏ."
+    }
+  ]
+}
