@@ -1,0 +1,407 @@
+{
+  "dataset_name": "Sách đỏ ĐV Việt Nam - Bộ đánh giá Traceable (Thủ công)",
+  "source": "Trích xuất thủ công từ tệp chunks.jsonl",
+  "total_questions": 80,
+  "qa_pairs": [
+    {
+      "question": "Tên khoa học của Gà lôi lam đuôi trắng là gì?",
+      "answer": "Tên khoa học của Gà lôi lam đuôi trắng là Lophura hatinhensis.",
+      "source_chunk_id": "chunk_556"
+    },
+    {
+      "question": "Ai là người mô tả loài Gà lôi lam đuôi trắng và vào năm nào?",
+      "answer": "Vo Quy và Do Ngoc Quang vào năm 1975.",
+      "source_chunk_id": "chunk_556"
+    },
+    {
+      "question": "Sao la (Pseudoryx nghetinhensis) được phát hiện lần đầu tiên vào năm nào?",
+      "answer": "Loài này được phát hiện và mô tả vào năm 1993.",
+      "source_chunk_id": "chunk_936"
+    },
+    {
+      "question": "Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) có phải là loài đặc hữu của Việt Nam không?",
+      "answer": "Có, Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) là một loài động vật đặc hữu của Việt Nam, chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam.",
+      "source_chunk_id": "chunk_1208"
+    },
+    {
+      "question": "Sách đỏ Việt Nam ghi nhận hai loài tê giác nào?",
+      "answer": "Tê giác Việt Nam (Rhinoceros sondaicus) và Tê giác Sumatra (Dicerorhinus sumatrensis).",
+      "source_chunk_id": "chunk_997"
+    },
+    {
+      "question": "Loài Cá măng rổ (Toxotes chatareus) có khả năng đặc biệt gì để săn mồi?",
+      "answer": "Đây là loài cá nổi tiếng với khả năng bắn nước để hạ gục côn trùng trên cành cây.",
+      "source_chunk_id": "chunk_236"
+    },
+    {
+      "question": "Chồn bay có thể lướt từ cây này sang cây khác với khoảng cách tối đa là bao nhiêu?",
+      "answer": "Chúng có thể lướt từ cây này sang cây khác với khoảng cách lên tới 100 mét.",
+      "source_chunk_id": "chunk_428"
+    },
+    {
+      "question": "Đặc điểm nào của loài Cà cuống (Lethocerus indicus) khiến nó có giá trị kinh tế?",
+      "answer": "Cà cuống được coi là loài côn trùng có giá trị kinh tế cao trong ẩm thực.",
+      "source_chunk_id": "chunk_66"
+    },
+    {
+      "question": "Tên khoa học của Báo gấm là gì?",
+      "answer": "Báo gấm ( Neofelis nebulosa ) hay báo mây , (tiếng Anh: Clouded Leopard ) là một loài mèo cỡ trung bình trong Họ Mèo.",
+      "source_chunk_id": "chunk_16"
+    },
+    {
+      "question": "Báo gấm được Sách đỏ IUCN liệt kê ở mức độ nào kể từ năm 2008?",
+      "answer": "Kể từ năm 2008, chúng được liệt kê là dễ bị tổn thương trong sách đỏ IUCN.",
+      "source_chunk_id": "chunk_16"
+    },
+    {
+      "question": "Báo lửa (Catopuma temminckii) có thể sống tối đa bao nhiêu năm trong điều kiện giam cầm?",
+      "answer": "Trong điều kiện giam cầm báo lửa sống tới 20 năm, nhưng tuổi thọ trung bình của chúng trong tự nhiên thì có lẽ ngắn hơn nhiều.",
+      "source_chunk_id": "chunk_47"
+    },
+    {
+      "question": "Màu lông chủ yếu của Báo lửa là gì?",
+      "answer": "Lông của chúng chủ yếu có màu đỏ đậm như lông cáo hay màu nâu vàng, nhưng cũng có thể có màu đen hay xám.",
+      "source_chunk_id": "chunk_47"
+    },
+    {
+      "question": "Bò rừng (Bò banteng) trưởng thành có trọng lượng cơ thể khoảng bao nhiêu?",
+      "answer": "Trọng lượng cơ thể khi trưởng thành 600–800 kg.",
+      "source_chunk_id": "chunk_70"
+    },
+    {
+      "question": "Bò rừng cái (Bò banteng) mang thai bao lâu và đẻ mấy con?",
+      "answer": "Con cái chửa 9,5-10 tháng, đẻ 1-2 con.",
+      "source_chunk_id": "chunk_70"
+    },
+    {
+      "question": "Loài bướm đêm nào được xem là lớn nhất trên thế giới với diện tích bề mặt cánh lên tới 400 cm2?",
+      "answer": "Bướm đêm Atlas ( Attacus atlas ) (còn gọi là bướm khế , vì hay đẻ trứng và phát triển trên cây khế, hoặc bướm bà) là loài bướm đêm... Bướm đêm Atlas được xem là loài bướm đêm lớn nhất trên thế giới... và tổng diện tích bề mặt cánh lên tới khoảng 400 cm 2 (62 inch vuông).",
+      "source_chunk_id": "chunk_165"
+    },
+    {
+      "question": "Loài cá nào có kích thước lớn nhất trong họ Cá chép (Cyprinidae)?",
+      "answer": "Cá hô ( danh pháp khoa học : Catlocarpio siamensis ) là loài cá có kích thước lớn nhất trong họ Cá chép ( Cyprinidae ).",
+      "source_chunk_id": "chunk_229"
+    },
+    {
+      "question": "Thức ăn chính của Cá hô (Catlocarpio siamensis) là gì?",
+      "answer": "Chúng di chuyển không nhanh, nên thức ăn chính của chúng là các loài rong, hoa quả, chứ ít khi là các động vật sống.",
+      "source_chunk_id": "chunk_229"
+    },
+    {
+      "question": "Cá rồng châu Á ấp trứng bằng cách nào?",
+      "answer": "Trứng cá có kích thước to và số lượng ít, được ấp trong miệng cá bố cho tới khi trứng nở.",
+      "source_chunk_id": "chunk_308"
+    },
+    {
+      "question": "Cầy vằn bắc (Chrotogale owstoni) chủ yếu ăn gì?",
+      "answer": "Chúng chủ yếu ăn giun đất và các loài không xương sống.",
+      "source_chunk_id": "chunk_450"
+    },
+    {
+      "question": "Thời gian mang thai của Cầy vằn bắc là bao lâu và mỗi lứa đẻ mấy con?",
+      "answer": "Thời gian mang thai là 3 tháng, một lứa có 1-3 con.",
+      "source_chunk_id": "chunk_450"
+    },
+    {
+      "question": "Tên khoa học của Ác là châu Âu là gì?",
+      "answer": "Danh pháp hai phần của Ác là châu Âu là Pica pica.",
+      "source_chunk_id": "chunk_0"
+    },
+    {
+      "question": "Loài chim Ác là (Pica pica) thuộc họ nào?",
+      "answer": "Nó thuộc họ Quạ (Corvidae).",
+      "source_chunk_id": "chunk_0"
+    },
+    {
+      "question": "Theo Ủy ban điểu học Quốc tế (IOC) phiên bản 8.2, loài ác là có tại Việt Nam được liệt kê dưới danh pháp nào?",
+      "answer": "Loài có tại Việt Nam hiện nay được liệt kê dưới danh pháp Pica serica.",
+      "source_chunk_id": "chunk_0"
+    },
+    {
+      "question": "Ác là có chiều dài khoảng bao nhiêu?",
+      "answer": "Ác là có chiều dài khoảng 40–51 cm.",
+      "source_chunk_id": "chunk_1"
+    },
+    {
+      "question": "Chân và mỏ của ác là có màu gì?",
+      "answer": "Chân và mỏ màu đen.",
+      "source_chunk_id": "chunk_1"
+    },
+    {
+      "question": "Chim ác là nổi tiếng vì hành vi gì?",
+      "answer": "Chim ác là nổi tiếng vì cực kỳ ưa thích và tò mò đối với các vật thể sáng màu.",
+      "source_chunk_id": "chunk_6"
+    },
+    {
+      "question": "Vở opera \"La gazza ladra\" (Chim ác là ăn cắp) có nguồn gốc từ hành vi nào của chim ác là?",
+      "answer": "Nó có nguồn gốc từ hành vi cực kỳ ưa thích và tò mò đối với các vật thể sáng màu của chim ác là.",
+      "source_chunk_id": "chunk_6"
+    },
+    {
+      "question": "Charles Darwin viết về sự tụ tập tìm bạn đời của ác là như thế nào?",
+      "answer": "Charles Darwin viết về sự tụ tập này như là \"hội nghị hôn nhân\".",
+      "source_chunk_id": "chunk_7"
+    },
+    {
+      "question": "Ác là đẻ bao nhiêu trứng và vào tháng mấy?",
+      "answer": "Chúng đẻ từ 5-8 trứng nhỏ, và trứng đẻ trong tháng 4.",
+      "source_chunk_id": "chunk_9"
+    },
+    {
+      "question": "Trứng của ác là thường có màu gì?",
+      "answer": "Trứng thường có màu lục-lam với các đốm xám hay nâu.",
+      "source_chunk_id": "chunk_9"
+    },
+    {
+      "question": "Ở Trung Quốc, ác là được coi là dấu hiệu gì?",
+      "answer": "Tại Trung Quốc, ác là được coi là dấu hiệu của may mắn.",
+      "source_chunk_id": "chunk_10"
+    },
+    {
+      "question": "Tên của ác là trong tiếng Trung (hỉ thước) có nghĩa là gì?",
+      "answer": "Tên của nó trong tiếng Trung (喜鹊: hỉ thước) nghĩa là con chim báo điềm lành.",
+      "source_chunk_id": "chunk_10"
+    },
+    {
+      "question": "Tên khoa học của Báo gấm là gì?",
+      "answer": "Tên khoa học của Báo gấm là Neofelis nebulosa.",
+      "source_chunk_id": "chunk_16"
+    },
+    {
+      "question": "Báo gấm có cân nặng khoảng bao nhiêu?",
+      "answer": "Báo gấm cân nặng khoảng 11 – 20 kg.",
+      "source_chunk_id": "chunk_16"
+    },
+    {
+      "question": "Báo gấm được liệt kê là \"dễ bị tổn thương\" trong sách đỏ IUCN từ năm nào?",
+      "answer": "Kể từ năm 2008.",
+      "source_chunk_id": "chunk_16"
+    },
+    {
+      "question": "Đặc điểm nổi bật về răng của báo gấm là gì?",
+      "answer": "Báo gấm có răng nanh thuộc loại nanh dài nhất trong số các loài mèo hiện còn tồn tại.",
+      "source_chunk_id": "chunk_17"
+    },
+    {
+      "question": "Thức ăn chủ yếu của báo gấm là gì?",
+      "answer": "Báo gấm chủ yếu săn bắt các loài động vật có vú sống trên cây, cụ thể là vượn, khỉ đuôi lợn hay khỉ Proboscis.",
+      "source_chunk_id": "chunk_17"
+    },
+    {
+      "question": "Khả năng di chuyển đáng ngạc nhiên của báo gấm là gì?",
+      "answer": "Chúng có thể di chuyển khi treo mình lộn ngược đầu xuống, phía dưới các cành cây và các thân cây nghiêng.",
+      "source_chunk_id": "chunk_17"
+    },
+    {
+      "question": "Tên khoa học của Báo hoa mai Đông Dương là gì?",
+      "answer": "Tên khoa học của Báo hoa mai Đông Dương là Panthera pardus delacouri.",
+      "source_chunk_id": "chunk_22"
+    },
+    {
+      "question": "Ở Việt Nam, Báo hoa mai Đông Dương phân bố ở đâu?",
+      "answer": "Ở Việt Nam, báo hoa mai Đông Dương phân bố ở Lai Châu, Bắc Kạn, Quảng Trị, Thừa Thiên – Huế, Quảng Nam, Lâm Đồng.",
+      "source_chunk_id": "chunk_22"
+    },
+    {
+      "question": "Báo hoa mai Đông Dương mẹ mang thai bao lâu?",
+      "answer": "Báo mẹ mang thai 90–105 ngày.",
+      "source_chunk_id": "chunk_27"
+    },
+    {
+      "question": "Báo hoa mai Đông Dương con sống với mẹ bao lâu trước khi sống độc lập?",
+      "answer": "Sau khoảng 1 năm tuổi báo con tách khỏi mẹ để sống độc lập.",
+      "source_chunk_id": "chunk_27"
+    },
+    {
+      "question": "Báo lửa có tên khoa học là gì?",
+      "answer": "Danh pháp khoa học của báo lửa là Catopuma temminckii.",
+      "source_chunk_id": "chunk_47"
+    },
+    {
+      "question": "Trong điều kiện giam cầm, báo lửa có thể sống tới bao nhiêu năm?",
+      "answer": "Trong điều kiện giam cầm báo lửa sống tới 20 năm.",
+      "source_chunk_id": "chunk_47"
+    },
+    {
+      "question": "Ở báo lửa, lớp lông đốm là tính trạng gì?",
+      "answer": "Lớp lông đốm này là tính trạng lặn.",
+      "source_chunk_id": "chunk_47"
+    },
+    {
+      "question": "Báo lửa trưởng thành khi đạt độ tuổi nào?",
+      "answer": "Chúng trưởng thành khi có độ tuổi từ 1,5 đến 2 năm tuổi.",
+      "source_chunk_id": "chunk_50"
+    },
+    {
+      "question": "Thời gian mang thai của báo lửa kéo dài bao lâu?",
+      "answer": "Thời gian mang thai kéo dài khoảng 80 ngày.",
+      "source_chunk_id": "chunk_50"
+    },
+    {
+      "question": "Bào ngư vành tai có tên khoa học là gì?",
+      "answer": "Danh pháp khoa học của bào ngư vành tai là Haliotis asinina.",
+      "source_chunk_id": "chunk_53"
+    },
+    {
+      "question": "Mặt ngoài vỏ của bào ngư vành tai có bao nhiêu lỗ mở hô hấp?",
+      "answer": "Mặt ngoài vỏ có 6-7 lỗ mở hô hấp.",
+      "source_chunk_id": "chunk_53"
+    },
+    {
+      "question": "Tên khoa học của Bồ câu nâu là gì?",
+      "answer": "Danh pháp hai phần của Bồ câu nâu là Columba punicea.",
+      "source_chunk_id": "chunk_55"
+    },
+    {
+      "question": "Bồ câu nâu đực trưởng thành có phần đầu màu gì?",
+      "answer": "Bồ câu đực khi trưởng thành có phần đầu màu xám trắng.",
+      "source_chunk_id": "chunk_55"
+    },
+    {
+      "question": "Bồ câu Nicoba là họ hàng gần nhất còn tồn tại của loài chim nào đã tuyệt chủng?",
+      "answer": "Bồ câu Nicoba là họ hàng gần nhất còn tồn tại của chim dodo.",
+      "source_chunk_id": "chunk_62"
+    },
+    {
+      "question": "Ở Việt Nam, bồ câu Nicoba chỉ được tìm thấy ở đâu?",
+      "answer": "Ở Việt Nam, bồ câu Nicoba chỉ được tìm thấy ở Côn Đảo, tỉnh Bà Rịa – Vũng Tàu.",
+      "source_chunk_id": "chunk_62"
+    },
+    {
+      "question": "Đuôi của Bồ câu Nicoba có đặc điểm gì?",
+      "answer": "Đuôi rất ngắn và thuần trắng.",
+      "source_chunk_id": "chunk_62"
+    },
+    {
+      "question": "Hóa thạch tổ tiên tiền sử của họ Bọ lá (Phylliidae) có tên là gì và có niên đại bao nhiêu?",
+      "answer": "Đó là Eophyllium messelensis, có niên đại 47 triệu năm.",
+      "source_chunk_id": "chunk_64"
+    },
+    {
+      "question": "Trứng của bọ lá giống cái gì?",
+      "answer": "Trứng của nó lại giống như hạt cây này.",
+      "source_chunk_id": "chunk_64"
+    },
+    {
+      "question": "Tên khoa học của Bò banteng (bò rừng) là gì?",
+      "answer": "Danh pháp hai phần của Bò banteng là Bos javanicus.",
+      "source_chunk_id": "chunk_68"
+    },
+    {
+      "question": "Đặc điểm lông và sừng của Bò banteng cái khác gì con đực?",
+      "answer": "Con cái có lông màu nâu ánh đỏ, sừng nhỏ, cong vào phía trong ở chóp sừng và không có bướu, trong khi con đực có lông màu hạt dẻ sẫm hay lam-đen, sừng dài cong về hướng trên và có bướu.",
+      "source_chunk_id": "chunk_68"
+    },
+    {
+      "question": "Bò tót Đông Dương có phải là phân loài bò tót lớn nhất không?",
+      "answer": "Có, đây là phân loài bò tót có tầm vóc to lớn nhất.",
+      "source_chunk_id": "chunk_72"
+    },
+    {
+      "question": "Thức ăn chủ yếu của bò tót là gì?",
+      "answer": "Thức ăn chủ yếu của bò tót là cỏ, mầm lá non của lau sậy, chuối rừng, măng non tre nứa thuộc họ Cỏ Poaceae.",
+      "source_chunk_id": "chunk_78"
+    },
+    {
+      "question": "Bò tót mang thai khoảng bao nhiêu ngày?",
+      "answer": "Bò tót mang thai khoảng 270 ngày.",
+      "source_chunk_id": "chunk_78"
+    },
+    {
+      "question": "Bò tót Đông Nam Á hung dữ thứ mấy?",
+      "answer": "Bò tót Đông Nam Á rất hung dữ chỉ đứng sau loài hổ.",
+      "source_chunk_id": "chunk_79"
+    },
+    {
+      "question": "Thiên địch (đối thủ trong tự nhiên) của bò tót trưởng thành là loài nào?",
+      "answer": "Bò tót trưởng thành hầu như không có đối thủ trong tự nhiên, ngoại trừ hổ.",
+      "source_chunk_id": "chunk_79"
+    },
+    {
+      "question": "Hiện tượng bò tót giao phối với bò nhà tại xã Phước Bình cho ra kết quả gì?",
+      "answer": "Kết quả là cho ra đời hơn 20 con bò tót lai vượt trội về thể trọng và có các đặc điểm về màu lông, sừng rất giống bò tót.",
+      "source_chunk_id": "chunk_92"
+    },
+    {
+      "question": "Bò tót có thể giao phối với trâu không?",
+      "answer": "Không, bò tót và trâu kể cả trâu rừng chưa bao giờ giao phối với nhau.",
+      "source_chunk_id": "chunk_133"
+    },
+    {
+      "question": "Bò tót lai (giữa bò tót và bò nhà) có cặp nhiễm sắc thể (NST) là bao nhiêu?",
+      "answer": "Tất cả bò tót lai đều có cặp NST là 2n=58.",
+      "source_chunk_id": "chunk_133"
+    },
+    {
+      "question": "Bò nhà và bò tót rừng có cặp NST là bao nhiêu?",
+      "answer": "Bò nhà có cặp NST là 2n=60, còn bò tót rừng là 2n=56.",
+      "source_chunk_id": "chunk_133"
+    },
+    {
+      "question": "Bò xám (Bò Kouprey) được phát hiện vào năm nào?",
+      "answer": "Chúng được phát hiện năm 1937.",
+      "source_chunk_id": "chunk_148"
+    },
+    {
+      "question": "Hiện nay (theo văn bản), còn khoảng bao nhiêu con bò xám trên toàn thế giới?",
+      "answer": "Hiện nay, theo một số nguồn thì không còn quá 250 con bò xám trên toàn thế giới.",
+      "source_chunk_id": "chunk_150"
+    },
+    {
+      "question": "Tình trạng của Bò xám ở Việt Nam được cho là như thế nào?",
+      "answer": "Ở Thái Lan, Lào, Việt Nam có lẽ đã tuyệt chủng.",
+      "source_chunk_id": "chunk_150"
+    },
+    {
+      "question": "Tên khoa học của Bồng chanh rừng là gì?",
+      "answer": "Danh pháp hai phần của Bồng chanh rừng là Alcedo hercules.",
+      "source_chunk_id": "chunk_154"
+    },
+    {
+      "question": "Mỏ của Bồng chanh rừng đực và cái khác nhau như thế nào?",
+      "answer": "Mỏ của con đực có màu đen hoàn toàn, trong khi con cái có hàm dưới màu đỏ sẫm.",
+      "source_chunk_id": "chunk_154"
+    },
+    {
+      "question": "Bướm đuôi dài (Argema maenas) ở Việt Nam xuất hiện ở đâu?",
+      "answer": "Ở Việt Nam chúng xuất hiện ở Trung Bộ và Nam Bộ.",
+      "source_chunk_id": "chunk_164"
+    },
+    {
+      "question": "Bướm đuôi dài được đưa vào sách đỏ Việt Nam ở mức nào?",
+      "answer": "Chúng được đưa vào sách đỏ của Việt Nam ở mức CR.",
+      "source_chunk_id": "chunk_164"
+    },
+    {
+      "question": "Bướm đêm Atlas còn có tên gọi khác là gì và tại sao?",
+      "answer": "Còn gọi là bướm khế, vì hay đẻ trứng và phát triển trên cây khế.",
+      "source_chunk_id": "chunk_165"
+    },
+    {
+      "question": "Sải cánh của bướm khế (Attacus atlas) dài bao nhiêu?",
+      "answer": "Sải cánh của chúng thuộc loại lớn nhất, từ 25–30 cm.",
+      "source_chunk_id": "chunk_165"
+    },
+    {
+      "question": "Ở Việt Nam, cá anh vũ lớn được xem là loài cá quý với danh hiệu gì?",
+      "answer": "Ở Việt Nam, chúng được xem là loài cá quý với danh hiệu cá tiến vua.",
+      "source_chunk_id": "chunk_174"
+    },
+    {
+      "question": "Thức ăn của cá anh vũ là gì?",
+      "answer": "Thức ăn của cá anh vũ chủ yếu là tảo lục, tảo khuê và các loại động vật không xương sống nhỏ sống dưới nước.",
+      "source_chunk_id": "chunk_174"
+    },
+    {
+      "question": "Cá cóc Tam Đảo có phải loài đặc hữu của Việt Nam không?",
+      "answer": "Có, đây là một loài động vật lưỡng cư đặc hữu của vùng núi Tam Đảo, Việt Nam.",
+      "source_chunk_id": "chunk_209"
+    },
+    {
+      "question": "Bụng của Cá cóc Tam Đảo có màu gì?",
+      "answer": "Bụng màu đỏ, có những đường xám đen nối với nhau tạo thành hình mạng vân đỏ.",
+      "source_chunk_id": "chunk_209"
+    }
+  ]
+}
