@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{title}}</title>
+    {{#if favicon}}
+    <link rel="icon" href="{{favicon}}" />
+    {{/if}}
+    <link rel="stylesheet" href="/style.css" />
+    {{#if stylesheets}}
+      {{#each stylesheets}}
+    <link rel="stylesheet" href="{{this.href}}"{{#if this.integrity}} integrity="{{this.integrity}}"{{/if}}{{#if this.crossorigin}} crossorigin="{{this.crossorigin}}"{{/if}} />
+      {{/each}}
+    {{/if}}
+  </head>
+  <body>
+    {{{body}}}
+
+    {{#if scripts}}
+      {{#each scripts}}
+    <script src="{{this.src}}"{{#if this.type}} type="{{this.type}}"{{/if}}></script>
+      {{/each}}
+    {{/if}}
+    <script src="/app.js" defer></script>
+    <script src="/chat.js" defer></script>
+    <script src="/chat-widget.js" defer></script>
+
+    <!-- Chat widget: floating button + panel -->
+    <button id="chatToggle" class="chat-fab" aria-controls="chatWidget" aria-expanded="false" aria-label="Open chat">
+      <i class="bi bi-chat-dots"></i>
+    </button>
+
+    <section id="chatWidget" class="chat-widget" role="dialog" aria-modal="false" aria-hidden="true" aria-label="Chat assistant">
+      <header class="chat-header">
+        <strong>RAG Assistant</strong>
+        <button id="chatClose" class="chat-close" aria-label="Close chat"><i class="bi bi-x-lg"></i></button>
+      </header>
+      <div id="chatWindow" class="chat-window" aria-live="polite"></div>
+      <footer class="chat-footer">
+        <form id="chatForm" class="chat-form" autocomplete="off">
+          <label for="chatInput" class="visually-hidden">Type your question</label>
+          <input id="chatInput" class="chat-input" name="message" placeholder="{{chatPlaceholder}}" />
+          <button id="sendBtn" class="chat-send" type="submit" aria-label="Send"><i class="bi bi-send"></i></button>
+        </form>
+        <div id="chatSources" class="chat-sources" hidden></div>
+      </footer>
+    </section>
+  </body>
+</html>

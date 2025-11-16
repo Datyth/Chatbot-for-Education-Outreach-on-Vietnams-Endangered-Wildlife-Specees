@@ -1,0 +1,2572 @@
+{
+  "summary": {
+    "kb_id": "sentences",
+    "n_questions": 80,
+    "exact_match": 0.1,
+    "f1": 0.612723895683346,
+    "relaxed_accuracy": 0.8125,
+    "retrieval_recall_at_5": 0.1875
+  },
+  "results": [
+    {
+      "id": 0,
+      "question": "Tên khoa học của Gà lôi lam đuôi trắng là gì?",
+      "gold_answer": "Tên khoa học của Gà lôi lam đuôi trắng là Lophura hatinhensis.",
+      "model_answer": "Tên khoa học của Gà lôi lam đuôi trắng là Lophura hatinhensis.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_470",
+        "chunk_473",
+        "chunk_472",
+        "chunk_483",
+        "chunk_478"
+      ],
+      "retrieved_scores": [
+        0.9265908002853394,
+        0.9088158011436462,
+        0.9065754413604736,
+        0.9052149057388306,
+        0.9040200114250183
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_556"
+    },
+    {
+      "id": 1,
+      "question": "Ai là người mô tả loài Gà lôi lam đuôi trắng và vào năm nào?",
+      "gold_answer": "Vo Quy và Do Ngoc Quang vào năm 1975.",
+      "model_answer": "Không tìm thấy trong tài liệu.",
+      "exact_match": false,
+      "f1": 0.0,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_478",
+        "chunk_470",
+        "chunk_472",
+        "chunk_471",
+        "chunk_473"
+      ],
+      "retrieved_scores": [
+        0.9038043022155762,
+        0.9030580520629883,
+        0.8960859775543213,
+        0.8960358500480652,
+        0.8956089019775391
+      ],
+      "f1_debug": {
+        "f1_all": 0.0,
+        "f1_content": 0.0,
+        "base_f1": 0.0,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_556"
+    },
+    {
+      "id": 2,
+      "question": "Sao la (Pseudoryx nghetinhensis) được phát hiện lần đầu tiên vào năm nào?",
+      "gold_answer": "Loài này được phát hiện và mô tả vào năm 1993.",
+      "model_answer": "Sao la (Pseudoryx nghetinhensis) được phát hiện lần đầu tiên vào năm 1992. Cụ thể, theo tài liệu cung cấp, sao la được phát hiện lần đầu tiên vào tháng 5 năm 1992 trong một chuyến khảo sát được Bộ Lâm nghiệp Việt Nam và Quỹ Quốc tế Bảo vệ Thiên nhiên (WWF) tiến hành trong Vườn quốc gia Vũ Quang.",
+      "exact_match": false,
+      "f1": 0.16666666666666666,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_790",
+        "chunk_791",
+        "chunk_792",
+        "chunk_793",
+        "chunk_259"
+      ],
+      "retrieved_scores": [
+        0.9238716959953308,
+        0.9003729820251465,
+        0.8987744450569153,
+        0.892603874206543,
+        0.8667446374893188
+      ],
+      "f1_debug": {
+        "f1_all": 0.16666666666666666,
+        "f1_content": 0.07999999999999999,
+        "base_f1": 0.16666666666666666,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_936"
+    },
+    {
+      "id": 3,
+      "question": "Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) có phải là loài đặc hữu của Việt Nam không?",
+      "gold_answer": "Có, Voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) là một loài động vật đặc hữu của Việt Nam, chỉ tìm thấy duy nhất trên lãnh thổ Việt Nam.",
+      "model_answer": "Câu trả lời: Có.\n\nGiải thích: Theo thông tin trong tài liệu, voọc mũi hếch Bắc Bộ (Rhinopithecus avunculus) được mô tả là \"một loài khỉ Cựu thế giới đặc hữu của vùng Bắc Bộ Việt Nam.\" Điều này xác nhận rằng voọc mũi hếch Bắc Bộ là loài đặc hữu của Việt Nam.",
+      "exact_match": false,
+      "f1": 0.43902439024390244,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_1040",
+        "chunk_1016",
+        "chunk_1025",
+        "chunk_1019",
+        "chunk_1041"
+      ],
+      "retrieved_scores": [
+        0.9204914569854736,
+        0.8962222933769226,
+        0.8961971998214722,
+        0.8945668935775757,
+        0.8892722129821777
+      ],
+      "f1_debug": {
+        "f1_all": 0.43902439024390244,
+        "f1_content": 0.326530612244898,
+        "base_f1": 0.43902439024390244,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_1208"
+    },
+    {
+      "id": 4,
+      "question": "Sách đỏ Việt Nam ghi nhận hai loài tê giác nào?",
+      "gold_answer": "Tê giác Việt Nam (Rhinoceros sondaicus) và Tê giác Sumatra (Dicerorhinus sumatrensis).",
+      "model_answer": "Dựa trên thông tin được cung cấp trong tài liệu, Sách đỏ Việt Nam ghi nhận hai loài tê giác sau:\n\n1. **Tê giác Sumatra (Dicerorhinus sumatrensis)**: Đây là loài tê giác có kích thước nhỏ nhất và phổ biến rộng rãi ở khu vực Đông Nam Á. Hiện nay, chỉ còn khoảng 80 cá thể, và chúng đang ở tình trạng cực kỳ nguy cấp do săn bắn trộm và mất môi trường sống.\n\n2. **Tê giác Borneo (Dicerorhinus sumatrensis harrissoni)**: Đây là loài tê giác có kích thước cơ thể nhỏ hơn so với tê giác Sumatra. Phân loài này từng phổ biến khắp Borneo, nhưng hiện nay chỉ còn khoảng 15 cá thể, và chúng đã tuyệt chủng tại Sabah.\n\nVì vậy, Sách đỏ Việt Nam ghi nhận hai loài tê giác là **Tê giác Sumatra** và **Tê giác Borneo**.",
+      "exact_match": false,
+      "f1": 0.13592233009708737,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_834",
+        "chunk_399",
+        "chunk_1052",
+        "chunk_836",
+        "chunk_837"
+      ],
+      "retrieved_scores": [
+        0.8793604373931885,
+        0.8737797737121582,
+        0.86982262134552,
+        0.8675057888031006,
+        0.8673793077468872
+      ],
+      "f1_debug": {
+        "f1_all": 0.12903225806451613,
+        "f1_content": 0.13592233009708737,
+        "base_f1": 0.13592233009708737,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_997"
+    },
+    {
+      "id": 5,
+      "question": "Loài Cá măng rổ (Toxotes chatareus) có khả năng đặc biệt gì để săn mồi?",
+      "gold_answer": "Đây là loài cá nổi tiếng với khả năng bắn nước để hạ gục côn trùng trên cành cây.",
+      "model_answer": "Cá mang rổ (Toxotes chatareus) có khả năng đặc biệt để săn mồi là khả năng phun nước mạnh vào mục tiêu. Cụ thể, cá mang rổ có thể phun nước với lực mạnh gấp 6 lần so với lực cơ hàm của chúng, giúp hạ gục con mồi đang trên cây hoặc đất. Chúng có thể thực hiện những cú bắn chính xác ở khoảng cách đến 2 mét, nhờ khả năng điều chỉnh vận tốc và hình dạng tia nước khi di chuyển trên không.",
+      "exact_match": false,
+      "f1": 0.22641509433962262,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_200",
+        "chunk_199",
+        "chunk_201",
+        "chunk_191",
+        "chunk_956"
+      ],
+      "retrieved_scores": [
+        0.9147553443908691,
+        0.9057547450065613,
+        0.8806735277175903,
+        0.8662054538726807,
+        0.8655550479888916
+      ],
+      "f1_debug": {
+        "f1_all": 0.22641509433962262,
+        "f1_content": 0.21686746987951808,
+        "base_f1": 0.22641509433962262,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_236"
+    },
+    {
+      "id": 6,
+      "question": "Chồn bay có thể lướt từ cây này sang cây khác với khoảng cách tối đa là bao nhiêu?",
+      "gold_answer": "Chúng có thể lướt từ cây này sang cây khác với khoảng cách lên tới 100 mét.",
+      "model_answer": "Không tìm thấy trong tài liệu.",
+      "exact_match": false,
+      "f1": 0.0,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_356",
+        "chunk_501",
+        "chunk_357",
+        "chunk_634",
+        "chunk_1032"
+      ],
+      "retrieved_scores": [
+        0.8705765604972839,
+        0.8681679964065552,
+        0.8443934321403503,
+        0.8432994484901428,
+        0.8429866433143616
+      ],
+      "f1_debug": {
+        "f1_all": 0.0,
+        "f1_content": 0.0,
+        "base_f1": 0.0,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_428"
+    },
+    {
+      "id": 7,
+      "question": "Đặc điểm nào của loài Cà cuống (Lethocerus indicus) khiến nó có giá trị kinh tế?",
+      "gold_answer": "Cà cuống được coi là loài côn trùng có giá trị kinh tế cao trong ẩm thực.",
+      "model_answer": "Dựa trên thông tin được cung cấp, loài Cà cuống (Lethocerus indicus) có giá trị kinh tế do các đặc điểm sau:\n\n1. **Tinh dầu cà cuống**: Cà cuống đực có bọng tinh dầu thơm ở gáy, có mùi đặc trưng gần giống mùi quế. Tinh dầu này được sử dụng như một gia vị quý giá trong ẩm thực truyền thống của Việt Nam, đặc biệt là trong các món nước mắm. Tinh dầu cà cuống giúp tạo hương vị đặc trưng cho các món ăn như bún chả, bún thang, chả cá, bánh cuốn, và nhân bánh chưng.\n\n2. **Chế biến làm thức ăn**: Cà cuống có thể được chế biến làm thức ăn cho người. Người dân thường hấp hoặc nướng chín cà cuống để tinh dầu lan tỏa, sau đó băm nhỏ hoặc để nguyên con và cho vào lọ nước mắm ngon. Điều này không chỉ tăng giá trị kinh tế của loài mà còn góp phần vào nền ẩm thực truyền thống của Việt Nam.\n\nNhững đặc điểm này khiến cà cuống trở thành một nguồn tài nguyên",
+      "exact_match": false,
+      "f1": 0.12935323383084577,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_179",
+        "chunk_180",
+        "chunk_182",
+        "chunk_1025",
+        "chunk_183"
+      ],
+      "retrieved_scores": [
+        0.8979800343513489,
+        0.866817831993103,
+        0.8607962131500244,
+        0.8606595993041992,
+        0.8600533604621887
+      ],
+      "f1_debug": {
+        "f1_all": 0.12935323383084577,
+        "f1_content": 0.1103448275862069,
+        "base_f1": 0.12935323383084577,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_66"
+    },
+    {
+      "id": 8,
+      "question": "Tên khoa học của Báo gấm là gì?",
+      "gold_answer": "Báo gấm ( Neofelis nebulosa ) hay báo mây , (tiếng Anh: Clouded Leopard ) là một loài mèo cỡ trung bình trong Họ Mèo.",
+      "model_answer": "Tên khoa học của Báo gấm là Neofelis nebulosa.",
+      "exact_match": false,
+      "f1": 0.8,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_13",
+        "chunk_358",
+        "chunk_16",
+        "chunk_15",
+        "chunk_17"
+      ],
+      "retrieved_scores": [
+        0.8957894444465637,
+        0.8775071501731873,
+        0.87400221824646,
+        0.8728493452072144,
+        0.8692958354949951
+      ],
+      "f1_debug": {
+        "f1_all": 0.33333333333333326,
+        "f1_content": 0.4210526315789474,
+        "base_f1": 0.8,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_16"
+    },
+    {
+      "id": 9,
+      "question": "Báo gấm được Sách đỏ IUCN liệt kê ở mức độ nào kể từ năm 2008?",
+      "gold_answer": "Kể từ năm 2008, chúng được liệt kê là dễ bị tổn thương trong sách đỏ IUCN.",
+      "model_answer": "Không tìm thấy trong tài liệu.",
+      "exact_match": false,
+      "f1": 0.08695652173913045,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_616",
+        "chunk_17",
+        "chunk_18",
+        "chunk_43",
+        "chunk_428"
+      ],
+      "retrieved_scores": [
+        0.8896870613098145,
+        0.8837963342666626,
+        0.882187008857727,
+        0.8756799697875977,
+        0.8754587173461914
+      ],
+      "f1_debug": {
+        "f1_all": 0.08695652173913045,
+        "f1_content": 0.0,
+        "base_f1": 0.08695652173913045,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_16"
+    },
+    {
+      "id": 10,
+      "question": "Báo lửa (Catopuma temminckii) có thể sống tối đa bao nhiêu năm trong điều kiện giam cầm?",
+      "gold_answer": "Trong điều kiện giam cầm báo lửa sống tới 20 năm, nhưng tuổi thọ trung bình của chúng trong tự nhiên thì có lẽ ngắn hơn nhiều.",
+      "model_answer": "Theo thông tin trong tài liệu, báo lửa (Catopuma temminckii) có thể sống tối đa 20 năm trong điều kiện giam cầm.",
+      "exact_match": false,
+      "f1": 0.4897959183673469,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_39",
+        "chunk_42",
+        "chunk_41",
+        "chunk_40",
+        "chunk_16"
+      ],
+      "retrieved_scores": [
+        0.8979503512382507,
+        0.8875024914741516,
+        0.8758663535118103,
+        0.8668729066848755,
+        0.8655332922935486
+      ],
+      "f1_debug": {
+        "f1_all": 0.4897959183673469,
+        "f1_content": 0.37837837837837834,
+        "base_f1": 0.4897959183673469,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_47"
+    },
+    {
+      "id": 11,
+      "question": "Màu lông chủ yếu của Báo lửa là gì?",
+      "gold_answer": "Lông của chúng chủ yếu có màu đỏ đậm như lông cáo hay màu nâu vàng, nhưng cũng có thể có màu đen hay xám.",
+      "model_answer": "Màu lông chủ yếu của Báo lửa là màu đỏ đậm như lông cáo hay màu nâu vàng. Tuy nhiên, cũng có thể có màu đen hay xám.",
+      "exact_match": false,
+      "f1": 0.830188679245283,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_39",
+        "chunk_41",
+        "chunk_40",
+        "chunk_42",
+        "chunk_613"
+      ],
+      "retrieved_scores": [
+        0.9030160903930664,
+        0.8776421546936035,
+        0.8704411387443542,
+        0.8679802417755127,
+        0.8582683801651001
+      ],
+      "f1_debug": {
+        "f1_all": 0.830188679245283,
+        "f1_content": 0.7999999999999999,
+        "base_f1": 0.830188679245283,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_47"
+    },
+    {
+      "id": 12,
+      "question": "Bò rừng (Bò banteng) trưởng thành có trọng lượng cơ thể khoảng bao nhiêu?",
+      "gold_answer": "Trọng lượng cơ thể khi trưởng thành 600–800 kg.",
+      "model_answer": "Theo thông tin trong tài liệu, bò rừng (Bò banteng) trưởng thành có trọng lượng cơ thể khoảng 600–800 kg.",
+      "exact_match": false,
+      "f1": 0.6428571428571429,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_59",
+        "chunk_60",
+        "chunk_58",
+        "chunk_65",
+        "chunk_63"
+      ],
+      "retrieved_scores": [
+        0.9173937439918518,
+        0.9032850861549377,
+        0.8883649110794067,
+        0.8824063539505005,
+        0.8716000318527222
+      ],
+      "f1_debug": {
+        "f1_all": 0.5806451612903225,
+        "f1_content": 0.6428571428571429,
+        "base_f1": 0.6428571428571429,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_70"
+    },
+    {
+      "id": 13,
+      "question": "Bò rừng cái (Bò banteng) mang thai bao lâu và đẻ mấy con?",
+      "gold_answer": "Con cái chửa 9,5-10 tháng, đẻ 1-2 con.",
+      "model_answer": "Theo thông tin trong tài liệu, bò rừng cái (Bò banteng) mang thai khoảng 9,5-10 tháng và đẻ 1-2 con.",
+      "exact_match": false,
+      "f1": 0.5294117647058824,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_60",
+        "chunk_59",
+        "chunk_65",
+        "chunk_712",
+        "chunk_109"
+      ],
+      "retrieved_scores": [
+        0.8975198268890381,
+        0.8904260396957397,
+        0.8802778720855713,
+        0.874304473400116,
+        0.8701533079147339
+      ],
+      "f1_debug": {
+        "f1_all": 0.5294117647058824,
+        "f1_content": 0.4166666666666667,
+        "base_f1": 0.5294117647058824,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_70"
+    },
+    {
+      "id": 14,
+      "question": "Loài bướm đêm nào được xem là lớn nhất trên thế giới với diện tích bề mặt cánh lên tới 400 cm2?",
+      "gold_answer": "Bướm đêm Atlas ( Attacus atlas ) (còn gọi là bướm khế , vì hay đẻ trứng và phát triển trên cây khế, hoặc bướm bà) là loài bướm đêm... Bướm đêm Atlas được xem là loài bướm đêm lớn nhất trên thế giới... và tổng diện tích bề mặt cánh lên tới khoảng 400 cm 2 (62 inch vuông).",
+      "model_answer": "Bướm đêm Atlas (Attacus atlas) được xem là loài bướm đêm lớn nhất trên thế giới với tổng diện tích bề mặt cánh lên tới khoảng 400 cm².",
+      "exact_match": false,
+      "f1": 0.6567164179104478,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_132",
+        "chunk_136",
+        "chunk_134",
+        "chunk_501",
+        "chunk_437"
+      ],
+      "retrieved_scores": [
+        0.9030779004096985,
+        0.8776215314865112,
+        0.8682513236999512,
+        0.8660296201705933,
+        0.858920156955719
+      ],
+      "f1_debug": {
+        "f1_all": 0.611764705882353,
+        "f1_content": 0.6567164179104478,
+        "base_f1": 0.6567164179104478,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_165"
+    },
+    {
+      "id": 15,
+      "question": "Loài cá nào có kích thước lớn nhất trong họ Cá chép (Cyprinidae)?",
+      "gold_answer": "Cá hô ( danh pháp khoa học : Catlocarpio siamensis ) là loài cá có kích thước lớn nhất trong họ Cá chép ( Cyprinidae ).",
+      "model_answer": "Cá hô (Catlocarpio siamensis) là loài cá có kích thước lớn nhất trong họ Cá chép (Cyprinidae). Theo tài liệu, cá hô có thể đạt chiều dài tới 3 m và cân nặng khoảng 600 kg.",
+      "exact_match": false,
+      "f1": 0.5964912280701755,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_194",
+        "chunk_156",
+        "chunk_141",
+        "chunk_195",
+        "chunk_155"
+      ],
+      "retrieved_scores": [
+        0.8868304491043091,
+        0.8853673934936523,
+        0.8817914128303528,
+        0.8755387663841248,
+        0.8699359893798828
+      ],
+      "f1_debug": {
+        "f1_all": 0.5964912280701755,
+        "f1_content": 0.5853658536585367,
+        "base_f1": 0.5964912280701755,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_229"
+    },
+    {
+      "id": 16,
+      "question": "Thức ăn chính của Cá hô (Catlocarpio siamensis) là gì?",
+      "gold_answer": "Chúng di chuyển không nhanh, nên thức ăn chính của chúng là các loài rong, hoa quả, chứ ít khi là các động vật sống.",
+      "model_answer": "Thức ăn chính của Cá hô (Catlocarpio siamensis) là các loài rong, hoa quả, chứ ít khi là các động vật sống.",
+      "exact_match": false,
+      "f1": 0.7659574468085107,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_194",
+        "chunk_195",
+        "chunk_295",
+        "chunk_178",
+        "chunk_345"
+      ],
+      "retrieved_scores": [
+        0.9090696573257446,
+        0.8835361003875732,
+        0.8754377365112305,
+        0.8725470304489136,
+        0.8637292385101318
+      ],
+      "f1_debug": {
+        "f1_all": 0.7659574468085107,
+        "f1_content": 0.64,
+        "base_f1": 0.7659574468085107,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_229"
+    },
+    {
+      "id": 17,
+      "question": "Cá rồng châu Á ấp trứng bằng cách nào?",
+      "gold_answer": "Trứng cá có kích thước to và số lượng ít, được ấp trong miệng cá bố cho tới khi trứng nở.",
+      "model_answer": "Cá rồng châu Á ấp trứng bằng cách đặt trứng trong miệng của cá bố. Cụ thể, theo tài liệu cung cấp, trứng cá có kích thước to và số lượng ít, được ấp trong miệng cá bố cho tới khi trứng nở.",
+      "exact_match": false,
+      "f1": 0.9,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_150",
+        "chunk_258",
+        "chunk_172",
+        "chunk_246",
+        "chunk_265"
+      ],
+      "retrieved_scores": [
+        0.8851044774055481,
+        0.8828842639923096,
+        0.8810514807701111,
+        0.8722666501998901,
+        0.8665243983268738
+      ],
+      "f1_debug": {
+        "f1_all": 0.65625,
+        "f1_content": 0.6363636363636364,
+        "base_f1": 0.65625,
+        "substring_match": true,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_308"
+    },
+    {
+      "id": 18,
+      "question": "Cầy vằn bắc (Chrotogale owstoni) chủ yếu ăn gì?",
+      "gold_answer": "Chúng chủ yếu ăn giun đất và các loài không xương sống.",
+      "model_answer": "Cầy vằn bắc (Chrotogale owstoni) chủ yếu ăn giun đất và các loài không xương sống.",
+      "exact_match": false,
+      "f1": 0.7857142857142857,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_374",
+        "chunk_519",
+        "chunk_691",
+        "chunk_607",
+        "chunk_359"
+      ],
+      "retrieved_scores": [
+        0.9065528512001038,
+        0.8602043390274048,
+        0.8600264191627502,
+        0.8597481846809387,
+        0.8569448590278625
+      ],
+      "f1_debug": {
+        "f1_all": 0.7857142857142857,
+        "f1_content": 0.7058823529411764,
+        "base_f1": 0.7857142857142857,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_450"
+    },
+    {
+      "id": 19,
+      "question": "Thời gian mang thai của Cầy vằn bắc là bao lâu và mỗi lứa đẻ mấy con?",
+      "gold_answer": "Thời gian mang thai là 3 tháng, một lứa có 1-3 con.",
+      "model_answer": "Thời gian mang thai của Cầy vằn bắc là 3 tháng và mỗi lứa có 1-3 con.",
+      "exact_match": false,
+      "f1": 0.8235294117647058,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_374",
+        "chunk_368",
+        "chunk_372",
+        "chunk_416",
+        "chunk_1002"
+      ],
+      "retrieved_scores": [
+        0.8904796838760376,
+        0.8751688003540039,
+        0.8665032386779785,
+        0.8631348609924316,
+        0.8617218732833862
+      ],
+      "f1_debug": {
+        "f1_all": 0.7741935483870968,
+        "f1_content": 0.8235294117647058,
+        "base_f1": 0.8235294117647058,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_450"
+    },
+    {
+      "id": 20,
+      "question": "Tên khoa học của Ác là châu Âu là gì?",
+      "gold_answer": "Danh pháp hai phần của Ác là châu Âu là Pica pica.",
+      "model_answer": "Tên khoa học của Ác là châu Âu là Pica pica.",
+      "exact_match": false,
+      "f1": 0.8,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_0",
+        "chunk_2",
+        "chunk_1",
+        "chunk_5",
+        "chunk_399"
+      ],
+      "retrieved_scores": [
+        0.8928161859512329,
+        0.8811712861061096,
+        0.8561458587646484,
+        0.853004515171051,
+        0.8497763872146606
+      ],
+      "f1_debug": {
+        "f1_all": 0.6956521739130435,
+        "f1_content": 0.6,
+        "base_f1": 0.8,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_0"
+    },
+    {
+      "id": 21,
+      "question": "Loài chim Ác là (Pica pica) thuộc họ nào?",
+      "gold_answer": "Nó thuộc họ Quạ (Corvidae).",
+      "model_answer": "Loài chim Ác là (Pica pica) thuộc họ Quạ (Corvidae).",
+      "exact_match": false,
+      "f1": 0.5333333333333333,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_0",
+        "chunk_2",
+        "chunk_1",
+        "chunk_12",
+        "chunk_5"
+      ],
+      "retrieved_scores": [
+        0.933137059211731,
+        0.9069825410842896,
+        0.9027763605117798,
+        0.9026442766189575,
+        0.8918959498405457
+      ],
+      "f1_debug": {
+        "f1_all": 0.5333333333333333,
+        "f1_content": 0.4444444444444444,
+        "base_f1": 0.5333333333333333,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_0"
+    },
+    {
+      "id": 22,
+      "question": "Theo Ủy ban điểu học Quốc tế (IOC) phiên bản 8.2, loài ác là có tại Việt Nam được liệt kê dưới danh pháp nào?",
+      "gold_answer": "Loài có tại Việt Nam hiện nay được liệt kê dưới danh pháp Pica serica.",
+      "model_answer": "Theo Ủy ban điểu học Quốc tế (IOC) phiên bản 8.2, loài ác là có tại Việt Nam được liệt kê dưới danh pháp **Pica serica**.",
+      "exact_match": false,
+      "f1": 0.6190476190476191,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_2",
+        "chunk_0",
+        "chunk_12",
+        "chunk_616",
+        "chunk_177"
+      ],
+      "retrieved_scores": [
+        0.8742064237594604,
+        0.87310391664505,
+        0.8680627346038818,
+        0.8653056621551514,
+        0.8593772649765015
+      ],
+      "f1_debug": {
+        "f1_all": 0.6190476190476191,
+        "f1_content": 0.5384615384615384,
+        "base_f1": 0.6190476190476191,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_0"
+    },
+    {
+      "id": 23,
+      "question": "Ác là có chiều dài khoảng bao nhiêu?",
+      "gold_answer": "Ác là có chiều dài khoảng 40–51 cm.",
+      "model_answer": "Ác là có chiều dài khoảng 40–51 cm.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_0",
+        "chunk_501",
+        "chunk_8",
+        "chunk_5",
+        "chunk_2"
+      ],
+      "retrieved_scores": [
+        0.8900358080863953,
+        0.8596397042274475,
+        0.8565930128097534,
+        0.8542091846466064,
+        0.8535695672035217
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_1"
+    },
+    {
+      "id": 24,
+      "question": "Chân và mỏ của ác là có màu gì?",
+      "gold_answer": "Chân và mỏ màu đen.",
+      "model_answer": "Chân và mỏ của ác là có màu đen.",
+      "exact_match": false,
+      "f1": 0.888888888888889,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_1",
+        "chunk_2",
+        "chunk_0",
+        "chunk_353",
+        "chunk_9"
+      ],
+      "retrieved_scores": [
+        0.8669601678848267,
+        0.8635787963867188,
+        0.8610150814056396,
+        0.8544774055480957,
+        0.8484867811203003
+      ],
+      "f1_debug": {
+        "f1_all": 0.7142857142857143,
+        "f1_content": 0.888888888888889,
+        "base_f1": 0.888888888888889,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_1"
+    },
+    {
+      "id": 25,
+      "question": "Chim ác là nổi tiếng vì hành vi gì?",
+      "gold_answer": "Chim ác là nổi tiếng vì cực kỳ ưa thích và tò mò đối với các vật thể sáng màu.",
+      "model_answer": "Chim ác là nổi tiếng vì hành vi ưa thích và tò mò đối với các vật thể sáng màu. Đặc biệt, chúng có xu hướng nhảy nhót nhanh sang bên với các cánh hơi dang ra khi gặp các vật thể sáng màu, và hành vi này là nguồn gốc của vở opera La gazza ladra (\"Chim ác là ăn cắp\").",
+      "exact_match": false,
+      "f1": 0.4390243902439024,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_6",
+        "chunk_0",
+        "chunk_9",
+        "chunk_7",
+        "chunk_8"
+      ],
+      "retrieved_scores": [
+        0.8852802515029907,
+        0.8730332851409912,
+        0.8719221949577332,
+        0.8671863079071045,
+        0.8655550479888916
+      ],
+      "f1_debug": {
+        "f1_all": 0.4390243902439024,
+        "f1_content": 0.4262295081967213,
+        "base_f1": 0.4390243902439024,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_6"
+    },
+    {
+      "id": 26,
+      "question": "Vở opera \"La gazza ladra\" (Chim ác là ăn cắp) có nguồn gốc từ hành vi nào của chim ác là?",
+      "gold_answer": "Nó có nguồn gốc từ hành vi cực kỳ ưa thích và tò mò đối với các vật thể sáng màu của chim ác là.",
+      "model_answer": "Vở opera \"La gazza ladra\" (Chim ác là ăn cắp) có nguồn gốc từ hành vi của chim ác là nhảy nhót nhanh sang bên với các cánh hơi dang ra khi gặp các vật thể sáng màu. Đặc biệt, chim ác là nổi tiếng vì cực kỳ ưa thích và tò mò đối với các vật thể sáng màu, và hành vi này của chúng là nguồn gốc của vở opera này.",
+      "exact_match": false,
+      "f1": 0.4897959183673469,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_6",
+        "chunk_9",
+        "chunk_0",
+        "chunk_8",
+        "chunk_353"
+      ],
+      "retrieved_scores": [
+        0.9336156249046326,
+        0.8775538206100464,
+        0.8634174466133118,
+        0.8622487187385559,
+        0.8576269745826721
+      ],
+      "f1_debug": {
+        "f1_all": 0.4897959183673469,
+        "f1_content": 0.48571428571428577,
+        "base_f1": 0.4897959183673469,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_6"
+    },
+    {
+      "id": 27,
+      "question": "Charles Darwin viết về sự tụ tập tìm bạn đời của ác là như thế nào?",
+      "gold_answer": "Charles Darwin viết về sự tụ tập này như là \"hội nghị hôn nhân\".",
+      "model_answer": "Charles Darwin viết về sự tụ tập tìm bạn đời của ác là \"hội nghị hôn nhân\".",
+      "exact_match": false,
+      "f1": 0.8333333333333333,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_7",
+        "chunk_711",
+        "chunk_109",
+        "chunk_8",
+        "chunk_911"
+      ],
+      "retrieved_scores": [
+        0.8951902389526367,
+        0.8527088165283203,
+        0.8450664281845093,
+        0.8421667814254761,
+        0.8379142880439758
+      ],
+      "f1_debug": {
+        "f1_all": 0.7741935483870968,
+        "f1_content": 0.8333333333333333,
+        "base_f1": 0.8333333333333333,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_7"
+    },
+    {
+      "id": 28,
+      "question": "Ác là đẻ bao nhiêu trứng và vào tháng mấy?",
+      "gold_answer": "Chúng đẻ từ 5-8 trứng nhỏ, và trứng đẻ trong tháng 4.",
+      "model_answer": "Theo tài liệu cung cấp, rắn ác (ác) đẻ từ 5-8 trứng nhỏ (tối đa tới 10 như đã được ghi nhận); trứng được đẻ vào tháng 4.",
+      "exact_match": false,
+      "f1": 0.47619047619047616,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_8",
+        "chunk_712",
+        "chunk_1002",
+        "chunk_713",
+        "chunk_416"
+      ],
+      "retrieved_scores": [
+        0.8785539865493774,
+        0.8635912537574768,
+        0.8587697744369507,
+        0.8549617528915405,
+        0.8506660461425781
+      ],
+      "f1_debug": {
+        "f1_all": 0.47619047619047616,
+        "f1_content": 0.46153846153846156,
+        "base_f1": 0.47619047619047616,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_9"
+    },
+    {
+      "id": 29,
+      "question": "Trứng của ác là thường có màu gì?",
+      "gold_answer": "Trứng thường có màu lục-lam với các đốm xám hay nâu.",
+      "model_answer": "Trứng của ác là thường có màu lục-lam với các đốm xám hay nâu.",
+      "exact_match": false,
+      "f1": 0.9473684210526316,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_8",
+        "chunk_1",
+        "chunk_0",
+        "chunk_6",
+        "chunk_2"
+      ],
+      "retrieved_scores": [
+        0.8738020658493042,
+        0.8694729208946228,
+        0.8622269034385681,
+        0.8574756383895874,
+        0.8566306829452515
+      ],
+      "f1_debug": {
+        "f1_all": 0.888888888888889,
+        "f1_content": 0.9473684210526316,
+        "base_f1": 0.9473684210526316,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_9"
+    },
+    {
+      "id": 30,
+      "question": "Ở Trung Quốc, ác là được coi là dấu hiệu gì?",
+      "gold_answer": "Tại Trung Quốc, ác là được coi là dấu hiệu của may mắn.",
+      "model_answer": "Ở Trung Quốc, ác là được coi là dấu hiệu của may mắn. Tên của nó trong tiếng Trung (喜鹊: hỉ thước) nghĩa là con chim báo điềm lành.",
+      "exact_match": false,
+      "f1": 0.5714285714285715,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_9",
+        "chunk_0",
+        "chunk_5",
+        "chunk_2",
+        "chunk_11"
+      ],
+      "retrieved_scores": [
+        0.8594805002212524,
+        0.8492612242698669,
+        0.8380972146987915,
+        0.8377501964569092,
+        0.8370786905288696
+      ],
+      "f1_debug": {
+        "f1_all": 0.5714285714285715,
+        "f1_content": 0.5714285714285715,
+        "base_f1": 0.5714285714285715,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_10"
+    },
+    {
+      "id": 31,
+      "question": "Tên của ác là trong tiếng Trung (hỉ thước) có nghĩa là gì?",
+      "gold_answer": "Tên của nó trong tiếng Trung (喜鹊: hỉ thước) nghĩa là con chim báo điềm lành.",
+      "model_answer": "Tên của ác là trong tiếng Trung (hỉ thước) có nghĩa là con chim báo điềm lành.",
+      "exact_match": false,
+      "f1": 0.8695652173913043,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_11",
+        "chunk_9",
+        "chunk_10",
+        "chunk_0",
+        "chunk_12"
+      ],
+      "retrieved_scores": [
+        0.8869462013244629,
+        0.8849282264709473,
+        0.8756944537162781,
+        0.8659212589263916,
+        0.8628602027893066
+      ],
+      "f1_debug": {
+        "f1_all": 0.8484848484848485,
+        "f1_content": 0.8695652173913043,
+        "base_f1": 0.8695652173913043,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_10"
+    },
+    {
+      "id": 32,
+      "question": "Tên khoa học của Báo gấm là gì?",
+      "gold_answer": "Tên khoa học của Báo gấm là Neofelis nebulosa.",
+      "model_answer": "Tên khoa học của Báo gấm là Neofelis nebulosa.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_13",
+        "chunk_358",
+        "chunk_16",
+        "chunk_15",
+        "chunk_17"
+      ],
+      "retrieved_scores": [
+        0.8957894444465637,
+        0.8775071501731873,
+        0.87400221824646,
+        0.8728493452072144,
+        0.8692958354949951
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_16"
+    },
+    {
+      "id": 33,
+      "question": "Báo gấm có cân nặng khoảng bao nhiêu?",
+      "gold_answer": "Báo gấm cân nặng khoảng 11 – 20 kg.",
+      "model_answer": "Báo gấm có cân nặng khoảng 11 – 20 kg (25 lbs 4oz - 44 lbs).",
+      "exact_match": false,
+      "f1": 0.761904761904762,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_13",
+        "chunk_16",
+        "chunk_358",
+        "chunk_613",
+        "chunk_17"
+      ],
+      "retrieved_scores": [
+        0.8977371454238892,
+        0.8710981607437134,
+        0.8663715124130249,
+        0.8652777671813965,
+        0.8639272451400757
+      ],
+      "f1_debug": {
+        "f1_all": 0.7272727272727273,
+        "f1_content": 0.761904761904762,
+        "base_f1": 0.761904761904762,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_16"
+    },
+    {
+      "id": 34,
+      "question": "Báo gấm được liệt kê là \"dễ bị tổn thương\" trong sách đỏ IUCN từ năm nào?",
+      "gold_answer": "Kể từ năm 2008.",
+      "model_answer": "Không tìm thấy trong tài liệu.",
+      "exact_match": false,
+      "f1": 0.0,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_616",
+        "chunk_17",
+        "chunk_18",
+        "chunk_428",
+        "chunk_43"
+      ],
+      "retrieved_scores": [
+        0.8864717483520508,
+        0.8833870887756348,
+        0.8795132040977478,
+        0.8786599636077881,
+        0.8694281578063965
+      ],
+      "f1_debug": {
+        "f1_all": 0.0,
+        "f1_content": 0.0,
+        "base_f1": 0.0,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_16"
+    },
+    {
+      "id": 35,
+      "question": "Đặc điểm nổi bật về răng của báo gấm là gì?",
+      "gold_answer": "Báo gấm có răng nanh thuộc loại nanh dài nhất trong số các loài mèo hiện còn tồn tại.",
+      "model_answer": "Dựa trên thông tin được cung cấp, đặc điểm nổi bật về răng của báo gấm là:\n\n- Răng cửa có dạng cái chàng (cái đục), với răng cửa thứ ba lớn, răng cửa trên hình nón được tách rời.\n- Báo gấm là brachyodont, tức là các răng có thân răng thấp, thiếu xương răng.\n- Công thức bộ răng của chúng là I (răng cửa) 3/3, C (răng nanh) 1/1, P (răng tiền hàm) 4/3-4, M (răng hàm) 3/3, tổng cộng có từ 42 tới 44 răng.\n- Kiểu cấu trúc bộ răng này gần giống như ở ngựa (có thể có khác biệt là ít hơn 1 răng nanh) hơn là ở các họ hàng guốc lẻ khác như tê giác.",
+      "exact_match": false,
+      "f1": 0.10638297872340424,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_358",
+        "chunk_256",
+        "chunk_789",
+        "chunk_516",
+        "chunk_14"
+      ],
+      "retrieved_scores": [
+        0.8657563924789429,
+        0.8645577430725098,
+        0.8638123273849487,
+        0.8637038469314575,
+        0.8629748821258545
+      ],
+      "f1_debug": {
+        "f1_all": 0.09722222222222222,
+        "f1_content": 0.10638297872340424,
+        "base_f1": 0.10638297872340424,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_17"
+    },
+    {
+      "id": 36,
+      "question": "Thức ăn chủ yếu của báo gấm là gì?",
+      "gold_answer": "Báo gấm chủ yếu săn bắt các loài động vật có vú sống trên cây, cụ thể là vượn, khỉ đuôi lợn hay khỉ Proboscis.",
+      "model_answer": "Thức ăn chủ yếu của báo gấm bao gồm các loài thú móng guốc như hươu, nai, lợn rừng. Ngoài ra, khi đói, chúng cũng ăn chim, khỉ, ếch nhái và các loài gặm nhấm lớn. Chế độ ăn của báo gấm gồm thịt thú rừng như lợn rừng, hươu, nai, khỉ, voọc, kể cả gia súc nhỏ và non tơ như nghé con, bê con và các loài gặm nhấm lớn.",
+      "exact_match": false,
+      "f1": 0.1971830985915493,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_14",
+        "chunk_23",
+        "chunk_358",
+        "chunk_13",
+        "chunk_16"
+      ],
+      "retrieved_scores": [
+        0.8758463263511658,
+        0.8698410987854004,
+        0.8635495901107788,
+        0.8621407747268677,
+        0.862062931060791
+      ],
+      "f1_debug": {
+        "f1_all": 0.18556701030927836,
+        "f1_content": 0.1971830985915493,
+        "base_f1": 0.1971830985915493,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_17"
+    },
+    {
+      "id": 37,
+      "question": "Khả năng di chuyển đáng ngạc nhiên của báo gấm là gì?",
+      "gold_answer": "Chúng có thể di chuyển khi treo mình lộn ngược đầu xuống, phía dưới các cành cây và các thân cây nghiêng.",
+      "model_answer": "Khả năng di chuyển đáng ngạc nhiên của báo gấm bao gồm:\n\n- Khả năng leo trèo xuất sắc: Báo gấm có bốn chân ngắn và khỏe, lòng bàn chân rộng với đủ móng vuốt sắc đều nhau, giúp chúng leo trèo rất tốt. Chúng có cái đuôi với chiều dài xấp xỉ bằng cả thân, giúp giữ thăng bằng khi trên tàn cây cao.\n- Khả năng di chuyển khi treo mình lộn ngược đầu xuống: Báo gấm có thể di chuyển khi treo mình lộn ngược đầu xuống, phía dưới các cành cây và các thân cây nghiêng.",
+      "exact_match": false,
+      "f1": 0.36666666666666664,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_14",
+        "chunk_16",
+        "chunk_13",
+        "chunk_24",
+        "chunk_501"
+      ],
+      "retrieved_scores": [
+        0.8697342872619629,
+        0.8642674684524536,
+        0.859102189540863,
+        0.8579233884811401,
+        0.8578624725341797
+      ],
+      "f1_debug": {
+        "f1_all": 0.36666666666666664,
+        "f1_content": 0.33333333333333337,
+        "base_f1": 0.36666666666666664,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_17"
+    },
+    {
+      "id": 38,
+      "question": "Tên khoa học của Báo hoa mai Đông Dương là gì?",
+      "gold_answer": "Tên khoa học của Báo hoa mai Đông Dương là Panthera pardus delacouri.",
+      "model_answer": "Tên khoa học của Báo hoa mai Đông Dương là Panthera pardus delacouri.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_19",
+        "chunk_21",
+        "chunk_22",
+        "chunk_20",
+        "chunk_29"
+      ],
+      "retrieved_scores": [
+        0.929207444190979,
+        0.9065845012664795,
+        0.9026031494140625,
+        0.9018466472625732,
+        0.8938422203063965
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_22"
+    },
+    {
+      "id": 39,
+      "question": "Ở Việt Nam, Báo hoa mai Đông Dương phân bố ở đâu?",
+      "gold_answer": "Ở Việt Nam, báo hoa mai Đông Dương phân bố ở Lai Châu, Bắc Kạn, Quảng Trị, Thừa Thiên – Huế, Quảng Nam, Lâm Đồng.",
+      "model_answer": "Ở Việt Nam, báo hoa mai Đông Dương phân bố ở các tỉnh Lai Châu, Bắc Kạn, Quảng Trị, Thừa Thiên – Huế, Quảng Nam, Lâm Đồng.",
+      "exact_match": false,
+      "f1": 0.9655172413793104,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_19",
+        "chunk_29",
+        "chunk_22",
+        "chunk_21",
+        "chunk_28"
+      ],
+      "retrieved_scores": [
+        0.940629243850708,
+        0.9058462381362915,
+        0.9018104076385498,
+        0.8989194631576538,
+        0.8972058296203613
+      ],
+      "f1_debug": {
+        "f1_all": 0.9600000000000001,
+        "f1_content": 0.9655172413793104,
+        "base_f1": 0.9655172413793104,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_22"
+    },
+    {
+      "id": 40,
+      "question": "Báo hoa mai Đông Dương mẹ mang thai bao lâu?",
+      "gold_answer": "Báo mẹ mang thai 90–105 ngày.",
+      "model_answer": "Theo thông tin trong tài liệu, báo hoa mai Đông Dương mẹ mang thai từ 90–105 ngày.",
+      "exact_match": false,
+      "f1": 0.6363636363636364,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_22",
+        "chunk_19",
+        "chunk_20",
+        "chunk_25",
+        "chunk_21"
+      ],
+      "retrieved_scores": [
+        0.8996400237083435,
+        0.8875940442085266,
+        0.8791536092758179,
+        0.8769328594207764,
+        0.8739770650863647
+      ],
+      "f1_debug": {
+        "f1_all": 0.56,
+        "f1_content": 0.6363636363636364,
+        "base_f1": 0.6363636363636364,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_27"
+    },
+    {
+      "id": 41,
+      "question": "Báo hoa mai Đông Dương con sống với mẹ bao lâu trước khi sống độc lập?",
+      "gold_answer": "Sau khoảng 1 năm tuổi báo con tách khỏi mẹ để sống độc lập.",
+      "model_answer": "Theo thông tin trong tài liệu, báo hoa mai Đông Dương con tách khỏi mẹ để sống độc lập sau khoảng 1 năm tuổi.",
+      "exact_match": false,
+      "f1": 0.7368421052631579,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_22",
+        "chunk_25",
+        "chunk_19",
+        "chunk_31",
+        "chunk_21"
+      ],
+      "retrieved_scores": [
+        0.8853694200515747,
+        0.8665846586227417,
+        0.8655742406845093,
+        0.8630252480506897,
+        0.8620167970657349
+      ],
+      "f1_debug": {
+        "f1_all": 0.7368421052631579,
+        "f1_content": 0.7142857142857143,
+        "base_f1": 0.7368421052631579,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_27"
+    },
+    {
+      "id": 42,
+      "question": "Báo lửa có tên khoa học là gì?",
+      "gold_answer": "Danh pháp khoa học của báo lửa là Catopuma temminckii.",
+      "model_answer": "Tên khoa học của báo lửa là Catopuma temminckii.",
+      "exact_match": false,
+      "f1": 0.8421052631578948,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_39",
+        "chunk_41",
+        "chunk_40",
+        "chunk_810",
+        "chunk_42"
+      ],
+      "retrieved_scores": [
+        0.890398383140564,
+        0.871441662311554,
+        0.8632603883743286,
+        0.8595517873764038,
+        0.8571210503578186
+      ],
+      "f1_debug": {
+        "f1_all": 0.8421052631578948,
+        "f1_content": 0.8,
+        "base_f1": 0.8421052631578948,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_47"
+    },
+    {
+      "id": 43,
+      "question": "Trong điều kiện giam cầm, báo lửa có thể sống tới bao nhiêu năm?",
+      "gold_answer": "Trong điều kiện giam cầm báo lửa sống tới 20 năm.",
+      "model_answer": "Trong điều kiện giam cầm, báo lửa có thể sống tới 20 năm.",
+      "exact_match": false,
+      "f1": 0.9411764705882353,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_41",
+        "chunk_39",
+        "chunk_40",
+        "chunk_42",
+        "chunk_16"
+      ],
+      "retrieved_scores": [
+        0.878235399723053,
+        0.8772385120391846,
+        0.8674584627151489,
+        0.8627021312713623,
+        0.8613578081130981
+      ],
+      "f1_debug": {
+        "f1_all": 0.9166666666666666,
+        "f1_content": 0.9411764705882353,
+        "base_f1": 0.9411764705882353,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_47"
+    },
+    {
+      "id": 44,
+      "question": "Ở báo lửa, lớp lông đốm là tính trạng gì?",
+      "gold_answer": "Lớp lông đốm này là tính trạng lặn.",
+      "model_answer": "Lớp lông đốm ở báo lửa là tính trạng lặn (trong di truyền học có nghĩa là khi cho giao phối báo lửa đốm với báo lửa trơn thì con cái của chúng có lông trơn).",
+      "exact_match": false,
+      "f1": 0.3448275862068966,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_39",
+        "chunk_256",
+        "chunk_41",
+        "chunk_42",
+        "chunk_789"
+      ],
+      "retrieved_scores": [
+        0.8784509897232056,
+        0.8752747774124146,
+        0.8687071800231934,
+        0.8621290326118469,
+        0.8583569526672363
+      ],
+      "f1_debug": {
+        "f1_all": 0.3181818181818182,
+        "f1_content": 0.3448275862068966,
+        "base_f1": 0.3448275862068966,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_47"
+    },
+    {
+      "id": 45,
+      "question": "Báo lửa trưởng thành khi đạt độ tuổi nào?",
+      "gold_answer": "Chúng trưởng thành khi có độ tuổi từ 1,5 đến 2 năm tuổi.",
+      "model_answer": "Báo lửa trưởng thành khi có độ tuổi từ 1,5 đến 2 năm tuổi.",
+      "exact_match": false,
+      "f1": 0.896551724137931,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_41",
+        "chunk_39",
+        "chunk_40",
+        "chunk_42",
+        "chunk_814"
+      ],
+      "retrieved_scores": [
+        0.8898211717605591,
+        0.8817305564880371,
+        0.859083890914917,
+        0.8563671112060547,
+        0.8511627912521362
+      ],
+      "f1_debug": {
+        "f1_all": 0.896551724137931,
+        "f1_content": 0.7692307692307692,
+        "base_f1": 0.896551724137931,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_50"
+    },
+    {
+      "id": 46,
+      "question": "Thời gian mang thai của báo lửa kéo dài bao lâu?",
+      "gold_answer": "Thời gian mang thai kéo dài khoảng 80 ngày.",
+      "model_answer": "Thời gian mang thai của báo lửa kéo dài khoảng 80 ngày.",
+      "exact_match": false,
+      "f1": 0.9,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_41",
+        "chunk_814",
+        "chunk_39",
+        "chunk_416",
+        "chunk_712"
+      ],
+      "retrieved_scores": [
+        0.8954510688781738,
+        0.865655779838562,
+        0.864795446395874,
+        0.8567441701889038,
+        0.8559187054634094
+      ],
+      "f1_debug": {
+        "f1_all": 0.8571428571428571,
+        "f1_content": 0.9,
+        "base_f1": 0.9,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_50"
+    },
+    {
+      "id": 47,
+      "question": "Bào ngư vành tai có tên khoa học là gì?",
+      "gold_answer": "Danh pháp khoa học của bào ngư vành tai là Haliotis asinina.",
+      "model_answer": "Bào ngư vành tai có tên khoa học là Haliotis asinina.",
+      "exact_match": false,
+      "f1": 0.8571428571428571,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_45",
+        "chunk_44",
+        "chunk_800",
+        "chunk_46",
+        "chunk_957"
+      ],
+      "retrieved_scores": [
+        0.903864860534668,
+        0.8779929876327515,
+        0.874452531337738,
+        0.8685562014579773,
+        0.8629506826400757
+      ],
+      "f1_debug": {
+        "f1_all": 0.7826086956521738,
+        "f1_content": 0.8571428571428571,
+        "base_f1": 0.8571428571428571,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_53"
+    },
+    {
+      "id": 48,
+      "question": "Mặt ngoài vỏ của bào ngư vành tai có bao nhiêu lỗ mở hô hấp?",
+      "gold_answer": "Mặt ngoài vỏ có 6-7 lỗ mở hô hấp.",
+      "model_answer": "Mặt ngoài vỏ của bào ngư vành tai có 6-7 lỗ mở hô hấp.",
+      "exact_match": false,
+      "f1": 0.8,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_45",
+        "chunk_46",
+        "chunk_666",
+        "chunk_789",
+        "chunk_44"
+      ],
+      "retrieved_scores": [
+        0.8670896291732788,
+        0.8624776601791382,
+        0.852098286151886,
+        0.841762125492096,
+        0.8377931118011475
+      ],
+      "f1_debug": {
+        "f1_all": 0.8,
+        "f1_content": 0.7777777777777778,
+        "base_f1": 0.8,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_53"
+    },
+    {
+      "id": 49,
+      "question": "Tên khoa học của Bồ câu nâu là gì?",
+      "gold_answer": "Danh pháp hai phần của Bồ câu nâu là Columba punicea.",
+      "model_answer": "Tên khoa học của Bồ câu nâu là Columba punicea.",
+      "exact_match": false,
+      "f1": 0.8,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_47",
+        "chunk_658",
+        "chunk_463",
+        "chunk_57",
+        "chunk_460"
+      ],
+      "retrieved_scores": [
+        0.906807541847229,
+        0.8866095542907715,
+        0.8761353492736816,
+        0.8718984127044678,
+        0.8672564029693604
+      ],
+      "f1_debug": {
+        "f1_all": 0.6666666666666666,
+        "f1_content": 0.7142857142857143,
+        "base_f1": 0.8,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_55"
+    },
+    {
+      "id": 50,
+      "question": "Bồ câu nâu đực trưởng thành có phần đầu màu gì?",
+      "gold_answer": "Bồ câu đực khi trưởng thành có phần đầu màu xám trắng.",
+      "model_answer": "Bồ câu nâu đực trưởng thành có phần đầu màu xám trắng.",
+      "exact_match": false,
+      "f1": 0.9523809523809523,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_47",
+        "chunk_53",
+        "chunk_57",
+        "chunk_613",
+        "chunk_583"
+      ],
+      "retrieved_scores": [
+        0.8930383920669556,
+        0.8635268211364746,
+        0.8625313639640808,
+        0.8571035265922546,
+        0.8559327721595764
+      ],
+      "f1_debug": {
+        "f1_all": 0.9166666666666666,
+        "f1_content": 0.9523809523809523,
+        "base_f1": 0.9523809523809523,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_55"
+    },
+    {
+      "id": 51,
+      "question": "Bồ câu Nicoba là họ hàng gần nhất còn tồn tại của loài chim nào đã tuyệt chủng?",
+      "gold_answer": "Bồ câu Nicoba là họ hàng gần nhất còn tồn tại của chim dodo.",
+      "model_answer": "Bồ câu Nicoba là họ hàng gần nhất còn tồn tại của chim dodo.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_52",
+        "chunk_799",
+        "chunk_460",
+        "chunk_47",
+        "chunk_53"
+      ],
+      "retrieved_scores": [
+        0.9049896001815796,
+        0.8719967603683472,
+        0.8690464496612549,
+        0.8690454363822937,
+        0.8688539266586304
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_62"
+    },
+    {
+      "id": 52,
+      "question": "Ở Việt Nam, bồ câu Nicoba chỉ được tìm thấy ở đâu?",
+      "gold_answer": "Ở Việt Nam, bồ câu Nicoba chỉ được tìm thấy ở Côn Đảo, tỉnh Bà Rịa – Vũng Tàu.",
+      "model_answer": "Ở Việt Nam, bồ câu Nicoba chỉ được tìm thấy ở Côn Đảo, tỉnh Bà Rịa – Vũng Tàu.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_52",
+        "chunk_50",
+        "chunk_370",
+        "chunk_53",
+        "chunk_499"
+      ],
+      "retrieved_scores": [
+        0.9265502691268921,
+        0.8896414041519165,
+        0.8875855207443237,
+        0.8840817213058472,
+        0.8820857405662537
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_62"
+    },
+    {
+      "id": 53,
+      "question": "Đuôi của Bồ câu Nicoba có đặc điểm gì?",
+      "gold_answer": "Đuôi rất ngắn và thuần trắng.",
+      "model_answer": "Đuôi của Bồ câu Nicoba có đặc điểm sau:\n\n- Đuôi rất ngắn.\n- Đuôi cụt bụng đỏ (tên khoa học: Pitta nympha).\n\nThông tin này được trích dẫn trực tiếp từ tài liệu cung cấp.",
+      "exact_match": false,
+      "f1": 0.15,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_52",
+        "chunk_53",
+        "chunk_256",
+        "chunk_789",
+        "chunk_460"
+      ],
+      "retrieved_scores": [
+        0.899573564529419,
+        0.8866167664527893,
+        0.8792473077774048,
+        0.8781726360321045,
+        0.8698413372039795
+      ],
+      "f1_debug": {
+        "f1_all": 0.15,
+        "f1_content": 0.14814814814814817,
+        "base_f1": 0.15,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_62"
+    },
+    {
+      "id": 54,
+      "question": "Hóa thạch tổ tiên tiền sử của họ Bọ lá (Phylliidae) có tên là gì và có niên đại bao nhiêu?",
+      "gold_answer": "Đó là Eophyllium messelensis, có niên đại 47 triệu năm.",
+      "model_answer": "Hóa thạch tổ tiên tiền sử của họ Bọ lá (Phylliidae) có tên là Eophyllium messelensis và có niên đại 47 triệu năm.",
+      "exact_match": false,
+      "f1": 0.5714285714285715,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_54",
+        "chunk_937",
+        "chunk_665",
+        "chunk_445",
+        "chunk_206"
+      ],
+      "retrieved_scores": [
+        0.9064881801605225,
+        0.8467282056808472,
+        0.8466408848762512,
+        0.8462461233139038,
+        0.8461517095565796
+      ],
+      "f1_debug": {
+        "f1_all": 0.5454545454545454,
+        "f1_content": 0.5714285714285715,
+        "base_f1": 0.5714285714285715,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_64"
+    },
+    {
+      "id": 55,
+      "question": "Trứng của bọ lá giống cái gì?",
+      "gold_answer": "Trứng của nó lại giống như hạt cây này.",
+      "model_answer": "Trứng của bọ lá giống như hạt cây mà bọ lá sống trên đó, kể cả gân.",
+      "exact_match": false,
+      "f1": 0.46153846153846156,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_54",
+        "chunk_256",
+        "chunk_830",
+        "chunk_56",
+        "chunk_671"
+      ],
+      "retrieved_scores": [
+        0.8825556635856628,
+        0.8537487983703613,
+        0.8482935428619385,
+        0.8443103432655334,
+        0.8440183401107788
+      ],
+      "f1_debug": {
+        "f1_all": 0.46153846153846156,
+        "f1_content": 0.37499999999999994,
+        "base_f1": 0.46153846153846156,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_64"
+    },
+    {
+      "id": 56,
+      "question": "Tên khoa học của Bò banteng (bò rừng) là gì?",
+      "gold_answer": "Danh pháp hai phần của Bò banteng là Bos javanicus.",
+      "model_answer": "Tên khoa học của Bò banteng (bò rừng) là Bos javanicus.",
+      "exact_match": false,
+      "f1": 0.5714285714285715,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_58",
+        "chunk_59",
+        "chunk_60",
+        "chunk_118",
+        "chunk_65"
+      ],
+      "retrieved_scores": [
+        0.917487621307373,
+        0.9094055891036987,
+        0.9005702137947083,
+        0.8748579025268555,
+        0.8701671361923218
+      ],
+      "f1_debug": {
+        "f1_all": 0.5714285714285713,
+        "f1_content": 0.5714285714285715,
+        "base_f1": 0.5714285714285715,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_68"
+    },
+    {
+      "id": 57,
+      "question": "Đặc điểm lông và sừng của Bò banteng cái khác gì con đực?",
+      "gold_answer": "Con cái có lông màu nâu ánh đỏ, sừng nhỏ, cong vào phía trong ở chóp sừng và không có bướu, trong khi con đực có lông màu hạt dẻ sẫm hay lam-đen, sừng dài cong về hướng trên và có bướu.",
+      "model_answer": "Dựa trên thông tin từ tài liệu, đặc điểm lông và sừng của bò banteng cái và đực có những khác biệt như sau:\n\n1. **Lông:**\n   - **Con đực:** Có lông màu hạt dẻ sẫm hay lam-đen.\n   - **Con cái:** Có lông màu nâu ánh đỏ.\n\n2. **Sừng:**\n   - **Con đực:** Sừng dài, cong về hướng trên và có bướu trên lưng gần vai.\n   - **Con cái:** Sừng ngắn, nhỏ và cong vào phía trong ở chóp sừng, không có bướu.\n\nNhư vậy, bò banteng cái có lông màu nâu ánh đỏ và sừng ngắn, nhỏ, trong khi bò đực có lông màu hạt dẻ sẫm hay lam-đen và sừng dài, cong về hướng trên, có bướu trên lưng gần vai.",
+      "exact_match": false,
+      "f1": 0.5308641975308642,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_64",
+        "chunk_58",
+        "chunk_65",
+        "chunk_59",
+        "chunk_60"
+      ],
+      "retrieved_scores": [
+        0.8896231651306152,
+        0.8828456997871399,
+        0.8760532140731812,
+        0.874548077583313,
+        0.8734287023544312
+      ],
+      "f1_debug": {
+        "f1_all": 0.5308641975308642,
+        "f1_content": 0.5,
+        "base_f1": 0.5308641975308642,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_68"
+    },
+    {
+      "id": 58,
+      "question": "Bò tót Đông Dương có phải là phân loài bò tót lớn nhất không?",
+      "gold_answer": "Có, đây là phân loài bò tót có tầm vóc to lớn nhất.",
+      "model_answer": "Có, bò tót Đông Dương (hay còn gọi là bò tót Đông Nam Á) là phân loài bò tót lớn nhất. Điều này được xác nhận trong tài liệu cung cấp, cụ thể là đoạn văn sau:\n\n\"Bò tót Đông Dương hay Bò tót Đông Nam Á (Danh pháp khoa học: Bos gaurus laosiensis hay Bos gaurus readei) là một phân loài của loài bò tót được ghi nhận ở vùng Đông Nam Á, trong đó môi trường sống của chúng tập trung ở Việt Nam, Lào, Campuchia, Myanmar và Thái Lan. Đây là phân loài bò tót có tầm vóc to lớn nhất, một con đực to có thể cao tới 2,2 m và nặng trên 2 tấn.\"\n\nVì vậy, câu trả lời là có, bò tót Đông Dương là phân loài bò tót lớn nhất.",
+      "exact_match": false,
+      "f1": 0.17218543046357618,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_61",
+        "chunk_63",
+        "chunk_112",
+        "chunk_71",
+        "chunk_107"
+      ],
+      "retrieved_scores": [
+        0.9304063320159912,
+        0.8934112787246704,
+        0.8889812231063843,
+        0.887118399143219,
+        0.887090265750885
+      ],
+      "f1_debug": {
+        "f1_all": 0.17218543046357618,
+        "f1_content": 0.17073170731707318,
+        "base_f1": 0.17218543046357618,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_72"
+    },
+    {
+      "id": 59,
+      "question": "Thức ăn chủ yếu của bò tót là gì?",
+      "gold_answer": "Thức ăn chủ yếu của bò tót là cỏ, mầm lá non của lau sậy, chuối rừng, măng non tre nứa thuộc họ Cỏ Poaceae.",
+      "model_answer": "Thức ăn chủ yếu của bò tót là cỏ, mầm lá non của lau sậy, chuối rừng, măng non tre nứa thuộc họ Cỏ Poaceae.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_65",
+        "chunk_66",
+        "chunk_62",
+        "chunk_63",
+        "chunk_71"
+      ],
+      "retrieved_scores": [
+        0.8814051151275635,
+        0.8592979907989502,
+        0.8585795164108276,
+        0.8569868206977844,
+        0.855839729309082
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_78"
+    },
+    {
+      "id": 60,
+      "question": "Bò tót mang thai khoảng bao nhiêu ngày?",
+      "gold_answer": "Bò tót mang thai khoảng 270 ngày.",
+      "model_answer": "Bò tót mang thai khoảng 270 ngày.",
+      "exact_match": true,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_65",
+        "chunk_110",
+        "chunk_712",
+        "chunk_109",
+        "chunk_60"
+      ],
+      "retrieved_scores": [
+        0.8729405999183655,
+        0.8489319086074829,
+        0.8488340377807617,
+        0.847426176071167,
+        0.8465479612350464
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": true,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_78"
+    },
+    {
+      "id": 61,
+      "question": "Bò tót Đông Nam Á hung dữ thứ mấy?",
+      "gold_answer": "Bò tót Đông Nam Á rất hung dữ chỉ đứng sau loài hổ.",
+      "model_answer": "Bò tót Đông Nam Á rất hung dữ, chỉ đứng sau loài hổ.",
+      "exact_match": false,
+      "f1": 1.0,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_61",
+        "chunk_66",
+        "chunk_97",
+        "chunk_79",
+        "chunk_68"
+      ],
+      "retrieved_scores": [
+        0.8891360759735107,
+        0.8827247619628906,
+        0.8758278489112854,
+        0.872754693031311,
+        0.8720735311508179
+      ],
+      "f1_debug": {
+        "f1_all": 1.0,
+        "f1_content": 1.0,
+        "base_f1": 1.0,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_79"
+    },
+    {
+      "id": 62,
+      "question": "Thiên địch (đối thủ trong tự nhiên) của bò tót trưởng thành là loài nào?",
+      "gold_answer": "Bò tót trưởng thành hầu như không có đối thủ trong tự nhiên, ngoại trừ hổ.",
+      "model_answer": "Theo thông tin trong đoạn văn, thiên địch (đối thủ trong tự nhiên) của bò tót trưởng thành là hổ. Cụ thể, đoạn văn nêu rõ: \"Bò tót trưởng thành hầu như không có thiên địch và được xem là biểu tượng của sức mạnh, sự cường tráng ở nhiều quốc gia. Bò tót trưởng thành hầu như không có thiên địch, chúng to lớn, tinh nhạy và hung dữ bò tót hầu như không có đối thủ trong tự nhiên, ngoại trừ hổ.\"",
+      "exact_match": false,
+      "f1": 0.32,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_79",
+        "chunk_67",
+        "chunk_101",
+        "chunk_78",
+        "chunk_109"
+      ],
+      "retrieved_scores": [
+        0.866674542427063,
+        0.8656205534934998,
+        0.8653407692909241,
+        0.8652453422546387,
+        0.8649429678916931
+      ],
+      "f1_debug": {
+        "f1_all": 0.32,
+        "f1_content": 0.3157894736842105,
+        "base_f1": 0.32,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": true,
+      "golden_chunk_id": "chunk_79"
+    },
+    {
+      "id": 63,
+      "question": "Hiện tượng bò tót giao phối với bò nhà tại xã Phước Bình cho ra kết quả gì?",
+      "gold_answer": "Kết quả là cho ra đời hơn 20 con bò tót lai vượt trội về thể trọng và có các đặc điểm về màu lông, sừng rất giống bò tót.",
+      "model_answer": "Dựa trên thông tin từ tài liệu, hiện tượng bò tót giao phối với bò nhà tại xã Phước Bình đã cho ra kết quả là:\n\n- Ra đời hơn 20 con bò tót lai vượt trội về thể trọng và có các đặc điểm về màu lông, sừng rất giống bò tót.\n- Ra đời hơn 12 con bò lai F1 giữa bò tót (Bos gaurus) và bò nhà (Bos taurus).\n- Một số con bò lai F1 đã được thả sinh hoạt chung với đàn bò nhà để tiếp tục nghiên cứu và bảo tồn giống bò tót.",
+      "exact_match": false,
+      "f1": 0.47244094488188976,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_76",
+        "chunk_79",
+        "chunk_116",
+        "chunk_114",
+        "chunk_109"
+      ],
+      "retrieved_scores": [
+        0.9083689451217651,
+        0.9053530693054199,
+        0.9042752981185913,
+        0.9036726355552673,
+        0.9032825827598572
+      ],
+      "f1_debug": {
+        "f1_all": 0.47244094488188976,
+        "f1_content": 0.4347826086956522,
+        "base_f1": 0.47244094488188976,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_92"
+    },
+    {
+      "id": 64,
+      "question": "Bò tót có thể giao phối với trâu không?",
+      "gold_answer": "Không, bò tót và trâu kể cả trâu rừng chưa bao giờ giao phối với nhau.",
+      "model_answer": "Theo thông tin trong đoạn văn, bò tót có thể giao phối với trâu. Cụ thể, đoạn văn nêu rõ: \"Những loài động vật có cùng số nhiễm sắc thể thì hoàn toàn có thể lai tạo giống. Trước đó, người ta cũng đã từng nhập về hai con bò tót lai của Thái Lan để thử phối giống với bò nhà và thành công, đến nay bò con phát triển tốt. Người ta nhận ra rằng, bò tót sống trong rừng có thể giao phối với bò nhà và bò rừng để sinh ra loại bò lai rất to lớn và thế hệ con lai.\"",
+      "exact_match": false,
+      "f1": 0.15555555555555556,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_109",
+        "chunk_110",
+        "chunk_114",
+        "chunk_106",
+        "chunk_79"
+      ],
+      "retrieved_scores": [
+        0.8755202293395996,
+        0.8711276650428772,
+        0.8710145950317383,
+        0.8670269250869751,
+        0.8640391230583191
+      ],
+      "f1_debug": {
+        "f1_all": 0.13114754098360656,
+        "f1_content": 0.15555555555555556,
+        "base_f1": 0.15555555555555556,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_133"
+    },
+    {
+      "id": 65,
+      "question": "Bò tót lai (giữa bò tót và bò nhà) có cặp nhiễm sắc thể (NST) là bao nhiêu?",
+      "gold_answer": "Tất cả bò tót lai đều có cặp NST là 2n=58.",
+      "model_answer": "Cặp nhiễm sắc thể (NST) của bò tót lai (giữa bò tót và bò nhà) là 2n=58. Đây là kết quả khác với cặp NST của bò nhà (2n=60) và bò tót rừng (2n=56).",
+      "exact_match": false,
+      "f1": 0.35,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_107",
+        "chunk_114",
+        "chunk_116",
+        "chunk_113",
+        "chunk_110"
+      ],
+      "retrieved_scores": [
+        0.9145745038986206,
+        0.9013488292694092,
+        0.8981006145477295,
+        0.8925922513008118,
+        0.8884736895561218
+      ],
+      "f1_debug": {
+        "f1_all": 0.326530612244898,
+        "f1_content": 0.35,
+        "base_f1": 0.35,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_133"
+    },
+    {
+      "id": 66,
+      "question": "Bò nhà và bò tót rừng có cặp NST là bao nhiêu?",
+      "gold_answer": "Bò nhà có cặp NST là 2n=60, còn bò tót rừng là 2n=56.",
+      "model_answer": "Theo thông tin trong tài liệu, cặp NST của bò nhà là 2n=60, bò tót rừng là 2n=56.",
+      "exact_match": false,
+      "f1": 0.7857142857142857,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_107",
+        "chunk_114",
+        "chunk_116",
+        "chunk_112",
+        "chunk_109"
+      ],
+      "retrieved_scores": [
+        0.9171642065048218,
+        0.8960979580879211,
+        0.8952012658119202,
+        0.8917521238327026,
+        0.8890844583511353
+      ],
+      "f1_debug": {
+        "f1_all": 0.7428571428571429,
+        "f1_content": 0.7857142857142857,
+        "base_f1": 0.7857142857142857,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_133"
+    },
+    {
+      "id": 67,
+      "question": "Bò xám (Bò Kouprey) được phát hiện vào năm nào?",
+      "gold_answer": "Chúng được phát hiện năm 1937.",
+      "model_answer": "Bò xám (Bò Kouprey) được phát hiện vào năm 1937.",
+      "exact_match": false,
+      "f1": 0.625,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_118",
+        "chunk_122",
+        "chunk_120",
+        "chunk_119",
+        "chunk_59"
+      ],
+      "retrieved_scores": [
+        0.9299457669258118,
+        0.8855164051055908,
+        0.8814972043037415,
+        0.8754327893257141,
+        0.864884614944458
+      ],
+      "f1_debug": {
+        "f1_all": 0.625,
+        "f1_content": 0.5454545454545454,
+        "base_f1": 0.625,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_148"
+    },
+    {
+      "id": 68,
+      "question": "Hiện nay (theo văn bản), còn khoảng bao nhiêu con bò xám trên toàn thế giới?",
+      "gold_answer": "Hiện nay, theo một số nguồn thì không còn quá 250 con bò xám trên toàn thế giới.",
+      "model_answer": "Theo thông tin được cung cấp trong tài liệu, hiện nay (theo năm 2004), còn khoảng 250 con bò xám trên toàn thế giới, chủ yếu ở Campuchia.",
+      "exact_match": false,
+      "f1": 0.6111111111111112,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_122",
+        "chunk_120",
+        "chunk_118",
+        "chunk_121",
+        "chunk_119"
+      ],
+      "retrieved_scores": [
+        0.9029620885848999,
+        0.8841906785964966,
+        0.869950532913208,
+        0.8677653670310974,
+        0.862714409828186
+      ],
+      "f1_debug": {
+        "f1_all": 0.5217391304347826,
+        "f1_content": 0.6111111111111112,
+        "base_f1": 0.6111111111111112,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_150"
+    },
+    {
+      "id": 69,
+      "question": "Tình trạng của Bò xám ở Việt Nam được cho là như thế nào?",
+      "gold_answer": "Ở Thái Lan, Lào, Việt Nam có lẽ đã tuyệt chủng.",
+      "model_answer": "Dựa trên thông tin từ tài liệu cung cấp, tình trạng của Bò xám ở Việt Nam được đánh giá là rất nghiêm trọng:\n\n- Theo IUCN 2004, số lượng Bò xám tại Việt Nam vào năm 1988 chỉ còn khoảng 30 cá thể.\n- Đến năm 2004, sau nhiều đợt săn lùng không tìm thấy bất kỳ cá thể Bò xám nào.\n- Các nhà chuyên môn cho rằng Bò xám đã tuyệt chủng tại Việt Nam.\n\nVì vậy, tình trạng của Bò xám ở Việt Nam được đánh giá là tuyệt chủng, chỉ còn khoảng 30 cá thể vào năm 1988 và không còn tồn tại ở Việt Nam sau năm 2004.",
+      "exact_match": false,
+      "f1": 0.09836065573770493,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_122",
+        "chunk_118",
+        "chunk_746",
+        "chunk_1013",
+        "chunk_1024"
+      ],
+      "retrieved_scores": [
+        0.8893227577209473,
+        0.8775671720504761,
+        0.8744058609008789,
+        0.8734025955200195,
+        0.8733155727386475
+      ],
+      "f1_debug": {
+        "f1_all": 0.09836065573770493,
+        "f1_content": 0.056338028169014086,
+        "base_f1": 0.09836065573770493,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_150"
+    },
+    {
+      "id": 70,
+      "question": "Tên khoa học của Bồng chanh rừng là gì?",
+      "gold_answer": "Danh pháp hai phần của Bồng chanh rừng là Alcedo hercules.",
+      "model_answer": "Tên khoa học của Bồng chanh rừng là Alcedo hercules.",
+      "exact_match": false,
+      "f1": 0.8,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_123",
+        "chunk_124",
+        "chunk_129",
+        "chunk_130",
+        "chunk_125"
+      ],
+      "retrieved_scores": [
+        0.9020919799804688,
+        0.891118586063385,
+        0.888091504573822,
+        0.8817504644393921,
+        0.8807940483093262
+      ],
+      "f1_debug": {
+        "f1_all": 0.6666666666666666,
+        "f1_content": 0.7142857142857143,
+        "base_f1": 0.8,
+        "substring_match": false,
+        "subset_boost": true
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_154"
+    },
+    {
+      "id": 71,
+      "question": "Mỏ của Bồng chanh rừng đực và cái khác nhau như thế nào?",
+      "gold_answer": "Mỏ của con đực có màu đen hoàn toàn, trong khi con cái có hàm dưới màu đỏ sẫm.",
+      "model_answer": "Mỏ của bồng chanh rừng đực có màu đen hoàn toàn, trong khi mỏ của con cái có hàm dưới màu đỏ sẫm.",
+      "exact_match": false,
+      "f1": 0.8571428571428571,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_123",
+        "chunk_127",
+        "chunk_128",
+        "chunk_129",
+        "chunk_125"
+      ],
+      "retrieved_scores": [
+        0.8838697671890259,
+        0.8795071840286255,
+        0.8778468370437622,
+        0.8650402426719666,
+        0.8632334470748901
+      ],
+      "f1_debug": {
+        "f1_all": 0.8571428571428571,
+        "f1_content": 0.8275862068965517,
+        "base_f1": 0.8571428571428571,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_154"
+    },
+    {
+      "id": 72,
+      "question": "Bướm đuôi dài (Argema maenas) ở Việt Nam xuất hiện ở đâu?",
+      "gold_answer": "Ở Việt Nam chúng xuất hiện ở Trung Bộ và Nam Bộ.",
+      "model_answer": "Bướm đuôi dài (Argema maenas) ở Việt Nam xuất hiện ở Trung Bộ và Nam Bộ.",
+      "exact_match": false,
+      "f1": 0.7857142857142857,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_131",
+        "chunk_437",
+        "chunk_598",
+        "chunk_133",
+        "chunk_601"
+      ],
+      "retrieved_scores": [
+        0.9249374866485596,
+        0.8854203820228577,
+        0.8829119205474854,
+        0.880379855632782,
+        0.8768978714942932
+      ],
+      "f1_debug": {
+        "f1_all": 0.7857142857142857,
+        "f1_content": 0.625,
+        "base_f1": 0.7857142857142857,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_164"
+    },
+    {
+      "id": 73,
+      "question": "Bướm đuôi dài được đưa vào sách đỏ Việt Nam ở mức nào?",
+      "gold_answer": "Chúng được đưa vào sách đỏ của Việt Nam ở mức CR.",
+      "model_answer": "Không tìm thấy trong tài liệu.",
+      "exact_match": false,
+      "f1": 0.0,
+      "relaxed_hit": false,
+      "retrieved_chunk_ids": [
+        "chunk_598",
+        "chunk_501",
+        "chunk_133",
+        "chunk_980",
+        "chunk_603"
+      ],
+      "retrieved_scores": [
+        0.8840169906616211,
+        0.8783890008926392,
+        0.870388388633728,
+        0.8673619031906128,
+        0.8637387156486511
+      ],
+      "f1_debug": {
+        "f1_all": 0.0,
+        "f1_content": 0.0,
+        "base_f1": 0.0,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_164"
+    },
+    {
+      "id": 74,
+      "question": "Bướm đêm Atlas còn có tên gọi khác là gì và tại sao?",
+      "gold_answer": "Còn gọi là bướm khế, vì hay đẻ trứng và phát triển trên cây khế.",
+      "model_answer": "Bướm đêm Atlas còn có tên gọi khác là bướm khế, vì chúng hay đẻ trứng và phát triển trên cây khế. Ngoài ra, chúng còn được gọi là bướm bà.",
+      "exact_match": false,
+      "f1": 0.6521739130434783,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_132",
+        "chunk_136",
+        "chunk_134",
+        "chunk_133",
+        "chunk_593"
+      ],
+      "retrieved_scores": [
+        0.9192917943000793,
+        0.8606377840042114,
+        0.8565571904182434,
+        0.8554239273071289,
+        0.8508725166320801
+      ],
+      "f1_debug": {
+        "f1_all": 0.6521739130434783,
+        "f1_content": 0.6451612903225806,
+        "base_f1": 0.6521739130434783,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_165"
+    },
+    {
+      "id": 75,
+      "question": "Sải cánh của bướm khế (Attacus atlas) dài bao nhiêu?",
+      "gold_answer": "Sải cánh của chúng thuộc loại lớn nhất, từ 25–30 cm.",
+      "model_answer": "Sải cánh của bướm khế (Attacus atlas) từ 25–30 cm (10–12 in).",
+      "exact_match": false,
+      "f1": 0.5384615384615384,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_132",
+        "chunk_501",
+        "chunk_134",
+        "chunk_136",
+        "chunk_426"
+      ],
+      "retrieved_scores": [
+        0.9066133499145508,
+        0.8854387402534485,
+        0.8651798963546753,
+        0.8547840118408203,
+        0.8547756671905518
+      ],
+      "f1_debug": {
+        "f1_all": 0.5384615384615384,
+        "f1_content": 0.4761904761904762,
+        "base_f1": 0.5384615384615384,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_165"
+    },
+    {
+      "id": 76,
+      "question": "Ở Việt Nam, cá anh vũ lớn được xem là loài cá quý với danh hiệu gì?",
+      "gold_answer": "Ở Việt Nam, chúng được xem là loài cá quý với danh hiệu cá tiến vua.",
+      "model_answer": "Ở Việt Nam, cá anh vũ lớn được xem là loài cá quý với danh hiệu \"cá tiến vua\".",
+      "exact_match": false,
+      "f1": 0.8571428571428572,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_141",
+        "chunk_142",
+        "chunk_248",
+        "chunk_195",
+        "chunk_259"
+      ],
+      "retrieved_scores": [
+        0.9294594526290894,
+        0.9163974523544312,
+        0.890255331993103,
+        0.8830649852752686,
+        0.8823968768119812
+      ],
+      "f1_debug": {
+        "f1_all": 0.8571428571428572,
+        "f1_content": 0.761904761904762,
+        "base_f1": 0.8571428571428572,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_174"
+    },
+    {
+      "id": 77,
+      "question": "Thức ăn của cá anh vũ là gì?",
+      "gold_answer": "Thức ăn của cá anh vũ chủ yếu là tảo lục, tảo khuê và các loại động vật không xương sống nhỏ sống dưới nước.",
+      "model_answer": "Thức ăn của cá anh vũ chủ yếu là tảo lục, tảo khuê và các loại động vật không xương sống nhỏ sống dưới nước bằng cách dùng môi cạo thức ăn bám trên đá.",
+      "exact_match": false,
+      "f1": 0.8333333333333333,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_141",
+        "chunk_142",
+        "chunk_165",
+        "chunk_665",
+        "chunk_650"
+      ],
+      "retrieved_scores": [
+        0.8982418775558472,
+        0.8662848472595215,
+        0.8601367473602295,
+        0.8596969246864319,
+        0.8580714464187622
+      ],
+      "f1_debug": {
+        "f1_all": 0.8333333333333333,
+        "f1_content": 0.7804878048780487,
+        "base_f1": 0.8333333333333333,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_174"
+    },
+    {
+      "id": 78,
+      "question": "Cá cóc Tam Đảo có phải loài đặc hữu của Việt Nam không?",
+      "gold_answer": "Có, đây là một loài động vật lưỡng cư đặc hữu của vùng núi Tam Đảo, Việt Nam.",
+      "model_answer": "Có, cá cóc Tam Đảo là loài đặc hữu của Việt Nam. Điều này được xác nhận trong tài liệu cung cấp, cụ thể là đoạn văn mô tả về loài này: \"Cá cóc Tam Đảo (danh pháp khoa học: Paramesotriton deloustali), còn gọi là tắc kè nước, sa giông bụng hoa hay cá cóc bụng hoa, là một loài động vật lưỡng cư đặc hữu của vùng núi Tam Đảo, Việt Nam.\"",
+      "exact_match": false,
+      "f1": 0.3736263736263736,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_175",
+        "chunk_176",
+        "chunk_248",
+        "chunk_370",
+        "chunk_385"
+      ],
+      "retrieved_scores": [
+        0.9113154411315918,
+        0.898693859577179,
+        0.8812021017074585,
+        0.8777347803115845,
+        0.8757793307304382
+      ],
+      "f1_debug": {
+        "f1_all": 0.3736263736263736,
+        "f1_content": 0.2641509433962264,
+        "base_f1": 0.3736263736263736,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_209"
+    },
+    {
+      "id": 79,
+      "question": "Bụng của Cá cóc Tam Đảo có màu gì?",
+      "gold_answer": "Bụng màu đỏ, có những đường xám đen nối với nhau tạo thành hình mạng vân đỏ.",
+      "model_answer": "Bụng của Cá cóc Tam Đảo có màu đỏ, có những đường xám đen nối với nhau tạo thành hình mạng vân đỏ.",
+      "exact_match": false,
+      "f1": 0.8666666666666666,
+      "relaxed_hit": true,
+      "retrieved_chunk_ids": [
+        "chunk_175",
+        "chunk_126",
+        "chunk_176",
+        "chunk_282",
+        "chunk_986"
+      ],
+      "retrieved_scores": [
+        0.9123024940490723,
+        0.868759036064148,
+        0.8663985729217529,
+        0.8661246299743652,
+        0.8646156787872314
+      ],
+      "f1_debug": {
+        "f1_all": 0.85,
+        "f1_content": 0.8666666666666666,
+        "base_f1": 0.8666666666666666,
+        "substring_match": false,
+        "subset_boost": false
+      },
+      "retrieval_hit": false,
+      "golden_chunk_id": "chunk_209"
+    }
+  ]
+}
